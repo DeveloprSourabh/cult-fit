@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+}
+
+.flot {
+  float: left;
+  display: flex;
+  position: relative;
+  bottom: 8px;
+  left: 9rem;
+}
+.flot1 {
+  float: left;
+  margin-right: 3rem;
+}
+.opt {
+  margin: 2rem;
+}
+
+.heading {
+  float: left;
+}
+
+img {
+  position: relative;
+  opacity: 1;
+  transition: opacity 150ms ease 0s;
+  top: 9px;
+  left: 9px;
+  width: 40%;
+}
+
+.end {
+  color: aliceblue;
+  position: relative;
+  top: 22px;
+  left: 158px;
+}
+
+h5 {
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  letter-spacing: 0px;
+  line-height: 22px;
+}
+
+.location {
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  color: rgb(255 255 255 / 60%);
+  font-size: 12px;
+  font-family: Inter-Regular, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  margin-right: 10px;
+  margin-top: 0px;
+  max-width: 95px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app {
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  font-family: Inter-Regular, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  white-space: nowrap;
+}
