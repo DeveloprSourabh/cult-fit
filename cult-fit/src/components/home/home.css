@@ -1,0 +1,75 @@
+.homelogo {
+  width: 30%;
+  /* text-align: center; */
+  margin-top: 5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.svg1 {
+  width: 61rem;
+  margin-top: -40rem;
+  margin-left: -26rem;
+}
+
+.gredi {
+  position: absolute;
+  z-index: -2;
+}
+
+.svg2 {
+  width: 51rem;
+  margin-left: -17rem;
+  margin-top: -10rem;
+}
+
+.svg3 {
+  margin-top: -50rem;
+  margin-left: 62.8rem;
+  width: 39rem;
+  transform: rotate(8deg);
+}
+
+.svg4 {
+  margin-top: -18rem;
+  margin-left: 61rem;
+  width: 40rem;
+}
+
+.homeh1 {
+  text-align: center;
+  width: 48rem;
+  margin-left: 25rem;
+  margin-top: -6rem;
+}
+
+.homebtn {
+  margin-left: 44rem;
+  margin-top: 2rem;
+}
+
+.hbtn2 {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 15px;
+  color: coral;
+  opacity: 100%;
+}
+
+.hbtn2:hover {
+  color: black;
+  opacity: 8;
+}
+
+.erro {
+  margin-left: 49rem;
+  width: 1.55rem;
+  margin-top: 1.5rem;
+}
+
+.top {
+  margin-top: -3rem;
+}

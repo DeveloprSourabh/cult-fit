@@ -1,0 +1,48 @@
+.head {
+  float: left;
+  margin-right: 4rem;
+}
+
+.nav {
+  height: 3.5rem;
+  padding: 14px;
+  background-color: #393a3b;
+  width: 100%;
+  position: relative;
+  bottom: 8.9rem;
+}
+
+.nav1 {
+  margin-left: 31rem;
+}
+
+h6 {
+  opacity: 60%;
+}
+
+h6:hover {
+  opacity: 70%;
+}
+
+a > h6 {
+  opacity: 100%;
+}
+
+a > h6:hover {
+  opacity: 100%;
+}
+
+.btn {
+  float: left;
+  padding: 5px;
+  margin-left: 22rem;
+  border-radius: 7px;
+  padding-bottom: 0px;
+  margin-top: -3px;
+  background: rgb(255 255 255 / 10%);
+}
+
+.btn:hover {
+  background: rgb(255 255 255 / 20%);
+  opacity: 100%;
+}

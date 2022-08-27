@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: aliceblue;
+}
+
+.imglogo {
+  margin: 0.9rem;
+  width: 7rem;
+}
+
+h5 {
+  color: aliceblue;
+  display: inline-table;
+  float: left;
+  margin-right: 3rem;
+  float: left;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.div1 {
+  float: left;
+}
+
+.div0 {
+  padding-left: 30rem;
+  position: absolute;
+  top: 1.2rem;
+}
+
+.icon1 {
+  width: 1.5rem;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+
+.jpr {
+  position: relative;
+  color: aliceblue;
+  left: 73rem;
+  bottom: 2.5rem;
+  float: left;
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+
+.jpr:hover {
+  background: #3d3c3c;
+  color: aliceblue;
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+
+.app {
+  position: relative;
+  left: 81rem;
+  bottom: 4.5rem;
+  width: max-content;
+}
+
+.location {
+  width: 2.5rem;
+  padding: 5px;
+  position: relative;
+  left: 89rem;
+  bottom: 103px;
+  border-radius: 50%;
+}
+
+.location:hover {
+  background: rgb(125, 125, 125);
+}
+
+.cart {
+  width: 43px;
+  padding: 7px;
+  padding-left: 2px;
+  border-radius: 50%;
+  position: relative;
+  left: 92rem;
+  bottom: 9.2rem;
+}
+
+.cart:hover {
+  background-color: gray;
+}
+
+.app1 {
+  border: 1px solid white;
+  padding: 8px 17px;
+  border-radius: 6px;
+  position: relative;
+  top: 0rem;
+}
+.app1:hover {
+  border: 1px solid gray;
+}
+
+h5 {
+  cursor: pointer;
+  color: white;
+  font-size: 19px;
+  font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  opacity: 0.7;
+}
+
+h5:hover {
+  color: white;
+  opacity: 1;
+}
+
+.height {
+  height: opx;
+}
