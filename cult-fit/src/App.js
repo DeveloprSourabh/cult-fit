@@ -1,6 +1,8 @@
 // import logo from "./logo.svg";
 import React from "react";
-import { Route, Switch } from "react-router";
+// import ReactDom from "react-dom";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import Home from "./components/home/Home";
@@ -11,12 +13,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home}>
-          <Home />
-        </Route>
-        <Route path="/fitness" component={Fitness}></Route>
-      </Switch>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/fitness" element={<Fitness />} />
+        </Routes>
+      </Router>
     </>
   );
 }
