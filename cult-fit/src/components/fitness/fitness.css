@@ -8,8 +8,8 @@
   padding: 14px;
   background-color: #393a3b;
   width: 100%;
-  position: relative;
-  bottom: 8.9rem;
+  position: absolute;
+  bottom: 42rem;
 }
 
 .nav1 {

@@ -10,6 +10,8 @@ body {
 .imglogo {
   margin: 0.9rem;
   width: 7rem;
+  position: fixed;
+  z-index: +3;
 }
 
 h5 {
@@ -34,9 +36,15 @@ a:hover {
 }
 
 .div0 {
-  padding-left: 30rem;
-  position: absolute;
+  position: fixed;
   top: 1.2rem;
+  left: 30rem;
+  z-index: +3;
+}
+
+.jpr1 {
+  position: absolute;
+  position: fixed;
 }
 
 .icon1 {
@@ -46,13 +54,12 @@ a:hover {
 }
 
 .jpr {
-  position: relative;
   color: aliceblue;
-  left: 73rem;
-  bottom: 2.5rem;
-  float: left;
   border-radius: 3px;
   padding: 4px 8px;
+  z-index: +3;
+  margin-top: 1rem;
+  margin-left: 71rem;
 }
 
 .jpr:hover {
@@ -63,19 +70,24 @@ a:hover {
 }
 
 .app {
-  position: relative;
-  left: 81rem;
-  bottom: 4.5rem;
   width: max-content;
+  z-index: +2;
+  margin-left: 85rem;
+  margin-top: -1.7rem;
+}
+
+.app > a {
+  border-radius: 4px;
+  border: 1px solid white;
 }
 
 .location {
   width: 2.5rem;
   padding: 5px;
-  position: relative;
-  left: 89rem;
-  bottom: 103px;
   border-radius: 50%;
+  z-index: +2;
+  margin-left: 87rem;
+  margin-top: -3.5rem;
 }
 
 .location:hover {
@@ -87,9 +99,9 @@ a:hover {
   padding: 7px;
   padding-left: 2px;
   border-radius: 50%;
-  position: relative;
-  left: 92rem;
-  bottom: 9.2rem;
+  z-index: +2;
+  margin-top: -6.7rem;
+  margin-left: 91rem;
 }
 
 .cart:hover {
@@ -102,6 +114,7 @@ a:hover {
   border-radius: 6px;
   position: relative;
   top: 0rem;
+  right: 7rem;
 }
 .app1:hover {
   border: 1px solid gray;
@@ -124,4 +137,8 @@ h5:hover {
 
 .height {
   height: opx;
+}
+
+.jpr1 {
+  z-index: +3;
 }
