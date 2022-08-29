@@ -4,6 +4,7 @@ import axios from "axios";
 import Photo from "./Photo";
 import Demo from "./Demo";
 import Type from "./Type";
+import Footer from "../footer/Footer";
 
 import "./home.css";
 
@@ -496,6 +497,13 @@ const Home = () => {
       </div>
 
       <div className="mtxt">
+        <div className="mimg">
+          <img
+            className="mmimg"
+            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,ar_2.16,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/we_are_cult_new.svg"
+            alt=""
+          />
+        </div>
         <div className="txt">
           <h3>
             At cult.fit, we make group workouts fun, daily food healthy & tasty,
@@ -505,6 +513,7 @@ const Home = () => {
           <h3> #BeBetterEveryDay</h3>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

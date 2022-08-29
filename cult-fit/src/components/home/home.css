@@ -17,7 +17,7 @@
 .gredi {
   position: absolute;
   z-index: -5;
-  height: 1870%;
+  height: 1018%;
   width: 100%;
 }
 
@@ -695,5 +695,12 @@ li {
   margin-left: 52rem;
   margin-top: 13rem;
   opacity: 70%;
-  font-size: 22px ;
+  font-size: 22px;
+}
+
+.mmimg {
+  width: 95rem;
+  position: absolute;
+  top: 449rem;
+  right: 2rem;
 }

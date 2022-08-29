@@ -1,0 +1,32 @@
+.startr {
+  position: relative;
+  top: 29rem;
+  left: 7rem;
+}
+
+.fimg1 {
+  width: 9rem;
+}
+
+.colapp {
+  width: 13rem;
+  margin-left: 3rem;
+  padding: 7px;
+}
+
+.col-2 a {
+  opacity: 70%;
+}
+
+.col-4 p {
+  opacity: 80%;
+}
+
+.lastdiv {
+  position: absolute;
+  top: 523rem;
+  left: 0;
+  width: 94.6rem;
+  background: #2c2c2b;
+  padding-left: 10rem;
+}
