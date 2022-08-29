@@ -3,6 +3,7 @@ import Card from "./Card";
 import axios from "axios";
 import Photo from "./Photo";
 import Demo from "./Demo";
+import Type from "./Type";
 
 import "./home.css";
 
@@ -229,7 +230,7 @@ const Home = () => {
         <h1 className="h1">One membership for all your fitness needs</h1>
       </div>
       <div
-        data-aos="fade-up-left"
+        data-aos="fade-up-right"
         data-aos-duration="3000"
         data-aos-anchor-placement="top-center"
       >
@@ -376,6 +377,134 @@ const Home = () => {
         </div>
       </div>
       <Demo />
+      <Type />
+      <div>
+        <div className="row tip">
+          <div className="col6 tipc1">
+            <div className="eq">
+              <h1>Wellness Hub</h1>
+              <h4>One place for all your well-being needs</h4>
+            </div>
+            <div className="enda">
+              <a href="">WORKOUT GEAR</a>
+              <a href="">LABS</a>
+              <a href="">THERAPY</a>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="row end">
+              <div className="col-3">
+                <a href="">
+                  <img
+                    className="imgr1"
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,ar_1.6,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="col-3">
+                <a href="">
+                  <img
+                    className="imgr2"
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,ar_1.6,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy2.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="row tip1">
+              <div className="col-3">
+                <a href="">
+                  <img
+                    className="imgr3"
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,ar_1.6,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy3.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="col-3">
+                <a href="">
+                  <img
+                    className="imgr4"
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,ar_1.6,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="fash">
+        <div>
+          <div className="hh">
+            <h2 className="h1s">Download the most loved fitness app</h2>
+            <h6 className="h6">
+              Start your fitness journey with us. Join the cult!
+            </h6>
+          </div>
+          <div className="applelogo">
+            <a href="">
+              <img
+                className="im1"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,h_50,ar_2.98,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/download-app/app-store-dark-card-2.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="playlogo">
+            <a href="">
+              <img
+                className="im2"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,h_50,ar_3.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/download-app/play-store-dark-card-2.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="next">
+        <h1 className="n1">Join the cult family</h1>
+      </div>
+      <div>
+        <div className="row nr">
+          <a className="na1" href="">
+            <div className="col-6">
+              <h1 className="nh11">Careers at Cult</h1>
+              <div className="nd1">
+                <a className="na2" href="">
+                  <button className="nbtn1">LEARN MORE</button>
+                </a>
+              </div>
+            </div>
+          </a>
+          <a className="na2" href="">
+            <div className="col-6">
+              <h1 className="nh12">cult.fit franchise opportunities</h1>
+              <h5 className="nh5">
+                Partner with the largest fitness brand in India
+              </h5>
+              <div className="nd2">
+                <a className="na2" href="">
+                  <button className="nbtn2">LEARN MORE</button>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div className="mtxt">
+        <div className="txt">
+          <h3>
+            At cult.fit, we make group workouts fun, daily food healthy & tasty,
+            mental fitness easy with yoga & meditation, and medical & lifestyle
+            care hassle-free.
+          </h3>
+          <h3> #BeBetterEveryDay</h3>
+        </div>
+      </div>
     </>
   );
 };

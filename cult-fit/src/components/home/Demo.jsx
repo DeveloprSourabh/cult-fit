@@ -40,6 +40,14 @@ const Demo = () => {
                     </ul>
                   </div>
                 </div>
+                <div className="btmb">
+                  <button color="secondary" className="bestbtn1">
+                    Try For Free
+                  </button>
+                  <button color="secondary" className="bestbtn-1">
+                    Try For Free
+                  </button>
+                </div>
               </div>
             </div>
             <div className="col-4 d2">
@@ -75,7 +83,12 @@ const Demo = () => {
                   </div>
                 </div>
                 <div className="btmb">
-                  <button className="color:secondary">Try For Free</button>
+                  <button color="secondary" className="bestbtn2">
+                    Try For Free
+                  </button>
+                  <button color="secondary" className="bestbtn-2">
+                    Try For Free
+                  </button>
                 </div>
               </div>
             </div>
@@ -103,6 +116,14 @@ const Demo = () => {
                       <li>Goal-based Workouts and Meditation Sesssions</li>
                     </ul>
                   </div>
+                </div>
+                <div className="btmb">
+                  <button color="secondary" className="bestbtn3">
+                    Try For Free
+                  </button>
+                  <button color="secondary" className="bestbtn-3">
+                    Try For Free
+                  </button>
                 </div>
               </div>
             </div>

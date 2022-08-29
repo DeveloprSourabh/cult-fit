@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
       <div className="jpr1">
         <div className="jpr">
-          <div>
+          <div className="zis">
             <Link className="zi" to="/home ">
               JAIPUR
               <img
