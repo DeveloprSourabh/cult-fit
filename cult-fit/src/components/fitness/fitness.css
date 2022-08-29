@@ -10,6 +10,8 @@
   width: 100%;
   position: absolute;
   bottom: 42rem;
+  position: fixed;
+  z-index: +2;
 }
 
 .nav1 {
@@ -45,4 +47,37 @@ a > h6:hover {
 .btn:hover {
   background: rgb(255 255 255 / 20%);
   opacity: 100%;
+}
+
+.lastdiv {
+  position: relative;
+  top: 34rem;
+}
+
+.fitmimg {
+  width: 94.9rem;
+  z-index: -2;
+}
+
+.fithead {
+  position: relative;
+  top: 4rem;
+}
+
+.btnm {
+  width: 9rem;
+  margin-top: -26rem;
+  margin-left: 43rem;
+}
+
+.btn1 {
+  padding: 4px 17px;
+  border-radius: 6px;
+
+  font-weight: 700;
+  color: #f06055;
+}
+
+.btn1:hover {
+  color: black;
 }

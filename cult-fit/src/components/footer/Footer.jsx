@@ -31,7 +31,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
       <div className="row startr">
         <div className="col-4">
           <p>
@@ -97,7 +96,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
       <div className="lastdiv">
         <a href="">Related Searches</a>
         <div className="row">
