@@ -81,3 +81,143 @@ a > h6:hover {
 .btn1:hover {
   color: black;
 }
+
+.fitcard {
+  position: relative;
+  top: 7rem;
+  text-align: center;
+  width: 65rem;
+  left: 20rem;
+  display: flex;
+}
+
+.fitcard1 {
+  width: 14rem;
+  background: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  padding: 20px 0px 20px;
+  height: 12rem;
+  width: 27rem;
+  margin-right: 2rem;
+}
+
+.fitcard2 {
+  width: 14rem;
+  background: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  padding: 20px 0px 20px;
+  height: 12rem;
+  width: 27rem;
+  margin-right: 2rem;
+}
+
+.cardimg-1 {
+  width: 9.8rem;
+  padding-top: 1px;
+  padding-bottom: 2rem;
+}
+
+.cardimg-2 {
+  width: 8rem;
+  padding-top: 1px;
+  padding-bottom: 2rem;
+}
+
+.js1img {
+  margin-left: -16rem;
+  width: 38rem;
+  margin-top: -7rem;
+  padding-top: 15rem;
+}
+
+.js2 {
+  margin-left: 12rem;
+}
+
+.c1 {
+  padding: 4rem;
+  background: #181818;
+  height: 47rem;
+  width: 38rem;
+  margin-left: 9rem;
+  border-radius: 8px;
+  float: left;
+}
+
+.jsh2 {
+  margin-left: -3rem;
+  margin-top: 1rem;
+}
+
+.js1h6 {
+  margin-left: -2.8rem;
+  float: left;
+}
+
+.jsbtn1 {
+  width: 34rem;
+}
+
+.jsbt {
+  margin-left: 13rem;
+  background-color: rgb(255 255 255 / 10%);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 9px;
+  margin-top: -2rem;
+}
+
+.jsbt:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
+.jsbt p {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  margin-left: 1px;
+  margin-right: 7px;
+}
+
+.js2img {
+  margin-top: 13rem;
+}
+
+.c2 {
+  width: 37.5rem;
+  margin-left: 50rem;
+  height: 52rem;
+  padding-top: 4rem;
+  margin-top: -6.2rem;
+  background: #2c2c2c;
+  border-radius: 8px;
+}
+
+.js23 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.jsbt2 {
+  margin-left: 29rem;
+  background-color: rgb(255 255 255 / 10%);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 9px;
+  margin-top: -2rem;
+}
+.jsbt2 p {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  margin-left: 9px;
+  margin-right: 12px;
+}
+
+.js1h26 {
+  margin-left: 34px;
+}
