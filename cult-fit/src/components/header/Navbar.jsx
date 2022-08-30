@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="fix">
         <div>
           <div>
-            <Link to="/home">
+            <Link to="/">
               <img
                 className="imglogo"
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
