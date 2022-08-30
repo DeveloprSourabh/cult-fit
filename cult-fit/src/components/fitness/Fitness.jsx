@@ -11,23 +11,23 @@ const Fitness = () => {
         <div className="nav1">
           <div className="sub head">
             <Link to="./fitness/cultpass-elite">
-              <h6>cultpass ELITE</h6>
+              <h6 className="hlink">cultpass ELITE</h6>
             </Link>
           </div>
           <div className="sub head">
             <Link to="./fitness/cultpass-live">
               <h6>cultpass LIVE</h6>
-              </Link>
+            </Link>
           </div>
           <div className="sub head">
             <Link to="./fitness/cultpass-transform">
               <h6>cult Transform</h6>
-              </Link>
+            </Link>
           </div>
           <div className="btn">
             <Link to="./fitness/compare-plans">
               <h6>COMPARE PLANS</h6>
-              </Link>
+            </Link>
           </div>
         </div>
       </div>
