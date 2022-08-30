@@ -3,34 +3,12 @@ import "./fitness.css";
 import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import Scrollm from "./Scrollm";
+import Subh from "./Subh";
 
 const Fitness = () => {
   return (
     <>
-      <div className="nav">
-        <div className="nav1">
-          <div className="sub head">
-            <Link to="./fitness/cultpass-elite">
-              <h6 className="hlink">cultpass ELITE</h6>
-            </Link>
-          </div>
-          <div className="sub head">
-            <Link to="./fitness/cultpass-live">
-              <h6>cultpass LIVE</h6>
-            </Link>
-          </div>
-          <div className="sub head">
-            <Link to="./fitness/cultpass-transform">
-              <h6>cult Transform</h6>
-            </Link>
-          </div>
-          <div className="btn">
-            <Link to="./fitness/compare-plans">
-              <h6>COMPARE PLANS</h6>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Subh />
 
       <div className="fithead">
         <div className="fitd1">

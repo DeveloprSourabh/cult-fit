@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
@@ -15,11 +16,13 @@ const Demo = () => {
                   alt=""
                 />
               </div>
-              <img
-                className="demo1"
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cb.png"
-                alt=""
-              />
+              <Link to="../fitness/cultpass-elite">
+                <img
+                  className="demo1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cb.png"
+                  alt=""
+                />
+              </Link>
 
               <div className="demodiv1">
                 <h6>cultpass</h6>
@@ -58,11 +61,13 @@ const Demo = () => {
                   alt=""
                 />
               </div>
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png"
-                alt=""
-                className="demo2"
-              />
+              <Link to="../fitness/cultpass-live">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png"
+                  alt=""
+                  className="demo2"
+                />
+              </Link>
               <div className="demodiv1">
                 <h6>cultpass</h6>
                 <img
