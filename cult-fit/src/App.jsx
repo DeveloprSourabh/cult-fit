@@ -10,6 +10,7 @@ import Fitness from "./components/fitness/Fitness";
 import Navbar from "./components/header/Navbar";
 import Cultpasselite from "./components/cultpasselite/Cultpasselite";
 import Cultpasslive from "./components/cultpasslive/Cultpasslive";
+import Culttransform from "./components/culttransform/Culttransform";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
           element={<Cultpasselite />}
         />
         <Route exact path="/fitness/cultpass-live" element={<Cultpasslive />} />
+        <Route
+          exact
+          path="/fitness/cult-transform"
+          element={<Culttransform />}
+        />
       </Routes>
     </>
   );
