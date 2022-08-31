@@ -19,3 +19,51 @@
 .cult1h5 {
   font-size: x-large;
 }
+
+.cename2 {
+  display: flex;
+  margin-left: 9rem;
+}
+
+.c22 {
+  width: 37.5rem;
+  margin-left: 50rem;
+  height: 34rem;
+  padding-top: 4rem;
+  margin-top: -1.2rem;
+  background: #2c2c2c;
+  border-radius: 8px;
+}
+
+.js2img2 {
+  margin-top: -4rem;
+}
+
+.js1img2 {
+  margin-left: -16rem;
+  width: 38rem;
+  margin-top: -19rem;
+  padding-top: 15rem;
+}
+
+.c12 {
+  padding: 4rem;
+  background: #181818;
+  height: 34rem;
+  width: 38rem;
+  margin-left: 9rem;
+  border-radius: 8px;
+  float: left;
+}
+
+.extra {
+  position: relative;
+  bottom: 91rem;
+  left: 61rem;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+  z-index: -2;
+  width: 23rem;
+  height: 24.6rem;
+}

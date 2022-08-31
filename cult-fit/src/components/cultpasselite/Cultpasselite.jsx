@@ -1,6 +1,7 @@
 import React from "react";
 import Subh from "../fitness/Subh";
 import "./cultelite.css";
+import Cultcommon from "../cultcmn/Cultcommon";
 
 const Cultpasselite = () => {
   return (
@@ -118,7 +119,69 @@ const Cultpasselite = () => {
           <h5 className="cult1h5">FEATURES</h5>
           <h2 className="cult1h2">For an active lifestyle</h2>
         </div>
+
+        <Cultcommon />
+
+        <div className="cename2">
+          <h2 className="ceh2">Centers near </h2>
+          <p className="cenamep">
+            Vaishali Nagar
+            <i class="fa-solid fa-angle-down"></i>
+          </p>
+        </div>
+        <div className="js1">
+          <div className="c12 ">
+            <div className="js2">
+              <a className="js1a" href="">
+                <img
+                  className="js1img2"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/w_300,ar_1.77,fl_progressive,f_auto,q_auto:eco/dpr_2/v1/cult-media/v2web/centers/center_183_IMAGE_b7bc318f-8666-4c1f-b22a-1d87ca7a7543.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="js3">
+              <h2 className="jsh2">CULT MALVIYA NAGAR</h2>
+            </div>
+            <div className="js4">
+              <h6 className="js1h6">Malviya Nagar • Group Classes</h6>
+            </div>
+            <div className="jsbtn1">
+              <button className="jsbt">
+                <p> TRY FOR FREE</p>
+              </button>
+            </div>
+          </div>
+
+          <hr />
+
+          <div className="c22">
+            <div className="js212">
+              <a className="js1a" href="">
+                <img
+                  className="js2img2"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/w_300,ar_1.77,fl_progressive,f_auto,q_auto:eco/dpr_2/image/icons/cult/no_gyms.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="js23">
+              <h2 className="jsh22">MORE CENTRES</h2>
+            </div>
+            <div className="js24">
+              <h6 className="js1h26">
+                Click on see more to expand your search
+              </h6>
+            </div>
+            <div className="jsbtn21">
+              <button className="jsbt2">
+                <p>SEE MORE</p>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+      <div className="extra"></div>
     </>
   );
 };
