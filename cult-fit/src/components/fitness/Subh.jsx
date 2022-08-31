@@ -17,7 +17,7 @@ const Subh = () => {
             </Link>
           </div>
           <div className="sub head">
-            <Link to="./fitness/cultpass-transform">
+            <Link to="../fitness/cult-transform">
               <h6>cult Transform</h6>
             </Link>
           </div>

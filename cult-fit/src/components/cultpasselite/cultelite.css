@@ -1,0 +1,21 @@
+.ppp {
+  position: absolute;
+  top: 6rem;
+}
+
+.cult1 {
+  position: relative;
+  top: 60rem;
+  text-align: center;
+  display: grid;
+}
+
+.cult1h2 {
+  margin-right: 2rem;
+  font-size: xxx-large;
+  font-weight: 900;
+}
+
+.cult1h5 {
+  font-size: x-large;
+}
