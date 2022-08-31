@@ -101,3 +101,37 @@
 .sprow1 {
   padding: 2px 2rem 1px 1px;
 }
+
+.sop {
+  float: left;
+  margin-left: 11rem;
+  text-align: center;
+}
+
+.sop2 {
+  padding-left: 23rem;
+  padding-top: 1rem;
+}
+
+.dt {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(255 255 255 / 70%);
+}
+
+.mt {
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(255 255 255 / 70%);
+  margin-top: -1rem;
+}
+
+.cnum {
+  font-size: 2rem;
+  color: #ffd26d;
+  font-weight: 600;
+}
+
+.tem {
+  color: rgb(255 255 255 / 80%);
+}
