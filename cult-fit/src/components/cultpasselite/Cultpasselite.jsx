@@ -329,26 +329,74 @@ const Cultpasselite = () => {
           </div>
         </div>
       </div>
-      <div className="sou">
-        <div className="sop">
-          <div className="dt">24</div>
-          <div className="mt">MONTHS</div>
+      <div className="end">
+        <div className="sou">
+          <div className="sop">
+            <div className="dt">24</div>
+            <div className="mt">MONTHS</div>
+          </div>
+          <div className="sop2">
+            <div className="ct">116300</div>
+            <div className="cnum">₹ 30490</div>
+            <div className="tem">1271 per month</div>
+          </div>
+          <hr />
+          <div className="sopnic">
+            <p className="sopnic1">
+              + Only Today I Free Amazon voucher worth...
+            </p>
+            <p className="sopnic2">+ No Cost EMI Available</p>
+          </div>
+          <div className="sopbt1">
+            <button className="sopbtn1">BUY NOW</button>
+          </div>
         </div>
-        <div className="sop2">
-          <div className="ct">116300</div>
-          <div className="cnum">₹ 30490</div>
-          <div className="tem">1271 per month</div>
+        <div className="sou">
+          <div className="sop">
+            <div className="dt">12</div>
+            <div className="mt">MONTHS</div>
+          </div>
+          <div className="sop2">
+            <div className="ct">43380</div>
+            <div className="cnum">₹ 19490</div>
+            <div className="tem">1300 per month</div>
+          </div>
+          <hr />
+          <div className="sopnic">
+            <p className="sopnic1">
+              <a href="">+</a> Get FREE 3 months extension
+            </p>
+            <p className="sopnic2">
+              <a href="">+</a> Only Today I Free Amazon voucher worth ₹1500
+            </p>
+          </div>
+          <div className="sopbt1">
+            <button className="sopbtn1">BUY NOW</button>
+          </div>
         </div>
-        <hr />
-        <div className="sopnic">
-          <p className="sopnic1">
-            {" "}
-            + Only Today I Free Amazon voucher worth...
-          </p>
-          <p className="sopnic2">+ No Cost EMI Available</p>
-        </div>
-        <div className="sopbt1">
-          <button className="sopbtn1">BUY NOW</button>
+
+        <div className="sou">
+          <div className="sop">
+            <div className="dt">6</div>
+            <div className="mt">MONTHS</div>
+          </div>
+          <div className="sop2">
+            <div className="ct">30450</div>
+            <div className="cnum">₹ 15490</div>
+            <div className="tem">1937 per month</div>
+          </div>
+          <hr />
+          <div className="sopnic">
+            <p className="sopnic1">
+              <a href=""> +</a> Get FREE 2.5 months extension
+            </p>
+            <p className="sopnic2">
+              <a href=""> +</a> Only Today I Free Amazon voucher worth ₹1000
+            </p>
+          </div>
+          <div className="sopbt1">
+            <button className="sopbtn1">BUY NOW</button>
+          </div>
         </div>
       </div>
     </>
