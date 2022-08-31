@@ -341,8 +341,11 @@ const Cultpasselite = () => {
         </div>
         <hr />
         <div className="sopnic">
-          <p className="sopnic1"> Only Today I Free Amazon voucher worth...</p>
-          <p className="sopnic2">No Cost EMI Available</p>
+          <p className="sopnic1">
+            {" "}
+            + Only Today I Free Amazon voucher worth...
+          </p>
+          <p className="sopnic2">+ No Cost EMI Available</p>
         </div>
         <div className="sopbt1">
           <button className="sopbtn1">BUY NOW</button>

@@ -104,13 +104,13 @@
 
 .sop {
   float: left;
-  margin-left: 11rem;
+  margin-left: 3rem;
   text-align: center;
 }
 
 .sop2 {
-  padding-left: 23rem;
-  padding-top: 1rem;
+  padding-left: 15rem;
+  padding-top: 6px;
 }
 
 .dt {
@@ -134,4 +134,53 @@
 
 .tem {
   color: rgb(255 255 255 / 80%);
+}
+
+.sopnic {
+  padding-left: 3rem;
+  color: rgb(255 255 255 / 80%);
+}
+
+.sopnic1 {
+  border-top: 1px solid;
+  width: 20rem;
+  padding-top: 1rem;
+}
+
+.sopbtn1 {
+  cursor: pointer;
+  font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  border: 1px solid transparent;
+  transition: all 250ms ease;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 5px;
+  padding: 11.5px 20px;
+  font-weight: 700;
+  margin-left: 11rem;
+  margin-top: 3rem;
+}
+
+.sopbtn1:hover {
+  color: #f06055;
+}
+
+.sou {
+  margin-left: 9rem;
+  width: 26rem;
+
+  margin-top: 2rem;
+
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  background: rgb(255 255 255 / 20%);
+  transition: all 550ms ease-out;
+}
+
+.sou:hover {
+  background: rgb(255 255 255 / 10%);
 }
