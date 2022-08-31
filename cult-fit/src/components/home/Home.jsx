@@ -513,7 +513,7 @@ const Home = () => {
           <h3> #BeBetterEveryDay</h3>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

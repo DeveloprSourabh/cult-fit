@@ -3,6 +3,7 @@ import Subh from "../fitness/Subh";
 import "./cultelite.css";
 import Cultcommon from "../cultcmn/Cultcommon";
 import Scrollm from "../fitness/Scrollm";
+import Footer from "../footer/Footer";
 
 const Cultpasselite = () => {
   return (
@@ -399,6 +400,203 @@ const Cultpasselite = () => {
           </div>
         </div>
       </div>
+
+      <div className="nc">
+        <div className="nc2h">
+          <h1 className="nch1 ncch1">Choose your cultpass</h1>
+        </div>
+        <div className="nc1h ncc1h">
+          <h4 className="nch4">3 flexible plans to suit your fitness needs</h4>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_89,ar_3.59,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                  alt=""
+                />
+              </div>
+            </th>
+            <th>
+              <div className="td1">
+                <img
+                  className="timg2"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_65,ar_2.63,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png"
+                  alt=""
+                />
+              </div>
+            </th>
+            <th>
+              <div className="td1">
+                <img
+                  className="timg3"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_71,ar_2.86,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png"
+                  alt=""
+                />
+              </div>
+            </th>
+          </tr>
+
+          <tr>
+            <th>ELITE Gyms & At Centre Group Classes</th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+            <th>
+              <div className="td1">
+                <h5>04 Sessions/ month</h5>
+              </div>
+            </th>
+            <th>
+              <div className="td1">
+                <img
+                  className="timg3"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"
+                  alt=""
+                />
+              </div>
+            </th>
+          </tr>
+
+          <tr>
+            <th>PRO Gyms</th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+
+            <th>
+              <div className="td1">
+                <img
+                  className="timg3"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"
+                  alt=""
+                />
+              </div>
+            </th>
+          </tr>
+
+          <tr>
+            <th>Smart workout plan</th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+
+            <th>
+              <div className="td1">
+                <img
+                  className="timg3"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/opaque-white-circle-cross-4.svg"
+                  alt=""
+                />
+              </div>
+            </th>
+          </tr>
+
+          <tr>
+            <th>At home workouts</th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+            <th scope="col">
+              <div className="td1">
+                <img
+                  className="timg1"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_20,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/icons/blue-tick-circle.png"
+                  alt=""
+                />
+                <h5>Unlimited</h5>
+              </div>
+            </th>
+          </tr>
+
+          <tr>
+            <th></th>
+            <td></td>
+            <th scope="col">
+              <div className="td1">Starting at ₹1250 / month</div>
+              <button className="tbtn1">BUY NOW</button>
+            </th>
+            <th scope="col">
+              <div className="td1">Starting at Rs. 999/mo</div>
+              <button className="tbtn2">BUY NOW</button>
+            </th>
+            <th scope="col">
+              <div className="td1">Starting at ₹117 / month </div>
+              <button className="tbtn3">BUY NOW</button>
+            </th>
+          </tr>
+        </thead>
+      </table>
+
+      <Footer />
     </>
   );
 };

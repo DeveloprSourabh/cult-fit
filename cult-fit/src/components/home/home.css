@@ -17,7 +17,7 @@
 .gredi {
   position: absolute;
   z-index: -5;
-  height: 1018%;
+  height: 1080%;
   width: 100%;
 }
 
@@ -620,7 +620,7 @@ li {
 
 .next {
   text-align: center;
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .n1 {
@@ -655,7 +655,12 @@ li {
 .nbtn1 {
   margin-top: 9rem;
   margin-left: 0rem;
+  color: #f06055;
   width: 7rem;
+  border-radius: 9px;
+  font-weight: 700;
+  width: 8rem;
+  padding: 4px;
 }
 
 .nr {
@@ -703,4 +708,16 @@ li {
   position: absolute;
   top: 449rem;
   right: 2rem;
+}
+
+.nbtn2 {
+  border-radius: 9px;
+  font-weight: 700;
+  width: 8rem;
+  padding: 4px;
+  color: #f06055;
+}
+
+.ffter {
+  margin-top: -21rem;
 }
