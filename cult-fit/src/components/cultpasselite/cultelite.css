@@ -57,13 +57,47 @@
 }
 
 .extra {
-  position: relative;
-  bottom: 91rem;
-  left: 61rem;
+  position: absolute;
   background: rgb(50, 50, 52);
+  left: 61rem;
+  top: 72rem;
   border-radius: 10px;
   border: 1px solid rgba(181, 134, 32, 0.3);
   z-index: -2;
   width: 23rem;
   height: 24.6rem;
+}
+
+.limg {
+  width: 4rem;
+}
+
+.splogo1 {
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 32rem;
+  padding-right: 28rem;
+}
+
+.s1 {
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.lgh4 {
+  font-size: 1rem;
+  width: 103px;
+}
+
+.sp1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.sprow1 {
+  padding: 2px 2rem 1px 1px;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Subh from "../fitness/Subh";
 import "./cultelite.css";
 import Cultcommon from "../cultcmn/Cultcommon";
+import Scrollm from "../fitness/Scrollm";
 
 const Cultpasselite = () => {
   return (
@@ -182,6 +183,161 @@ const Cultpasselite = () => {
         </div>
       </div>
       <div className="extra"></div>
+      <div className="nc">
+        <div className="nc1h">
+          <h4 className="nch4">AT-CENTER</h4>
+        </div>
+        <div className="nc2h">
+          <h1 className="nch1">Trainer-led group classes</h1>
+        </div>
+      </div>
+      <Scrollm />
+      <div className="nc">
+        <div className="nc1h">
+          <h4 className="nch4">AT-HOME</h4>
+        </div>
+        <div className="nc2h">
+          <h1 className="nch1">Live group workouts with calorie tracking</h1>
+        </div>
+      </div>
+      <div className="hc1">
+        <div className="row hr1">
+          <div className="col-3">
+            <a href="">
+              <p className="nub">34+ LIVE</p>
+              <img
+                className="h1img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/diy/2b914243-9144-4fb3-a003-126805cefbac"
+                alt=""
+              />
+            </a>
+            <div className="aimg">
+              <p className="ap">Vasudha A</p>
+              <h4 className="ah">Shed it 2: Lower Body</h4>
+              <p className="1ap">SNC • BEGINNER • 30 Min</p>
+              <button className="abtn">JOIN</button>
+            </div>
+          </div>
+          <div className="col-3">
+            <a href="">
+              <p className="nub">24+ LIVE</p>
+              <img
+                className="h1img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/diy/afa4b511-66cf-4a15-acc4-dc2d9f32d547"
+                alt=""
+              />
+            </a>
+            <div className="aimg">
+              <p className="ap">Suvini M</p>
+              <h4 className="ah">Cardio HEAT</h4>
+              <p className="1ap">CARDIO • INTERMEDIATE • 45 Min</p>
+              <button className="abtn">JOIN</button>
+            </div>
+          </div>
+          <div className="col-3">
+            <a href="">
+              <p className="nub">56+ LIVE</p>
+              <img
+                className="h1img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/diy/eb75da7e-b237-44d0-833f-0a38ac13952a"
+                alt=""
+              />
+            </a>
+            <div className="aimg">
+              <p className="ap">Divya R</p>
+              <h4 className="ah">Yoga Special: Sivanand</h4>
+              <p className="1ap">YOGA • BEGINNER • 50 Min</p>
+              <button className="abtn">JOIN</button>
+            </div>
+          </div>
+          <div className="col-3">
+            <a href="">
+              <p className="nub">47+ LIVE</p>
+              <img
+                className="h1img"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,ar_1.77,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/diy/2501ef7d-247e-4bde-a3bf-5c6bd508fb4e"
+                alt=""
+              />
+            </a>
+            <div className="aimg">
+              <p className="ap">Anurag V</p>
+              <h4 className="ah">Dance Fitness Xpress</h4>
+              <p className="1ap">DANCE • BEGINNER • 30 Min</p>
+              <button className="abtn">JOIN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="s1">
+        <div className="hs">
+          <span className="sp1">cultpass</span>
+          <img
+            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_143,ar_3.59,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+            alt=""
+            className="spimg1"
+          />
+        </div>
+        <div className="splogo1">
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/79716d01-8459-4112-b3cb-b33c4e344222.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Buy Now start anytime</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/f97a077a-aed3-4209-8201-8a98f0f113b5.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Pause pack anytime</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/a47338b4-3c4c-42fb-a089-fb41e26d425c.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Safest gyms in town</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/f3664bcb-0399-4f1a-b713-be61669ab34f.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">No-Cost EMI available</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="c2">
+        <div className="dt">
+          24
+        </div>
+        <div className="mt">
+          MONTHS
+        </div>
+      </div>
     </>
   );
 };

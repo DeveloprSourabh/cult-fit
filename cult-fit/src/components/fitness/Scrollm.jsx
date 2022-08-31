@@ -7,7 +7,7 @@ const Scrollm = () => {
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
           <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="./fitness#demo" data-slide-to="2"></li>
         </ul>
 
         <div class="carousel-inner">
@@ -50,16 +50,15 @@ const Scrollm = () => {
             <div className="btn4">
               <button className="sbtn4">Explore</button>
             </div>
-            
           </div>
         </div>
 
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        {/* <a class="carousel-control-prev" href="#demo" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
-        </a>
+        </a> */}
       </div>
     </div>
   );
