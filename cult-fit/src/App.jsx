@@ -12,6 +12,7 @@ import Cultpasselite from "./components/cultpasselite/Cultpasselite";
 import Subh from "./components/fitness/Subh";
 import Cultpasslive from "./components/cultpasslive/Cultpasslive";
 import Culttransform from "./components/culttransform/Culttransform";
+import Store from "./components/store/Store";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           path="/fitness/cult-transform"
           element={<Culttransform />}
         />
+        <Route exact path="cultsport.com" element={<Store />} />
       </Routes>
     </>
   );
