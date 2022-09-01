@@ -595,6 +595,7 @@ const Cultpasselite = () => {
           </tr>
         </thead>
       </table>
+      {/*  */}
 
       <Footer />
     </>

@@ -24,6 +24,26 @@ body {
   font-size: x-large;
 }
 
+.ffterhai {
+  margin-top: -35rem;
+}
+
+.lastdivhai {
+  width: 94.6rem;
+  background: #2c2c2b;
+  padding-left: 8rem;
+  padding-top: 50rem;
+}
+
+.lastdiv {
+  position: absolute;
+  top: 388rem;
+  left: 0;
+  width: 94.6rem;
+  background: #2c2c2b;
+  padding-left: 10rem;
+}
+
 .cename2 {
   display: flex;
   margin-left: 9rem;
@@ -58,6 +78,12 @@ body {
   margin-left: 9rem;
   border-radius: 8px;
   float: left;
+}
+
+.starthome {
+  position: relative;
+  top: 2rem;
+  left: 0rem;
 }
 
 .extra {
@@ -196,4 +222,40 @@ body {
 
 .ct {
   text-decoration: line-through;
+}
+
+.ffter {
+  margin-top: -28rem;
+  height: 22.5rem;
+  background: black;
+}
+
+.lastdivhome {
+  position: relative;
+  top: 4rem;
+  background: #3e3e3e;
+  padding-left: 10rem;
+  padding-top: 2rem;
+  margin-left: -9rem;
+}
+
+.ffter {
+  margin-top: 7rem;
+  padding-left: 8rem;
+}
+
+.ffterhome {
+  height: 23rem;
+  position: relative;
+  top: 24rem;
+  padding-left: 9rem;
+  margin-left: 0rem;
+  background: black;
+}
+
+.startr {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  padding-top: 4rem;
 }

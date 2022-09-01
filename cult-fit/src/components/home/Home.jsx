@@ -514,7 +514,7 @@ const Home = () => {
       </div>
 
       {/* Footer */}
-      <div className="ffter1">
+      <div className="ffterhome">
         <div className="row startr">
           <div className="col-4">
             <img
@@ -542,7 +542,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="row startr">
+        <div className="row startr1">
           <div className="col-4">
             <p>
               At cult.fit, we make group workouts fun, daily food healthy &
@@ -569,7 +569,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="row startr">
+        <div className="row 1">
           <div className="col-4"></div>
           <div className="col-2">
             <a href="">corporate partnerships</a>
@@ -590,7 +590,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="row startr">
+        <div className="row startr1">
           <div className="col-4"></div>
           <div className="col-2">
             <a href="">cult pass network</a>
@@ -607,7 +607,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="lastdiv">
+        <div className="lastdivhome">
           <a href="">Related Searches</a>
           <div className="row">
             <div className="col-2">
