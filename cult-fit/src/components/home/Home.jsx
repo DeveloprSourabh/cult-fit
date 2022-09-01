@@ -6,10 +6,12 @@ import Demo from "./Demo";
 import Type from "./Type";
 
 import "./home.css";
+import Navbar from "../header/Navbar";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div className="top">
         <video
           className="video"

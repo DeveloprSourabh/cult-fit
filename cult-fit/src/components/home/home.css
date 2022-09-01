@@ -396,6 +396,10 @@ li {
   bottom: 5rem;
 }
 
+li {
+  font-size: 14px;
+}
+
 .bestbtn3:hover {
   background: rgb(255 255 255 / 20%);
 }

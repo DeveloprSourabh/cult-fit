@@ -5,10 +5,12 @@ import Footer from "../footer/Footer";
 import Cultcommon from "../cultcmn/Cultcommon";
 import Scrollm from "../fitness/Scrollm";
 import "./cultlive.css";
+import Navbar from "../header/Navbar";
 
 const Cultpasslive = () => {
   return (
     <div>
+    <Navbar />
       <Subh />
       <div>
         <div className="ppp">
