@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .homelogo {
   width: 30%;
   /* text-align: center; */
@@ -388,6 +392,8 @@ li {
   font-weight: 700;
   margin-left: -1.7rem;
   margin-top: 6.3rem;
+  position: relative;
+  bottom: 5rem;
 }
 
 .bestbtn3:hover {
