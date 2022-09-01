@@ -19,11 +19,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/fitness" element={<Fitness />} />
-        <Route
+        {/* <Route
           exact
           path="/fitness/cultpass-elite"
           element={<Cultpasselite />}
-        />
+        /> */}
         <Route exact path="/fitness/cultpass-live" element={<Cultpasslive />} />
         <Route
           exact
