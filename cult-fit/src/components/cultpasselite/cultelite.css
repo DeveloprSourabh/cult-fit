@@ -35,7 +35,7 @@ body {
   padding-top: 50rem;
 }
 
-.lastdiv {
+.lastdivqq {
   position: absolute;
   top: 388rem;
   left: 0;
@@ -258,4 +258,12 @@ body {
   top: 0rem;
   left: 0rem;
   padding-top: 4rem;
+}
+
+.vod {
+  padding-left: 12rem;
+  padding-bottom: 3rem;
+}
+.vod1 {
+  border-radius: 11%;
 }

@@ -9,21 +9,27 @@ const Culttransform = () => {
   return (
     <div>
       <Subh />
-      <div>
-        <div className="ppp">
+      <div style={{ background: "rgb(31, 75, 87)" }}>
+        <div
+          style={{
+            position: "absolute",
+            top: "6rem",
+            left: "0rem",
+            width: "94.9rem",
+          }}
+          className="ppp"
+        >
           <div className="row nic1">
             <div className="col-6">
               <div className="nicimgd1">
                 <img
-                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_6.55,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_5.88,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-transform-1.png"
                   alt=""
                   className="nicimg1"
                 />
               </div>
               <div className="nic1h">
-                <h1 className="nich1">
-                  Unlimited access to everything in your city
-                </h1>
+                <h1 className="nich1">Lose weight for good.</h1>
               </div>
               <div className="nicds1">
                 <h4 className="nich4">Unlimited access to</h4>
@@ -36,7 +42,7 @@ const Culttransform = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">At-centre group classes</h6>
+                    <h6 className="nich6">Online Expert Coach</h6>
                   </div>
                 </div>
                 <div className="nicimgd1">
@@ -46,7 +52,9 @@ const Culttransform = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">All ELITE & PRO gyms</h6>
+                    <h6 className="nich6">
+                      Customized Workout Plan (home or gym)
+                    </h6>
                   </div>
                 </div>
                 <div className="nicimgd1">
@@ -56,16 +64,17 @@ const Culttransform = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">At-home live workouts</h6>
+                    <h6 className="nich6">Personalized Meal Plan</h6>
                   </div>
                 </div>
               </div>
               <div className="nicc">
-                <h5 className="nicch5">Starting at ₹1271 / month</h5>
+                <h5 className="nicch5">Starting at ₹584 / month</h5>
               </div>
               <div className="nicbtn1">
-                <button className="niccbtn1">TRY FOR FREE</button>
-                <button className="niccbtn2">TRY FOR FREE</button>
+                <button style={{ color: "#f06055" }} className="niccbtn1">
+                  BUY NOW
+                </button>
               </div>
               <div className="lst">
                 <img
@@ -84,7 +93,7 @@ const Culttransform = () => {
                     <div class="carousel-item active">
                       <img
                         className="alimg1"
-                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_968,ar_1.17,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/vm/ec6969b6-c9ef-4349-aae5-f076c66ab443.png"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_968,ar_1.17,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/vm/f8ff1497-2fee-4cc2-8c1e-d225638919d9.png"
                         alt="Los Angeles"
                         width="1100"
                         height="500"
@@ -117,9 +126,156 @@ const Culttransform = () => {
           </div>
         </div>
 
-        <div className="cult1">
-          <h5 className="cult1h5">FEATURES</h5>
-          <h2 className="cult1h2">For an active lifestyle</h2>
+        <div
+          style={{
+            position: "relative",
+            top: "53rem",
+            display: "flex",
+            paddingLeft: "15rem",
+          }}
+          className="hs"
+        >
+          <span className="sp1">cultpass</span>
+          <h1 style={{ paddingTop: " 2rem" }} className="spimg1">
+            Choose your membership for
+          </h1>
+          <img
+            style={{
+              paddingLeft: "2rem",
+              width: "17rem",
+              height: "3rem",
+              marginTop: "1.8em",
+            }}
+            className="spimg1"
+            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_361,ar_9.03,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-transform-partial-5.png"
+            alt=""
+          />
+        </div>
+        <div style={{ position: "absolute", top: "57rem" }} className="splogo1">
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/6b25ce33-1f75-4fa7-a965-e4775e695ddd.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Transform Coach Whatsapp anytime</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/0a467c4b-8cd7-4771-8314-2cde83aaa20f.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Nutrition Guide No more fad dieting</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/d1f2a050-3226-40b7-a852-3fccca641304.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Customised Workout Plan for you</h4>
+            </div>
+          </div>
+          <div className="sprow1">
+            <div className="logo11">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/500e74a3-521c-498e-88d3-3a2fb4fa4076.png"
+                alt=""
+                className="limg"
+              />
+            </div>
+            <div className="sph4">
+              <h4 className="lgh4">Daily Actions Change your habits</h4>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ position: "relative", top: "63rem" }} className="end">
+          <div className="sou">
+            <div className="sop">
+              <div className="dt">12</div>
+              <div className="mt">MONTHS</div>
+            </div>
+            <div className="sop2">
+              <div className="ct">12999</div>
+              <div className="cnum">₹ 6999</div>
+              <div className="tem">584 per month</div>
+            </div>
+            <hr />
+            <div className="sopnic">
+              <p className="sopnic1">
+                <a href="">+</a> Flat 38% off
+              </p>
+              <p className="sopnic2">
+                <a href="">+ </a> Only Today | Additional Rs.1000 off applied.
+              </p>
+              <p className="sopnic2">
+                <a href="">+ </a> Free 3 months pack extension
+              </p>
+            </div>
+            <div className="sopbt1">
+              <button className="sopbtn1">BUY NOW</button>
+            </div>
+          </div>
+          <div className="sou">
+            <div className="sop">
+              <div className="dt">6</div>
+              <div className="mt">MONTHS</div>
+            </div>
+            <div className="sop2">
+              <div className="ct">7499</div>
+              <div className="cnum">₹ 4999</div>
+              <div className="tem">834 per month</div>
+            </div>
+            <hr />
+            <div className="sopnic">
+              <p className="sopnic1">
+                <a href="">+</a>Flat 26% off
+              </p>
+              <p className="sopnic2">
+                <a href="">+</a> Only Today | Additional Rs.500 off applied.  
+              </p>
+            </div>
+            <div className="sopbt1">
+              <button className="sopbtn1">BUY NOW</button>
+            </div>
+          </div>
+
+          <div className="sou">
+            <div className="sop">
+              <div className="dt">6</div>
+              <div className="mt">MONTHS</div>
+            </div>
+            <div className="sop2">
+              <div className="ct">30450</div>
+              <div className="cnum">₹ 15490</div>
+              <div className="tem">1937 per month</div>
+            </div>
+            <hr />
+            <div className="sopnic">
+              <p className="sopnic1">
+                <a href=""> +</a> Get FREE 2.5 months extension
+              </p>
+              <p className="sopnic2">
+                <a href=""> +</a> Only Today I Free Amazon voucher worth ₹1000
+              </p>
+            </div>
+            <div className="sopbt1">
+              <button className="sopbtn1">BUY NOW</button>
+            </div>
+          </div>
         </div>
 
         <Cultcommon />
@@ -274,6 +430,12 @@ const Culttransform = () => {
         <div className="hs">
           <span className="sp1">cultpass</span>
           <img
+            style={{
+              paddingLeft: "2rem",
+              width: "18rem",
+              height: "3rem",
+              marginTop: "1.8rem",
+            }}
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_143,ar_3.59,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
             alt=""
             className="spimg1"
@@ -283,49 +445,49 @@ const Culttransform = () => {
           <div className="sprow1">
             <div className="logo11">
               <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/79716d01-8459-4112-b3cb-b33c4e344222.png"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/6b25ce33-1f75-4fa7-a965-e4775e695ddd.png"
                 alt=""
                 className="limg"
               />
             </div>
             <div className="sph4">
-              <h4 className="lgh4">Buy Now start anytime</h4>
+              <h4 className="lgh4">Transform Coach Whatsapp anytime</h4>
             </div>
           </div>
           <div className="sprow1">
             <div className="logo11">
               <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/f97a077a-aed3-4209-8201-8a98f0f113b5.png"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/0a467c4b-8cd7-4771-8314-2cde83aaa20f.png"
                 alt=""
                 className="limg"
               />
             </div>
             <div className="sph4">
-              <h4 className="lgh4">Pause pack anytime</h4>
+              <h4 className="lgh4">Nutrition Guide No more fad dieting</h4>
             </div>
           </div>
           <div className="sprow1">
             <div className="logo11">
               <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/a47338b4-3c4c-42fb-a089-fb41e26d425c.png"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/d1f2a050-3226-40b7-a852-3fccca641304.png"
                 alt=""
                 className="limg"
               />
             </div>
             <div className="sph4">
-              <h4 className="lgh4">Safest gyms in town</h4>
+              <h4 className="lgh4">Customised Workout Plan for you</h4>
             </div>
           </div>
           <div className="sprow1">
             <div className="logo11">
               <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/f3664bcb-0399-4f1a-b713-be61669ab34f.png"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_70,h_70,ar_1,q_auto:eco,dpr_1.25,r_max,f_auto,fl_progressive/image/vm/500e74a3-521c-498e-88d3-3a2fb4fa4076.png"
                 alt=""
                 className="limg"
               />
             </div>
             <div className="sph4">
-              <h4 className="lgh4">No-Cost EMI available</h4>
+              <h4 className="lgh4">Daily Actions Change your habits</h4>
             </div>
           </div>
         </div>

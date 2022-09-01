@@ -7,19 +7,19 @@ const Subh = () => {
       <div className="nav">
         <div className="nav1">
           <div className="sub head">
-            <Link to="../fitness/cultpass-elite">
+            <a href="../fitness/cultpass-elite">
               <h6 className="hlink">cultpass ELITE</h6>
-            </Link>
+            </a>
           </div>
           <div className="sub head">
-            <Link to="../fitness/cultpass-live">
+            <a href="../fitness/cultpass-live">
               <h6>cultpass LIVE</h6>
-            </Link>
+            </a>
           </div>
           <div className="sub head">
-            <Link to="../fitness/cult-transform">
+            <a href="../fitness/cult-transform">
               <h6>cult Transform</h6>
-            </Link>
+            </a>
           </div>
           <div className="btn">
             <Link to="./fitness/compare-plans">

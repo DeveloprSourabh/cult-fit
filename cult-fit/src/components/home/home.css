@@ -712,7 +712,7 @@ li {
 .txt {
   width: 39rem;
   margin-left: 56rem;
-  margin-top: 16rem;
+  margin-top: -33rem;
   opacity: 70%;
   font-size: 22px;
 }
@@ -722,6 +722,11 @@ li {
   position: absolute;
   top: 438rem;
   right: 2rem;
+}
+
+.iiimg {
+  margin-left: -3rem;
+  width: 105rem;
 }
 
 .nbtn2 {

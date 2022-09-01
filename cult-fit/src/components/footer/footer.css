@@ -24,9 +24,15 @@
 
 .lastdiv {
   position: absolute;
-  top: 523rem;
+  top: 421rem;  
   left: 0;
   width: 94.6rem;
   background: #2c2c2b;
   padding-left: 10rem;
+}
+
+.ffter {
+  margin-top: 14rem;
+  height: 31rem;
+  padding-left: 8rem;
 }

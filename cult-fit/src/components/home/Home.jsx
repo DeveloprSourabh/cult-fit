@@ -498,7 +498,7 @@ const Home = () => {
       <div className="mtxt">
         <div className="mimg">
           <img
-            className="mmimg"
+            className="iiimg "
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,ar_2.16,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/we_are_cult_new.svg"
             alt=""
           />
