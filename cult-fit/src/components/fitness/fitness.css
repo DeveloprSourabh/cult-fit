@@ -97,7 +97,7 @@ a > h6:hover {
 
 .fitcard1 {
   width: 14rem;
-  background: rgb(255 255 255 / 5%);
+  background: #ffffff0d;
   border: 1px solid rgb(255 255 255 / 20%);
   backdrop-filter: blur(50px);
   border-radius: 10px;
@@ -160,6 +160,10 @@ a > h6:hover {
 .js1h6 {
   margin-left: -2.8rem;
   float: left;
+}
+
+.js1 {
+  background: black;
 }
 
 .sbtn1 {
