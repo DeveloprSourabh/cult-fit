@@ -28,7 +28,7 @@ ul {
 }
 
 .navul1 li {
-  padding: 1.5rem 2rem;
+  padding: 1.3rem 2rem;
   padding-top: 13px;
   font-weight: bold;
   color: #000000;
@@ -54,4 +54,35 @@ ul {
   width: 2rem;
   padding-top: 11px;
   margin-left: 2rem;
+}
+
+.caras {
+  position: relative;
+  bottom: 1rem;
+}
+
+.makecardimg {
+  width: 300px;
+  margin-left: 8rem;
+}
+
+.makecarddiv2 {
+  margin-left: 8rem;
+  margin-top: 1rem;
+  opacity: 80%;
+}
+.makecarddiv3 {
+  margin-left: 8rem;
+  font-size: 20px;
+}
+
+.makecarddiv4 {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 8rem;
+}
+
+.makecardp {
+  padding-right: 27px;
+  font-size: 19px;
 }
