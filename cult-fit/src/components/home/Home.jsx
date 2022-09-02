@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import axios from "axios";
+// import axios from "axios";
 import Photo from "./Photo";
 import Demo from "./Demo";
 import Type from "./Type";
