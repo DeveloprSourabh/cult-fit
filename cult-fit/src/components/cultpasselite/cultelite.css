@@ -23,6 +23,7 @@
   font-size: x-large;
 }
 
+<<<<<<< HEAD
 .ffterhai {
   margin-top: -35rem;
 }
@@ -43,6 +44,8 @@
   padding-left: 10rem;
 }
 
+=======
+>>>>>>> parent of 16f5c96... completed three child page of fitness
 .cename2 {
   display: flex;
   margin-left: 9rem;
@@ -77,12 +80,6 @@
   margin-left: 9rem;
   border-radius: 8px;
   float: left;
-}
-
-.starthome {
-  position: relative;
-  top: 2rem;
-  left: 0rem;
 }
 
 .extra {
@@ -222,6 +219,7 @@
 .ct {
   text-decoration: line-through;
 }
+<<<<<<< HEAD
 
 .ffter {
   margin-top: -28rem;
@@ -266,3 +264,5 @@
 .vod1 {
   border-radius: 11%;
 } */
+=======
+>>>>>>> parent of 16f5c96... completed three child page of fitness

@@ -58,15 +58,6 @@ body {
   margin-top: 2rem;
 }
 
-.ffterhome {
-  height: 23rem;
-  position: relative;
-  top: 24rem;
-  padding-left: 9rem;
-  margin-left: 0rem;
-  background: black;
-}
-
 .hbtn2 {
   border-radius: 4px;
   background-color: #f2f2f2;
@@ -747,9 +738,6 @@ li {
   color: #f06055;
 }
 
-.lastdiv1 {
-  position: relative;
-  top: 32rem;
-  background: #1a1818;
-  padding-left: 8rem;
+.ffter {
+  margin-top: -21rem;
 }

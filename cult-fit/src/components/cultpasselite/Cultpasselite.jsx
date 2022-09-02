@@ -597,7 +597,6 @@ const Cultpasselite = () => {
           </tr>
         </thead>
       </table>
-      {/*  */}
 
       <div className="ffter">
         <div className="row startr">

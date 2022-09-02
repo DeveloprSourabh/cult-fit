@@ -49,13 +49,9 @@ a > h6:hover {
   opacity: 100%;
 }
 
-.lastdivfit {
-  position: absolute;
-  top: 515rem;
-  right: 0rem;
-  width: 95.6rem;
-  background: #2c2c2b;
-  padding-left: 11rem;
+.lastdiv {
+  position: relative;
+  top: 34rem;
 }
 
 .fitmimg {
@@ -695,7 +691,7 @@ th {
 
 .okdiv {
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,ar_2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/e33780ba-8a13-4254-b2f1-2b50be6273e0.svg);
-  margin-top: -20rem;
+  margin-top: 3rem;
   height: 38rem;
   background-size: 97rem;
   background-repeat: no-repeat;
@@ -757,6 +753,7 @@ th {
   z-index: +5;
 }
 
+<<<<<<< HEAD
 .ffterfit {
   margin-top: 11rem;
   padding-left: 9rem;
@@ -771,3 +768,5 @@ th {
 .hlink:focus {
   background-color: #ffffff;
 }
+=======
+>>>>>>> parent of 16f5c96... completed three child page of fitness
