@@ -12,7 +12,7 @@ function Product(props) {
       </div>
       <div class="card">
         <div className="flex">
-          <a href="">
+          <a href="../formfit-high-impact-ivy-sports-bra-500324/product/1382">
             <div className="makecard">
               <div className="cimg1">
                 <img src={props.imgsrc} alt="" className="makecardimg" />

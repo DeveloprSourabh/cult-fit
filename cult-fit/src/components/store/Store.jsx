@@ -50,7 +50,7 @@ const Store = () => {
         <a className="carousel-control-prev" href="#demo" data-slide="prev"></a>
         <a className="carousel-control-next" href="#demo" data-slide="next"></a>
       </div>
-      
+        
       {Cardapi.map(Ncard)}
     </div>
   );
