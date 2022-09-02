@@ -12,8 +12,8 @@ import Cultpasselite from "./components/cultpasselite/Cultpasselite";
 import Subh from "./components/fitness/Subh";
 import Cultpasslive from "./components/cultpasslive/Cultpasslive";
 import Culttransform from "./components/culttransform/Culttransform";
-import Store from "./components/store/Store";
-import Item1 from "./components/store/Item1";
+// import Store from "./components/store/Store";
+// import Item1 from "./components/store/Item1";
 
 function App() {
   return (
@@ -32,12 +32,12 @@ function App() {
           path="/fitness/cult-transform"
           element={<Culttransform />}
         />
-        <Route exact path="cultsport.com" element={<Store />} />
+        {/* <Route exact path="cultsport.com" element={<Store />} />
         <Route
           exact
           path="cultsport.com/formfit-high-impact-ivy-sports-bra-500324/product/1382"
-          element={<Item1 />}
-        />
+          element={<Item1 />} */}
+        {/* /> */}
       </Routes>
     </>
   );
