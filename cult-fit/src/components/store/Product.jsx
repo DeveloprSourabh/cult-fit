@@ -10,9 +10,9 @@ function Product(props) {
         <span className="ghnt">{props.heading}</span>
         <div className="thik">{props.subheading}</div>
       </div>
-      <div class="card">
-        <div className="flex">
-          <a href="../formfit-high-impact-ivy-sports-bra-500324/product/1382">
+      <div class="cardgg">
+        <div className="flexstore">
+          <a href="../cultsport.com/formfit-high-impact-ivy-sports-bra-500324/product/1382">
             <div className="makecard">
               <div className="cimg1">
                 <img src={props.imgsrc} alt="" className="makecardimg" />
