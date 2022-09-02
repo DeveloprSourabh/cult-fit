@@ -1,5 +1,6 @@
 import React from "react";
 import Subh from "../fitness/Subh";
+
 import Footer from "../footer/Footer";
 // import "./cultelite.css";
 import Cultcommon from "../cultcmn/Cultcommon";
@@ -10,6 +11,8 @@ import Navbar from "../header/Navbar";
 const Cultpasslive = () => {
   return (
     <div>
+      <Navbar />
+      <Subh />
       <Navbar />
       <Subh />
       <div>
@@ -720,6 +723,7 @@ const Cultpasslive = () => {
           </tr>
         </thead>
       </table>
+      <Footer />
       <Footer />
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
       eligendi. Cum, veritatis aspernatur tempore officiis magnam explicabo
