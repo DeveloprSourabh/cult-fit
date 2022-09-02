@@ -120,6 +120,10 @@ a:hover {
   border: 1px solid gray;
 }
 
+.navbar-nav {
+  padding-left: 111px;
+}
+
 h5 {
   cursor: pointer;
   color: white;
@@ -141,4 +145,9 @@ h5:hover {
 
 .jpr1 {
   z-index: +1;
+}
+
+#bas {
+  position: fixed;
+  z-index: +4;
 }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Demo = () => {
   return (
     <>
-      <div>
+      <div style={{ position: "relative", bottom: "34rem" }}>
         <div className="ahref">
           <div className="row row1">
             <div className="col-4 d1">
@@ -37,9 +37,9 @@ const Demo = () => {
                   </div>
                   <div className="ul">
                     <ul>
-                      <li>At-center group classes</li>
-                      <li>All ELITE & PRO gyms</li>
-                      <li>At-home live workouts</li>
+                      <li className="mi">At-center group classes</li>
+                      <li className="mi">All ELITE & PRO gyms</li>
+                      <li className="mi">At-home live workouts</li>
                     </ul>
                   </div>
                 </div>

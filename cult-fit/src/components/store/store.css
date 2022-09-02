@@ -94,6 +94,14 @@ ul {
   background-color: white;
 }
 
+.navbar-brand {
+  padding: 5px 2rem;
+}
+
+.navbar-img {
+  width: 140px;
+  height: 40px;
+}
 .card {
   width: 27rem;
   float: left;
@@ -125,4 +133,63 @@ ul {
   line-height: 35px;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 100%;
+}
+
+#navbarNav {
+  padding-left: 29rem;
+}
+
+.nav-item {
+  padding-right: 54px;
+}
+
+.navimg2 {
+  width: 26px;
+  height: 26px;
+}
+
+.navimg3 {
+  width: 26px;
+  height: 26px;
+}
+
+.navimg4 {
+  width: 26px;
+  height: 26px;
+}
+
+#app1app {
+  background: transparent;
+  font-size: 21px;
+  border-radius: 5px;
+  padding: 0px 15px;
+  font-weight: 700;
+}
+
+#app1app:hover {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#banda {
+  padding-left: 2rem;
+}
+
+#jpr:hover {
+  background: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+}
+
+.navimg3:hover {
+  background: rgb(255 255 255 / 10%);
+  border-radius: 50%;
+}
+
+#bas {
+  position: fixed;
 }

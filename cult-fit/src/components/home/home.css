@@ -1,11 +1,12 @@
-body {
+/* body {
   background-color: black;
-}
+} */
 
 .homelogo {
   width: 30%;
-  /* text-align: center; */
-  margin-top: 15rem;
+  position: relative;
+  top: 25rem;
+  left: 3rem;
 }
 
 .center {
@@ -13,9 +14,10 @@ body {
 }
 
 .svg1 {
-  width: 61rem;
-  margin-top: -40rem;
-  margin-left: -26rem;
+  width: auto;
+  position: relative;
+  bottom: -45rem;
+  right: 14rem;
 }
 
 .gredi {
@@ -26,36 +28,33 @@ body {
 }
 
 .svg2 {
-  width: 51rem;
-  margin-left: -17rem;
-  margin-top: -10rem;
+  width: auto;
+  position: relative;
+  right: 17rem;
+  top: 48rem;
 }
 
 .svg3 {
-  margin-top: -50rem;
-  margin-left: 61.3rem;
-  width: 31rem;
+  width: 39rem;
   transform: rotatey(6deg);
+  position: relative;
+  left: 79.5rem;
 }
 
 .svg4 {
-  margin-top: -21rem;
-  margin-left: 61rem;
-  width: 33rem;
-  position: absolute;
+  width: 40rem;
+  position: relative;
   transform: rotate(356deg);
+  bottom: 6rem;
+  left: 79rem;
 }
 
 .homeh1 {
   text-align: center;
+  position: relative;
   width: 48rem;
-  margin-left: 23rem;
-  margin-top: -6rem;
-}
-
-.homebtn {
-  margin-left: 41.6rem;
-  margin-top: 2rem;
+  bottom: 12rem;
+  left: 40rem;
 }
 
 .hbtn2 {
@@ -65,6 +64,9 @@ body {
   font-size: 15px;
   color: coral;
   opacity: 100%;
+  position: relative;
+  bottom: 4rem;
+  left: 58rem;
 }
 
 .hbtn2:hover {
@@ -73,9 +75,7 @@ body {
 }
 
 .erro {
-  margin-left: 46.6rem;
   width: 1.55rem;
-  margin-top: 1.5rem;
 }
 /* 
 .top {
@@ -107,33 +107,6 @@ body {
   width: 40%;
   left: 53rem;
   top: 30rem;
-}
-
-.box1 {
-  width: 12rem;
-  text-align: center;
-  line-height: 25px;
-  float: left;
-}
-
-.box {
-  position: relative;
-  float: left;
-  margin-left: 4rem;
-  left: 6.5rem;
-  top: 12rem;
-
-  background: rgb(255 255 255 / 5%);
-  border: 1pxsolidrgb (255 255 255 / 20%);
-  flex-basis: 30%;
-  backdrop-filter: blur(50px);
-  border-radius: 10px;
-  padding: 25px 0px 20px;
-  transition: all 300ms ease;
-  cursor: pointer;
-  background: rgb(255 255 255 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 4px 5rem;
 }
 
 .imgc {
@@ -168,14 +141,14 @@ body {
   right: 36rem;
 }
 
-.p1 {
-  position: relative;
-  left: -47rem;
-  top: 88.3rem;
-  width: 16rem;
-  height: 20rem;
-  border-radius: 9px;
-}
+/* .p1 {
+    position: relative;
+    left: -47rem;
+    top: 88.3rem;
+    width: 16rem;
+    height: 20rem;
+    border-radius: 9px;
+  } */
 
 .p4 {
   width: 16rem;
@@ -245,7 +218,7 @@ body {
 }
 
 .demo1 {
-  width: 22rem;
+  width: 30rem;
 }
 
 .ahref {
@@ -254,11 +227,11 @@ body {
 }
 
 .demo2 {
-  width: 22rem;
+  width: 30rem;
 }
 
 .demo3 {
-  width: 22rem;
+  width: 30rem;
 }
 
 .col-4 {
@@ -288,9 +261,9 @@ body {
 }
 
 li {
-  margin-left: -1rem;
+  margin-left: -2.4rem;
   font-size: 21px;
-  opacity: 70%;
+  opacity: 80%;
   line-height: 36px;
 }
 
@@ -298,22 +271,10 @@ li {
   opacity: 100%;
 }
 
-.demo1:hover {
-  width: 23rem;
-}
-
-.demo3:hover {
-  width: 23rem;
-}
-
-.demo2:hover {
-  width: 23rem;
-}
-
 .headd {
   text-align: center;
   position: relative;
-  bottom: 24rem;
+  bottom: 59rem;
 }
 
 .fitli {
@@ -350,7 +311,7 @@ li {
   backdrop-filter: blur(50px);
   font-weight: 700;
   margin-left: -1.7rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .bestbtn1:hover {
@@ -387,9 +348,14 @@ li {
   bottom: 5rem;
 }
 
-li {
-  font-size: 14px;
+.mi {
+  font-size: 24px;
+  margin-left: -2.4rem;
 }
+
+/* li {
+  font-size: 14px;
+} */
 
 .bestbtn3:hover {
   background: rgb(255 255 255 / 20%);
@@ -401,7 +367,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 2.3rem;
+  bottom: 0rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -416,7 +382,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 2.3rem;
+  bottom: 0rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -431,7 +397,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 7.5rem;
+  bottom: 5rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -742,4 +708,51 @@ li {
 
 .ffter {
   margin-top: -21rem;
+}
+
+#er {
+  position: relative;
+  bottom: 10rem;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+.box1 {
+  width: 26rem;
+  background: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  flex-basis: 30%;
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+}
+
+
+.box {
+  padding-right: 28rem;
+  width: 26rem;
+  float: left;
+  position: relative;
+  bottom: 49rem;
+  left: 6rem;
+}
+
+.aos-init {
+  position: relative;
+  bottom: 55rem;
+}
+#hul {
+  position: relative;
+  right: 13rem;
+  top: 12rem;
+}
+
+.oho {
+  position: relative;
+  left: 11rem;
+  width: 93rem;
+  top: 12rem;
 }

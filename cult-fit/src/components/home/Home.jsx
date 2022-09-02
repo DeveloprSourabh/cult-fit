@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="top">
+      <div className="topv">
         <video
           className="video"
           width="750"
@@ -188,7 +188,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div id="er">
           <div data-aos="zoom-in-up">
             <img
               className="erro"
@@ -244,7 +244,7 @@ const Home = () => {
         />
       </div>
 
-      <div>
+      <div id="hul">
         <div data-aos="zoom-out-down" data-aos-duration="3000">
           <img
             className="anim1"
@@ -268,18 +268,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <div
-          data-aos="flip-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-easing="linear"
-          data-aos-duration="2000"
-        >
-          <Photo
-            class="p1"
-            imgurl="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,ar_0.84,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png"
-          />
-        </div>
+      <div className="oho">
         <div
           data-aos="fade-up-right"
           data-aos-anchor="#example-anchor"
@@ -383,7 +372,7 @@ const Home = () => {
       <Type />
       <div>
         <div className="row tip">
-          <div className="col6 tipc1">
+          <div className="col-6 tipc1">
             <div className="eq">
               <h1>Wellness Hub</h1>
               <h4>One place for all your well-being needs</h4>
