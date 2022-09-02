@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .homelogo {
   width: 30%;
   /* text-align: center; */
@@ -244,6 +248,11 @@
   width: 22rem;
 }
 
+.ahref {
+  margin-top: -13rem;
+  margin-left: 10rem;
+}
+
 .demo2 {
   width: 22rem;
 }
@@ -341,7 +350,7 @@ li {
   backdrop-filter: blur(50px);
   font-weight: 700;
   margin-left: -1.7rem;
-  margin-top: 9rem;
+  margin-top: 4rem;
 }
 
 .bestbtn1:hover {
@@ -357,7 +366,7 @@ li {
   backdrop-filter: blur(50px);
   font-weight: 700;
   margin-left: -1.7rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 .bestbtn2:hover {
@@ -374,6 +383,12 @@ li {
   font-weight: 700;
   margin-left: -1.7rem;
   margin-top: 6.3rem;
+  position: relative;
+  bottom: 5rem;
+}
+
+li {
+  font-size: 14px;
 }
 
 .bestbtn3:hover {
@@ -416,7 +431,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 2.3rem;
+  bottom: 7.5rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -698,7 +713,9 @@ li {
 .txt {
   width: 39rem;
   margin-left: 56rem;
-  margin-top: 16rem;
+  margin-top: -33rem;
+  margin-left: 52rem;
+  margin-top: 13rem;
   opacity: 70%;
   font-size: 22px;
 }
@@ -706,8 +723,13 @@ li {
 .mmimg {
   width: 95rem;
   position: absolute;
-  top: 449rem;
+  top: 438rem;
   right: 2rem;
+}
+
+.iiimg {
+  margin-left: -3rem;
+  width: 105rem;
 }
 
 .nbtn2 {

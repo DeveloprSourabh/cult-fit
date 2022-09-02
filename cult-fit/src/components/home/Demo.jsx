@@ -6,7 +6,7 @@ const Demo = () => {
   return (
     <>
       <div>
-        <div className="dd1">
+        <div className="ahref">
           <div className="row row1">
             <div className="col-4 d1">
               <div>
@@ -16,13 +16,13 @@ const Demo = () => {
                   alt=""
                 />
               </div>
-              <Link to="../fitness/cultpass-elite">
+              <a href="../fitness/cultpass-elite">
                 <img
                   className="demo1"
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cb.png"
                   alt=""
                 />
-              </Link>
+              </a>
 
               <div className="demodiv1">
                 <h6>cultpass</h6>
@@ -61,13 +61,13 @@ const Demo = () => {
                   alt=""
                 />
               </div>
-              <Link to="../fitness/cultpass-live">
+              <a href="../fitness/cultpass-live">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png"
                   alt=""
                   className="demo2"
                 />
-              </Link>
+              </a>
               <div className="demodiv1">
                 <h6>cultpass</h6>
                 <img
@@ -98,13 +98,13 @@ const Demo = () => {
               </div>
             </div>
             <div className="col-4 d3">
-              <Link to="../fitness/cult-transform">
+              <a href="../fitness/cult-transform">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cl.png"
                   alt=""
                   className="demo3"
                 />
-              </Link>
+              </a>
               <div className="demodiv1">
                 <h6>cultpass</h6>
                 <img

@@ -4,10 +4,12 @@ import Footer from "../footer/Footer";
 import { Link } from "react-router-dom";
 import Scrollm from "./Scrollm";
 import Subh from "./Subh";
+import Navbar from "../header/Navbar";
 
 const Fitness = () => {
   return (
     <>
+      <Navbar />
       <Subh />
 
       <div className="fithead">
