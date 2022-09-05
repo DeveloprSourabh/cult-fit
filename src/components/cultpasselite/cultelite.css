@@ -1,0 +1,358 @@
+body {
+  background-color: #080421;
+}
+.ppp {
+  position: relative;
+  top: 6rem;
+}
+
+.cult1 {
+  position: relative;
+  top: 100rem;
+  text-align: center;
+  display: grid;
+}
+
+.cult1h2 {
+  margin-right: 2rem;
+  font-size: xxx-large;
+  font-weight: 900;
+}
+
+.cult1h5 {
+  font-size: x-large;
+}
+
+.ffterhai {
+  margin-top: -35rem;
+}
+
+.lastdivhai {
+  width: 94.6rem;
+  background: #2c2c2b;
+  padding-left: 8rem;
+  padding-top: 50rem;
+}
+
+.lastdivqq {
+  position: absolute;
+  top: 463rem;
+  left: 0;
+  width: 100%;
+  background: #2c2c2b;
+  padding: 6rem 7rem;
+}
+
+.cename2 {
+  display: flex;
+  margin-left: 9rem;
+  position: relative;
+  right: 12rem;
+}
+
+.c22 {
+  width: 37.5rem;
+  margin-left: 50rem;
+  height: 34rem;
+  padding-top: 0rem;
+  margin-top: 35.8rem;
+  background: #2c2c2c;
+  border-radius: 8px;
+  position: relative;
+  bottom: 36rem;
+}
+
+/* .js2img2 {
+  margin-top: -49rem;
+} */
+
+.ala {
+  position: relative;
+  bottom: 5rem;
+}
+
+.ncelite {
+  text-align: center;
+  position: relative;
+  bottom: 18rem;
+}
+
+.js1img2 {
+  margin-left: -16rem;
+  width: 38rem;
+  margin-top: -19rem;
+  padding-top: 15rem;
+}
+
+.c12 {
+  padding: 4rem;
+  background: #181818;
+  height: 34rem;
+  width: 38rem;
+  margin-left: 9rem;
+  border-radius: 8px;
+  float: left;
+  position: relative;
+  right: 21rem;
+}
+
+.limg {
+  width: 4rem;
+}
+
+.splogo1 {
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 39rem;
+  padding-right: 28rem;
+}
+
+.s1 {
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.lgh4 {
+  font-size: 1rem;
+  width: 103px;
+}
+
+.sp1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.sprow1 {
+  padding: 2px 2rem 1px 1px;
+}
+
+.sop {
+  float: left;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.sop2 {
+  padding-left: 15rem;
+  padding-top: 6px;
+}
+
+.dt {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(255 255 255 / 70%);
+}
+
+.mt {
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(255 255 255 / 70%);
+  margin-top: -1rem;
+}
+
+.cnum {
+  font-size: 2rem;
+  color: #ffd26d;
+  font-weight: 600;
+}
+
+.tem {
+  color: rgb(255 255 255 / 80%);
+}
+
+.sopnic {
+  padding-left: 3rem;
+  color: rgb(255 255 255 / 80%);
+}
+
+.sopnic1 {
+  border-top: 1px solid;
+  width: 20rem;
+  padding-top: 1rem;
+}
+
+.sopbtn1 {
+  cursor: pointer;
+  font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  border: 1px solid transparent;
+  transition: all 250ms ease;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 5px;
+  padding: 11.5px 20px;
+  font-weight: 700;
+  margin-left: 11rem;
+  margin-top: 3rem;
+}
+
+.sopbtn1:hover {
+  color: #f06055;
+}
+
+.sou {
+  margin-left: 9rem;
+  width: 26rem;
+  margin-right: -7rem;
+  margin-top: 2rem;
+
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  background: rgb(255 255 255 / 20%);
+  transition: all 550ms ease-out;
+}
+
+.sou:hover {
+  background: rgb(255 255 255 / 10%);
+}
+
+.end {
+  display: flex;
+
+  display: flex;
+  margin-left: 15rem;
+}
+
+.ct {
+  text-decoration: line-through;
+}
+
+.lastdivhome {
+  position: relative;
+  top: 4rem;
+  background: #3e3e3e;
+  padding-left: 10rem;
+  padding-top: 2rem;
+  margin-left: -9rem;
+}
+
+/* .ffter {
+  margin-top: 7rem;
+  padding-left: 8rem;
+} */
+
+.ffterhome {
+  height: 23rem;
+  position: relative;
+  top: 24rem;
+  padding-left: 9rem;
+  margin-left: 0rem;
+  background: black;
+}
+
+.startr {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  padding-top: 4rem;
+}
+
+.vod {
+  padding-left: 12rem;
+  padding-bottom: 3rem;
+}
+.vod1 {
+  border-radius: 11%;
+}
+.cmnh33 {
+  position: relative;
+  color: #ffeb72;
+  text-align: center;
+  width: 25rem;
+  font-size: 24px;
+  right: 6rem;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+  bottom: 13rem;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+.cmn1 {
+  text-align: center;
+  width: fit-content;
+  padding: 6rem 5rem;
+  position: relative;
+  top: 10rem;
+  left: 19rem;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+}
+
+.cmn3 {
+  text-align: center;
+  width: fit-content;
+  padding: 7rem 3.5rem;
+  position: relative;
+  top: 12rem;
+  color: #ebcd68;
+  left: 19rem;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_370,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/glass-card-feature-widget/cult-pass-black/fourth-feature-background-v2.png);
+}
+.cmn4 {
+  text-align: center;
+  width: fit-content;
+  padding: 19.7rem 3.5rem;
+  position: relative;
+  top: -29.7rem;
+  color: #ebcd68;
+  left: 47rem;
+  font-weight: bold;
+  font-size: x-large;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+}
+.cmnimg2 {
+  position: relative;
+  bottom: 6rem;
+}
+
+.h32 {
+  position: relative;
+  bottom: 11rem;
+}
+
+.ay {
+  width: fit-content;
+  height: 20rem;
+  text-align: center;
+  width: fit-content;
+  padding: 11.7rem 6rem;
+  position: relative;
+  top: -71.7rem;
+  color: #ebcd68;
+  left: 75rem;
+  font-weight: bold;
+  font-size: x-large;
+  background: rgb(50, 50, 52);
+  border-radius: 10px;
+  border: 1px solid rgba(181, 134, 32, 0.3);
+}
+
+.cmn1vd {
+  width: 5rem;
+}
+.cmn1img {
+  padding: 1rem;
+}
+
+.cmn6 {
+  width: fit-content;
+  height: 8rem;
+  position: relative;
+  left: 81rem;
+  bottom: 62rem;
+}
