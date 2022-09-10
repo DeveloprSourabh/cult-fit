@@ -6,13 +6,13 @@ function Product(props) {
 
   return (
     <>
-      <div className="stylishname">
+      <div key={props.id} className="stylishname">
         <span className="ghnt">{props.heading}</span>
         <div className="thik">{props.subheading}</div>
       </div>
       <div class="card">
         <div className="flex">
-          <a href="../cultsport.com/formfit-high-impact-ivy-sports-bra-500324/product/1382">
+          <a href={`/cultsport/${props.id}`}>
             <div className="makecard">
               <div className="cimg1">
                 <img src={props.imgsrc} alt="" className="makecardimg" />

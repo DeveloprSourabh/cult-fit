@@ -3,9 +3,10 @@ import Cardapi from "./Cardapi";
 import Product from "./Product";
 
 function Ncard(val) {
-  console.log(val);
+  // console.log(val);
   return (
     <Product
+      id={val.id}
       subheading={val.subheading}
       heading={val.heading}
       about={val.about}
