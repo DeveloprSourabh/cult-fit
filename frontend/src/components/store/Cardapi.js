@@ -257,30 +257,36 @@ const Cardapi = [
     preprize: "₹ 44899",
     off: "44% off",
   },
-  {id:15,
+  {
+    id: 15,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     prize: "₹ 16699",
-    img:[
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/hawwkGuoDZuwth1HY3xXpJgZ",
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/EDsbKweSSj8cCeLcHmpuAaiM",
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/HUxywSBrP8tRYAvCbrrp5Kp2",
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/5BP7D4PErcXjQgFbdQGc5NsW",
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Exerjn1EQSrNbtjy6RXH8eBS",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/hawwkGuoDZuwth1HY3xXpJgZ",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/EDsbKweSSj8cCeLcHmpuAaiM",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/HUxywSBrP8tRYAvCbrrp5Kp2",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/5BP7D4PErcXjQgFbdQGc5NsW",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Exerjn1EQSrNbtjy6RXH8eBS",
     ],
     preprize: "₹ 39999",
     off: "58% off",
   },
-  {id:16,
+  {
+    id: 16,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
     about: "Smartbike x1 with 22' HD touchscreen",
     prize: "₹ 47000",
-    img:[
-"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
-""
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cRU3xKAxo212s9A3na4R9Gyg",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/usmfmd8zo4kk8vvuAscivP3D",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/MdAJww5bjhmQLavbFbNNcR7C",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/gH1WjUpnVbQGj1SFmAZkTALP",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Zag8yCwxE8ub3NTStz97jKPv",
     ],
     preprize: "₹ 119900",
     off: "60% off",
@@ -289,36 +295,72 @@ const Cardapi = [
   // FIFTH ROW
 
   {
+    id: 17,
     heading: "CYCLES",
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
     about: "Rimo 27.5' 21-speed steel MTB (Shimano gears)",
     prize: "₹ 15599",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dUr5Q9zrKBvbPvufvZ8G7fGA",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dUr5Q9zrKBvbPvufvZ8G7fGA",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/NaQgLTuSi2JK8o8EyLuMh6bn",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/NmZNU4nDZTx2GpycUHa68Dge",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/uig294tLEvZfo3R3XoZP3MTv",
+    ],
     preprize: "₹ 39999",
     off: "61% off",
   },
   {
+    id: 18,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/nwziy12UVSHqbS8LGR5cnzqc",
     about: "Bolan 27.5' 21-speed steel MTB (Shimano gears)",
     prize: "₹ 15999",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nwziy12UVSHqbS8LGR5cnzqc",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fh94foPDpe8MioP47aJfX9Ww",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fh94foPDpe8MioP47aJfX9Ww",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fh94foPDpe8MioP47aJfX9Ww",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/rR7ZWQjcR8Z7PvbsA6ZWUiEq",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/BuuQtYJ1Dd9XTggFUgen5EcG",
+    ],
     preprize: "₹ 39999",
     off: "61% off",
   },
 
   {
+    id: 19,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     prize: "₹ 16699",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nYVVDktUW5rYq7SxVdWzVLSh",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/X1MdD8ytSaDwTBGaMqgpeCHP",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/RCf2iSBuNrPLDYvDfxRQo2c6",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/P6fZZZDnc1hFcPYcALBNWZTq",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
+    ],
     preprize: "₹ 43999",
     off: "62% off",
   },
   {
+    id: 20,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vaKa33MqJj9CsyFCKLma9sH7",
     about: "Yoma 27.5' 21-speed alloy MTB (Shimano gears)",
     prize: "₹ 17099",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/wSxuBA8WbaT8KvUpibw6nFK9",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/eRfDrJFtdv5zDsjm2L2zmqKV",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ti26gpf4uqXPdnHvsLsidoiF",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ti26gpf4uqXPdnHvsLsidoiF",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/jrYcRbU8UoKKVHLEVkKYFh3N",
+    ],
     preprize: "₹ 45999",
     off: "62% off",
   },
@@ -326,35 +368,71 @@ const Cardapi = [
   // SIXTH ROW
 
   {
+    id: 21,
     heading: "ACCESSORIES",
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
     about: "Signature Boxing Hand Wraps",
     prize: "₹ 227",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/WV9XUeA1ZVFFJ6zATrLVqrN1",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fkJF65ZKQJT4fq9HBsmcSMwf",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fkJF65ZKQJT4fq9HBsmcSMwf",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fkJF65ZKQJT4fq9HBsmcSMwf",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/5gC3YP9ZTxpuKxGncMNDxDso",
+    ],
     preprize: "₹ 599",
     off: "62% off",
   },
   {
+    id: 22,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
     about: "Yoga Strap",
     prize: "₹ 305",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/AsQjx7z22LJ5gAnyo6JcfZSK",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8b7Yb2NJxqjw9EAieDnwV8PK",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8TCzaQey6eAmjMfKfUG8Vpc9",
+    ],
     preprize: "₹ 599",
     off: "49% off",
   },
   {
+    id: 23,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TCnGF1WquCn1iV4VyMbRK6q7",
     about: "EVA Foam Yoga Block",
     prize: "₹ 332",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZNcXEn7HNCcgeressoqw6HB9",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZNcXEn7HNCcgeressoqw6HB9",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZNcXEn7HNCcgeressoqw6HB9",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/iUEv5qjVpVJxNyd3GgVx9iGE",
+    ],
     preprize: "₹ 899",
     off: "63% off",
   },
   {
+    id: 24,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/dYff3qUPgwn5y93aqH8XPoem",
     about: "Eco-Friendly Cork Yoga Block and more   about  this.. ",
     prize: "₹ 539",
+    img: [
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PzUNBYybqLKxFncf8g4a74cM",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PuqZQJGwgNAZQtmUKsPvERGm",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/RazBJ1t9LMq2ZorkpMBffdWg",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Uud1AmQnWJWy3R5y5vNvE8wn",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KkFBaA5fcEkiqpn9T5rewVSM",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/W8wJtEj4QDLDq3WqTbj4rGAC",
+    ],
     preprize: "₹ 1199",
     off: "55% off",
   },
