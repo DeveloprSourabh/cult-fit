@@ -11,7 +11,7 @@ const Details = () => {
     <>
       <div style={{ background: "white", color: "black" }}>
         <div class="containerde">
-          <div class="row">
+          <div style={{ padding: " 3px 1rem" }} class="row">
             <div className="col-lg-4 ">
               <img src={product.img[0]} alt="" className="deimg1" />
               <img src={product.img[1]} alt="" className="deimg1" />
@@ -25,21 +25,14 @@ const Details = () => {
             <div className="col-lg-4">
               <div className="dein">
                 <div className="delg">CUTSPORT</div>
-                <div className="detitle">{product.title}</div>
+                <div className="detitle">{product.about}</div>
                 <div>
-                  <span className="deprize"> ₹ 1499</span>
-                  <span className="depreprize">₹ 2499</span>
-                  <span className="deoff">40% off</span>
+                  <span className="deprize">{product.prize}</span>
+                  <span className="depreprize">{product.preprize}</span>
+                  <span className="deoff">{product.off}</span>
                 </div>
                 <div className="desath">
-                  <p className="dep1">
-                    Your perfect training partner, this sports bra with its
-                    hidden stabilizer panels promises extra support and bounce
-                    control, especially during high impact activities. The power
-                    mesh allows for better ventilation and the hook & eye
-                    closure adds to your convenience while offering additional
-                    adjustability. Time to be fit with FormFit!
-                  </p>
+                  <p className="dep1">{product.desc}</p>
                 </div>
                 <div className="desize">
                   <span className="dechoosesize1">Choose Size</span>
@@ -62,13 +55,13 @@ const Details = () => {
                 <div className="deprode">
                   <div className="hprode">PRODUCT DETAILS</div>
                   <ul className="deul">
-                    <li className="deli">. Color: Black</li>
-                    <li className="deli">. Padded</li>
-                    <li className="deli">. High Impact</li>
+                    <li className="deli">{product.color}</li>
+                    <li className="deli"> Padded</li>
+                    <li className="deli"> High Impact</li>
                     <li className="deli">
-                      . Detachable Straps For Criss Cross Option
+                      Detachable Straps For Criss Cross Option
                     </li>
-                    <li className="deli">. Hook And Eye Closure</li>
+                    <li className="deli"> Hook And Eye Closure</li>
                   </ul>
                   <div className="dehr"></div>
                   <div className="deinput">
@@ -81,9 +74,9 @@ const Details = () => {
                   </div>
                   <div className="deul2">
                     <ul className="deul22">
-                      <li className="deli2">. Free delivery within 5-7 days</li>
-                      <li className="deli2">. Easy 30 days return available</li>
-                      <li className="deli2">. 30 days exchange available</li>
+                      <li className="deli2"> Free delivery within 5-7 days</li>
+                      <li className="deli2"> Easy 30 days return available</li>
+                      <li className="deli2"> 30 days exchange available</li>
                       <li
                         style={{
                           fontWeight: "700",
