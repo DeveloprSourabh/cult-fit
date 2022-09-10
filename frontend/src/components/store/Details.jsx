@@ -1,12 +1,24 @@
 import React from "react";
 import Cardapi from "./Cardapi";
 import { useParams } from "react-router";
+import { useState } from "react";
 
 const Details = () => {
+  const [cartBtn, setCartBtn] = useState("Add to Cart");
+
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];
   console.log(product);
+
+  const handleCart = (product) => {
+    if (cartBtn === "Add to Cart") {
+      setCartBtn("Remove from Cart");
+    } else {
+      setCartBtn("Add to Cart");
+    }
+  };
+
   return (
     <>
       <div style={{ background: "white", color: "black" }}>
@@ -49,7 +61,9 @@ const Details = () => {
                 </div>
 
                 <div className="debtn">
-                  <div className="debtn1">Add to Cart</div>
+                  <div onClick={() => handleCart(product)} className="debtn1">
+                    {cartBtn}
+                  </div>
                   <div className="debtn1">Buy Now</div>
                 </div>
                 <div className="deprode">
