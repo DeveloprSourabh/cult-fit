@@ -1,5 +1,6 @@
 import React from "react";
 import "./store.css";
+import { NavLink } from "react-router-dom";
 
 const Storenav = () => {
   return (
@@ -30,11 +31,13 @@ const Storenav = () => {
               alt=""
               className="  navlogo1"
             />
-            <img
-              src="https://static.cure.fit/assets/images/cart-icon-new.svg"
-              alt=""
-              className="navlogo2"
-            />
+            <NavLink to="../cart">
+              <img
+                src="https://static.cure.fit/assets/images/cart-icon-new.svg"
+                alt=""
+                className="navlogo2"
+              />
+            </NavLink>
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ import Cultpasslive from "./components/cultpasslive/Cultpasslive";
 import Culttransform from "./components/culttransform/Culttransform";
 import Store from "./components/store/Store";
 import Item1 from "./components/store/Item1";
+import Cart from "./components/Cart";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="cultsport.com" element={<Store />} />
 
         <Route exact path="cultsport/:id" element={<Item1 />} />
+        <Route exact path="/cart" element={<Cart />} />
       </Routes>
     </>
   );
