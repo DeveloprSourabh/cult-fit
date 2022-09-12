@@ -195,8 +195,7 @@ ul {
 }
 
 .deimg1 {
-  width: 590px;
-  height: 685px;
+  width: 100%;
   padding-bottom: 27px;
 }
 
@@ -310,6 +309,18 @@ ul {
   line-height: 1.64;
   font-size: 21px;
   list-style: disc;
+}
+
+.noti {
+  background: #fc2779;
+  position: absolute;
+  right: 12rem;
+  border-radius: 50%;
+  font-weight: 700;
+  top: 26px;
+  width: 13px;
+  height: 13px;
+  color: #fc2779;
 }
 
 .deprode {

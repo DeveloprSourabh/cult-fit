@@ -37,6 +37,7 @@ const Storenav = () => {
                 alt=""
                 className="navlogo2"
               />
+              <p className="noti"></p>
             </NavLink>
           </div>
         </div>

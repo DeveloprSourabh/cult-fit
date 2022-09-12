@@ -2,9 +2,6 @@ import React from "react";
 import Cardapi from "./Cardapi";
 import { useParams } from "react-router";
 import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { addItem   } from "../../redux/actions";
-import { delItem } from "../../redux/actions";
 
 const Details = () => {
   const [cartBtn, setCartBtn] = useState("Add to Cart");
@@ -14,15 +11,10 @@ const Details = () => {
   const product = proDetail[0];
   console.log(product);
 
-  const dispatch = useDispatch();
-
-  const handleCart = (product) => {
+  const addProduct = (product) => {
     if (cartBtn === "Add to Cart") {
-      dispatch(addItem(product));
       setCartBtn("Remove from Cart");
     } else {
-      dispatch(delItem(product));
-
       setCartBtn("Add to Cart");
     }
   };
@@ -69,7 +61,7 @@ const Details = () => {
                 </div>
 
                 <div className="debtn">
-                  <div onClick={() => handleCart(product)} className="debtn1">
+                  <div onClick={() => addProduct(product)} className="debtn1">
                     {cartBtn}
                   </div>
                   <div className="debtn1">Buy Now</div>
