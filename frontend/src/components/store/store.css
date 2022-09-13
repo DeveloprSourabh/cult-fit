@@ -312,15 +312,17 @@ ul {
 }
 
 .noti {
-  background: #fc2779;
+  background: #a7a7a7;
   position: absolute;
-  right: 12rem;
+  right: 11rem;
   border-radius: 50%;
   font-weight: 700;
-  top: 26px;
-  width: 13px;
-  height: 13px;
-  color: #fc2779;
+  top: 3px;
+  width: 16px;
+  text-align: center;
+  height: 17px;
+  color: #000000;
+  padding: 3px 21px 29px 12px;
 }
 
 .deprode {
@@ -388,4 +390,9 @@ ul {
 .delst {
   padding: 2rem;
   font-size: 19px;
+}
+
+.final {
+  width: 101px;
+  height: 133px;
 }

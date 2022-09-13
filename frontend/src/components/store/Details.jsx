@@ -3,29 +3,30 @@ import Cardapi from "./Cardapi";
 import { useParams } from "react-router";
 import { useDispatch } from "react-redux";
 import { ADD } from "../../redux/actions/action";
+import { useState } from "react";
 
 const Details = () => {
   const dispatch = useDispatch();
 
   const send = (e) => {
-    // console.log(product);
+    // console.log(e);
     dispatch(ADD(e));
   };
 
-  // const [cartBtn, setCartBtn] = useState("Add to Cart");
+  const [cartBtn, setCartBtn] = useState("Add to Cart");
 
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];
   // console.log(product);
 
-  // const addProduct = (product) => {
-  //   if (cartBtn === "Add to Cart") {
-  //     setCartBtn("Remove from Cart");
-  //   } else {
-  //     setCartBtn("Add to Cart");
-  //   }
-  // };
+  const addProduct = (product) => {
+    if (cartBtn === "Add to Cart") {
+      setCartBtn("Remove from Cart");
+    } else {
+      setCartBtn("Add to Cart");
+    }
+  };
 
   return (
     <>
@@ -70,7 +71,7 @@ const Details = () => {
 
                 <div className="debtn">
                   <div onClick={() => send(product)} className="debtn1">
-                    ADD TO CART
+                    {cartBtn}
                   </div>
 
                   <div className="debtn1">Buy Now</div>
