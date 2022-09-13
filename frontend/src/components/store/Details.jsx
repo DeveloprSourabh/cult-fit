@@ -1,29 +1,37 @@
 import React from "react";
 import Cardapi from "./Cardapi";
 import { useParams } from "react-router";
-import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { ADD } from "../../redux/actions/action";
 
 const Details = () => {
-  const [cartBtn, setCartBtn] = useState("Add to Cart");
+  const dispatch = useDispatch();
+
+  const send = (e) => {
+    // console.log(product);
+    dispatch(ADD(e));
+  };
+
+  // const [cartBtn, setCartBtn] = useState("Add to Cart");
 
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];
-  console.log(product);
+  // console.log(product);
 
-  const addProduct = (product) => {
-    if (cartBtn === "Add to Cart") {
-      setCartBtn("Remove from Cart");
-    } else {
-      setCartBtn("Add to Cart");
-    }
-  };
+  // const addProduct = (product) => {
+  //   if (cartBtn === "Add to Cart") {
+  //     setCartBtn("Remove from Cart");
+  //   } else {
+  //     setCartBtn("Add to Cart");
+  //   }
+  // };
 
   return (
     <>
       <div style={{ background: "white", color: "black" }}>
-        <div class="containerde">
-          <div style={{ padding: " 3px 1rem" }} class="row">
+        <div className="containerde">
+          <div style={{ padding: " 3px 1rem" }} className="row">
             <div className="col-lg-4 ">
               <img src={product.img[0]} alt="" className="deimg1" />
               <img src={product.img[1]} alt="" className="deimg1" />
@@ -61,9 +69,10 @@ const Details = () => {
                 </div>
 
                 <div className="debtn">
-                  <div onClick={() => addProduct(product)} className="debtn1">
-                    {cartBtn}
+                  <div onClick={() => send(product)} className="debtn1">
+                    ADD TO CART
                   </div>
+
                   <div className="debtn1">Buy Now</div>
                 </div>
                 <div className="deprode">
@@ -80,7 +89,6 @@ const Details = () => {
                   <div className="dehr"></div>
                   <div className="deinput">
                     <input
-                      autofocus="autofocus"
                       placeholder="Enter your pincode"
                       type="number"
                       className="deinputde"

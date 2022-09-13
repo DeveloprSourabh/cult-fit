@@ -13,8 +13,10 @@ import Culttransform from "./components/culttransform/Culttransform";
 import Store from "./components/store/Store";
 import Item1 from "./components/store/Item1";
 import Cart from "./components/Cart";
+import { useState } from "react";
 
 function App() {
+ 
   return (
     <>
       <Routes>

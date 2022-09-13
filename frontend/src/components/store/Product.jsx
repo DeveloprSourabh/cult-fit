@@ -10,7 +10,7 @@ function Product(props) {
         <span className="ghnt">{props.heading}</span>
         <div className="thik">{props.subheading}</div>
       </div>
-      <div class="card">
+      <div className="card">
         <div className="flex">
           <a href={`/cultsport/${props.id}`}>
             <div className="makecard">

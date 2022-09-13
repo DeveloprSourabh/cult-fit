@@ -1,8 +1,8 @@
 import React from "react";
-import { useSelector } from "react-redux";
+function Cart() {
 
-const Cart = () => {
-  return <div></div>;
-};
+
+  return <></>;
+}
 
 export default Cart;

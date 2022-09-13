@@ -1,8 +1,12 @@
 import React from "react";
 import "./store.css";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Storenav = () => {
+  const getdata = useSelector((State) => State.cartreducer.carts);
+  console.log(getdata);
+
   return (
     <div>
       <div className="nav1s">

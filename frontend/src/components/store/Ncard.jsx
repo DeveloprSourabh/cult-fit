@@ -5,7 +5,7 @@ import Product from "./Product";
 function Ncard(val) {
   // console.log(val);
   return (
-    <Product
+    <Product key={val.id}
       id={val.id}
       subheading={val.subheading}
       heading={val.heading}
