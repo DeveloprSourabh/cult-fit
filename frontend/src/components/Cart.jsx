@@ -25,82 +25,92 @@ function Cart() {
             <div>
               <section className="checkout-page">
                 <div id="ppoo" className="container">
-                  <div className="row">
-                    <div id="ttttt" className="col-sm-6">
-                      <div
-                        className="checkout-summary-widget"
-                        id="gear-cart"
-                        data-gtm-vis-recent-on-screen-60147862_136={283}
-                        data-gtm-vis-first-on-screen-60147862_136={283}
-                        data-gtm-vis-total-visible-time-60147862_136={100}
-                        data-gtm-vis-has-fired-60147862_136={1}
-                      >
-                        <div className="gear-cart-item">
-                          <div className="style-prefix-tr0r3x">
-                            <div className="style-prefix-171qv4g">
-                              <div className="style-prefix-z3oc7s">
-                                <img
-                                  id="ii1"
-                                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_125,ar_5:6,c_fit/dpr_2/cultgear-content/KmpuGkhLPNvPxyKJ7qrLWUUJ"
-                                  alt=""
-                                  style={{ borderRadius: 10 }}
-                                />
-                              </div>
-                              <div className="style-prefix-190oc8g">
-                                <div className="style-prefix-1d4sgiw">
-                                  <div className="style-prefix-1k9h66n">
-                                    CULTSPORT
-                                  </div>
-                                  <div className="style-prefix-ceorb">
-                                    <div className="style-prefix-jtzl24">
-                                      X1 Training Shoe
+                  <div id="kil" style={{ width: "50%" }} className="row">
+                    {getdata.map((e) => {
+                      return (
+                        <>
+                          <div id="ttttt" className="col-lg-12">
+                            <div
+                              className="checkout-summary-widget"
+                              id="gear-cart"
+                              data-gtm-vis-recent-on-screen-60147862_136={283}
+                              data-gtm-vis-first-on-screen-60147862_136={283}
+                              data-gtm-vis-total-visible-time-60147862_136={100}
+                              data-gtm-vis-has-fired-60147862_136={1}
+                            >
+                              <div className="gear-cart-item">
+                                <div className="style-prefix-tr0r3x">
+                                  <div className="style-prefix-171qv4g">
+                                    <div className="style-prefix-z3oc7s">
+                                      <img
+                                        id="ii1"
+                                        src={e.imgsrc}
+                                        alt=""
+                                        style={{ borderRadius: 10 }}
+                                      />
                                     </div>
-                                  </div>
-                                  <div className="style-prefix-1im2vgb">
-                                    Size: UK4
-                                  </div>
-                                  <div className="style-prefix-49ww5q">
-                                    ₹ 2999
-                                  </div>
-                                </div>
-                                <div
-                                  style={{
-                                    width: 80,
-                                    paddingTop: 12,
-                                    color: "rgb(0, 0, 0)",
-                                  }}
-                                >
-                                  <div className="style-prefix-cv2pe">
+                                    <div className="style-prefix-190oc8g">
+                                      <div className="style-prefix-1d4sgiw">
+                                        <div className="style-prefix-1k9h66n">
+                                          CULTSPORT
+                                        </div>
+                                        <div className="style-prefix-ceorb">
+                                          <div className="style-prefix-jtzl24">
+                                            {e.about}
+                                          </div>
+                                        </div>
+                                        <div className="style-prefix-1im2vgb">
+                                          Size: UK4
+                                        </div>
+                                        <div className="style-prefix-49ww5q">
+                                          {e.prize}
+                                        </div>
+                                      </div>
+                                      <div
+                                        style={{
+                                          width: 80,
+                                          paddingTop: 12,
+                                          color: "rgb(0, 0, 0)",
+                                        }}
+                                      >
+                                        <div className="style-prefix-cv2pe">
+                                          <img
+                                            className="minus-sign"
+                                            src="https://static.cure.fit/assets/images/minus.svg"
+                                          />
+                                          <div className="quantity-bought">
+                                            {e.qnty}
+                                          </div>
+                                          <img
+                                            className="plus-sign"
+                                            src="https://static.cure.fit/assets/images/plus.svg"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="style-prefix-1xu3tth" />
+                                      <div className="error" />
+                                    </div>
                                     <img
-                                      className="minus-sign"
-                                      src="https://static.cure.fit/assets/images/minus.svg"
+                                      alt=""
+                                      id="ppppp"
+                                      src="https://static.cure.fit/assets/images/modal-close.svg"
+                                      width={10}
+                                      height={10}
+                                      style={{ alignSelf: "flex-start" }}
                                     />
-                                    <div className="quantity-bought">1</div>
-                                    <img
-                                      className="plus-sign"
-                                      src="https://static.cure.fit/assets/images/plus.svg"
-                                    />
+                                    <div className="seperator" />
                                   </div>
+                                  <div />
                                 </div>
-                                <div className="style-prefix-1xu3tth" />
-                                <div className="error" />
                               </div>
-                              <img
-                                alt=""
-                                id="ppppp"
-                                src="https://static.cure.fit/assets/images/modal-close.svg"
-                                width={10}
-                                height={10}
-                                style={{ alignSelf: "flex-start" }}
-                              />
-                              <div className="seperator" />
                             </div>
-                            <div />
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-6 padding0-md">
+                        </>
+                      );
+                    })}
+
+                    {/* next */}
+                    <div id="popo" className="col-lg-12 padding0-md">
                       <div
                         id="checkout-option-container"
                         className="style-prefix-1y89ggi"
@@ -256,7 +266,7 @@ function Cart() {
                 <div id="bottom-container" />
               </section>
             </div>
-          </div>  
+          </div>
         </>
       ) : (
         <div className="kkll">CART IS EMPTY</div>

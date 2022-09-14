@@ -20,6 +20,8 @@ const Cardapi = [
     prize: "₹ 1499",
     preprize: "₹ 2499",
     off: "40% off",
+    size: ["XS", "S", "M", "L", "XL"],
+    qnty: 0,
   },
   {
     id: 2,
@@ -27,6 +29,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/8vVR6uLBQSmX2vMsh6hfkXT2",
     about: "Vitals Running T-Shirt",
     color: "Gray",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8vVR6uLBQSmX2vMsh6hfkXT2",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/rb15xtEC9kVCwma2EG7X29PA",
@@ -40,6 +44,7 @@ const Cardapi = [
     prize: "₹ 824",
     preprize: "₹ 1499",
     off: "45% off",
+    size: ["XS", "S", "M", "L", "XL"],
   },
   {
     id: 3,
@@ -58,7 +63,11 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/sSKzbF9iU1FTtko1YKkRjiJK",
     ],
     preprize: "₹ 2499",
+    qnty: 0,
+
     off: "40% off",
+
+    size: ["XS", "S", "M", "L", "XL"],
   },
   {
     id: 4,
@@ -77,6 +86,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/T47zEXn5ougdD5UwQ7HC4K2B",
     ],
     preprize: "₹ 3299",
+    qnty: 0,
+
     off: "50% off",
   },
 
@@ -91,6 +102,8 @@ const Cardapi = [
     about: "Ombre Yoga Tights",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     prize: "₹ 2299",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/2dioFsRcvQ8uu43WTe8zRqzc",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/v7RKR7Jt7uJ1goX5Lzn9Fnxx",
@@ -118,6 +131,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Eh9UJw6ceMa6J8g5PcKNZWoK",
     ],
     preprize: "₹ 1199",
+    qnty: 0,
+
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
     off: "48% off",
   },
@@ -138,6 +153,8 @@ const Cardapi = [
     ],
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     preprize: "₹ 1199",
+    qnty: 0,
+
     off: "48% off",
   },
   {
@@ -146,6 +163,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/UFEqV6v4mHfdL8ndaTwu5AQE",
     about: "2 in 1 Lightweight Yoga Mat",
     color: "Royal Green",
+    qnty: 0,
+
     prize: "₹ 623",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/UFEqV6v4mHfdL8ndaTwu5AQE",
@@ -164,6 +183,8 @@ const Cardapi = [
 
   {
     id: 9,
+    qnty: 0,
+
     heading: "TREADMILLS",
     color: "Motor HoursePower:3PH",
     imgsrc:
@@ -190,6 +211,8 @@ const Cardapi = [
       "Smartrun c2: Bluetooth enabled treadmill with 15-level auto incline",
     color: "Motor HoursePower:6PH",
     prize: "₹ 39999",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/yHz1nfjmiafpYRHeTMiBfB9A",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/FerjbGj63cpjqxqUukv8iwei",
@@ -208,6 +231,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
     about: "FT200M 4.5HP DC Motorized Treadmill",
     prize: "₹ 34699",
+    qnty: 0,
+
     color: "Motor HoursePower:4PH",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
@@ -227,6 +252,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
     about: "FT200S 4.5HP DC Motorized Treadmill",
     color: "Motor HoursePower:9PH",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7YTwpsFThCwnUVBoyiWDgcth",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ywbkMm98kQ5jxR1TvZJRHEj7",
@@ -247,6 +274,8 @@ const Cardapi = [
   {
     id: 13,
     heading: "SPINBIKES",
+    qnty: 0,
+
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
     about:
@@ -273,6 +302,8 @@ const Cardapi = [
       "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 150Kgs",
     prize: "₹ 24999",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Z9ytEipN36UbF6ruWBVmyhTP",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Z9ytEipN36UbF6ruWBVmyhTP",
@@ -292,6 +323,8 @@ const Cardapi = [
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 120Kgs",
     prize: "₹ 16699",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/hawwkGuoDZuwth1HY3xXpJgZ",
@@ -311,6 +344,8 @@ const Cardapi = [
     about: "Smartbike x1 with 22' HD touchscreen",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support:100Kgs",
     prize: "₹ 47000",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cRU3xKAxo212s9A3na4R9Gyg",
@@ -331,6 +366,8 @@ const Cardapi = [
     id: 17,
     heading: "CYCLES",
     color: "Model: Rimo, Color: Yellow",
+    qnty: 0,
+
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
     about: "Rimo 27.5' 21-speed steel MTB (Shimano gears)",
@@ -354,6 +391,8 @@ const Cardapi = [
     about: "Bolan 27.5' 21-speed steel MTB (Shimano gears)",
     prize: "₹ 15999",
     color: "Model: Rimo, Color: Blue",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nwziy12UVSHqbS8LGR5cnzqc",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/fh94foPDpe8MioP47aJfX9Ww",
@@ -374,6 +413,8 @@ const Cardapi = [
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Model: Rivine, Color: Yellow",
     prize: "₹ 16699",
+    qnty: 0,
+
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nYVVDktUW5rYq7SxVdWzVLSh",
@@ -392,6 +433,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vaKa33MqJj9CsyFCKLma9sH7",
     about: "Yoma 27.5' 21-speed alloy MTB (Shimano gears)",
     color: "Model: Rimo, Color: Red",
+    qnty: 0,
+
     prize: "₹ 17099",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
@@ -412,6 +455,8 @@ const Cardapi = [
     id: 21,
     heading: "ACCESSORIES",
     color: "Color: Orchid Purple",
+    qnty: 0,
+
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
     about: "Signature Boxing Hand Wraps",
@@ -430,6 +475,8 @@ const Cardapi = [
   },
   {
     id: 22,
+    qnty: 0,
+
     color: "Color: Orchid Blue",
 
     imgsrc:
@@ -451,6 +498,7 @@ const Cardapi = [
   {
     id: 23,
     color: "Color: Orchid Black",
+    qnty: 0,
 
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TCnGF1WquCn1iV4VyMbRK6q7",
@@ -474,6 +522,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/dYff3qUPgwn5y93aqH8XPoem",
     about: "Eco-Friendly Cork Yoga Block and more   about  this.. ",
     color: "Color: Orchid Purple",
+    qnty: 0,
 
     prize: "₹ 539",
     img: [
