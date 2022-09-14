@@ -201,7 +201,7 @@ function Cart() {
                                   <div className="checkout-price-detail-cell">
                                     <p>(-) Discount</p>
                                     <p className="jkjkl">
-                                      ₹{Math.floor((prize * 8) / 100)}
+                                      ₹{Math.floor((prize * e.qnty * 8) / 100)}
                                     </p>
                                   </div>
                                 </div>
@@ -209,7 +209,10 @@ function Cart() {
                                   <div className="checkout-price-detail-last-cell">
                                     <p>Total Payable</p>
                                     <p className="jkjkl1">
-                                      ₹ {Math.floor(prize - (prize * 8) / 100)}
+                                      ₹{" "}
+                                      {Math.floor(
+                                        prize * e.qnty - (prize * 8) / 100
+                                      )}
                                     </p>
                                   </div>
                                 </div>
