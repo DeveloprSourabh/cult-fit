@@ -183,19 +183,21 @@ function Cart() {
                           <div>
                             <div className="checkout-price-detail-cell">
                               <p>Total Price</p>
-                              <p className="jkjk">₹ 4999</p>
+                              <p className="jkjk">₹ {prize}</p>
                             </div>
                           </div>
                           <div>
                             <div className="checkout-price-detail-cell">
                               <p>(-) Discount</p>
-                              <p className="jkjkl">₹ 2000</p>
+                              <p className="jkjkl">₹ {(prize * 8) / 100} </p>
                             </div>
                           </div>
                           <div>
                             <div className="checkout-price-detail-last-cell">
                               <p>Total Payable</p>
-                              <p className="jkjkl1">₹ {prize}</p>
+                              <p className="jkjkl1">
+                                ₹ {prize - (prize * 8) / 100}
+                              </p>
                             </div>
                           </div>
                         </div>
