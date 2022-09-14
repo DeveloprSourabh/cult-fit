@@ -73,8 +73,9 @@
 #ttttt {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  height: 20rem;
-  padding: 1rem;
+  height: 23rem;
+  padding-top: 2rem;
+  padding-bottom: 22rem;
 }
 
 #ppppp {

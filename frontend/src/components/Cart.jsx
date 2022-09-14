@@ -3,21 +3,30 @@ import { useDispatch, useSelector } from "react-redux";
 import "../components/store/cart.css";
 import Storenav from "./store/Storenav";
 import { DLT } from "../redux/actions/action";
-import { useNavigate } from "react-router";
 import { useState } from "react";
 import { useEffect } from "react";
+import { ADD, REMOVE } from "../redux/actions/action";
 
 function Cart() {
   const [prize, setPrize] = useState("0");
   console.log(prize);
 
-  const history = useNavigate();
   const getdata = useSelector((state) => state.cartreducer.carts);
   // console.log(getdata);
   const dispatch = useDispatch();
+  // add data
+  const send = (e) => {
+    // console.log(e);
+    dispatch(ADD(e));
+  };
 
   const dlt = (id) => {
     dispatch(DLT(id));
+  };
+
+  // remove one
+  const remove = (item) => {
+    dispatch(REMOVE(item));
   };
 
   const total = () => {
@@ -99,6 +108,11 @@ function Cart() {
                                       >
                                         <div className="style-prefix-cv2pe">
                                           <img
+                                            onClick={
+                                              e.qnty <= 1
+                                                ? () => dlt(e.id)
+                                                : () => remove(e)
+                                            }
                                             className="minus-sign"
                                             src="https://static.cure.fit/assets/images/minus.svg"
                                           />
@@ -106,6 +120,7 @@ function Cart() {
                                             {e.qnty}
                                           </div>
                                           <img
+                                            onClick={() => send(e)}
                                             className="plus-sign"
                                             src="https://static.cure.fit/assets/images/plus.svg"
                                           />
@@ -130,164 +145,168 @@ function Cart() {
                               </div>
                             </div>
                           </div>
-                        </>
-                      );
-                    })}
-
-                    {/* next */}
-                    <div id="popo" className="col-lg-12 padding0-md">
-                      <div
-                        id="checkout-option-container"
-                        className="style-prefix-1y89ggi"
-                        data-gtm-vis-recent-on-screen-60147862_142={59}
-                        data-gtm-vis-first-on-screen-60147862_142={59}
-                        data-gtm-vis-total-visible-time-60147862_142={100}
-                        data-gtm-vis-has-fired-60147862_142={1}
-                      >
-                        <div>
-                          <div className="checkout-delivery-container">
-                            <div className="row rowpp-gradient-line margin0">
-                              <div className="col-xs-1 col-md-1">
-                                <img
-                                  src="https://static.cure.fit/assets/images/locationPink.svg"
-                                  alt=""
-                                  className="checkout-icon"
-                                />
-                              </div>
-                              <div className="col-xs-11 col-md-11">
-                                <div className="row col-xs-12 col-md-12">
-                                  <div className="checkout-address-container">
-                                    <div className="row">
-                                      <div className="col-xs-12">
-                                        <div className="checkout-delivery-address-title" />
-                                      </div>
-                                      <div className="col-xs-12">
-                                        <div className="checkout-delivery-selected-address-container">
-                                          <div className="checkout-delivery-selected-address multiline">
-                                            Please add address
-                                          </div>
-                                          <div className="primary-color">
-                                            Add/Modify{" "}
+                          {/* sfsfsdfsdfsdfsdfsdfsdfffsdfsfsdfsdfsdfsdffsdfsdfdsfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsfsdfdsf */}
+                          <div id="popo" className="col-lg-12 padding0-md">
+                            <div
+                              id="checkout-option-container"
+                              className="style-prefix-1y89ggi"
+                              data-gtm-vis-recent-on-screen-60147862_142={59}
+                              data-gtm-vis-first-on-screen-60147862_142={59}
+                              data-gtm-vis-total-visible-time-60147862_142={100}
+                              data-gtm-vis-has-fired-60147862_142={1}
+                            >
+                              <div>
+                                <div className="checkout-delivery-container">
+                                  <div className="row rowpp-gradient-line margin0">
+                                    <div className="col-xs-1 col-md-1">
+                                      <img
+                                        src="https://static.cure.fit/assets/images/locationPink.svg"
+                                        alt=""
+                                        className="checkout-icon"
+                                      />
+                                    </div>
+                                    <div className="col-xs-11 col-md-11">
+                                      <div className="row col-xs-12 col-md-12">
+                                        <div className="checkout-address-container">
+                                          <div className="row">
+                                            <div className="col-xs-12">
+                                              <div className="checkout-delivery-address-title" />
+                                            </div>
+                                            <div className="col-xs-12">
+                                              <div className="checkout-delivery-selected-address-container">
+                                                <div className="checkout-delivery-selected-address multiline">
+                                                  Please add address
+                                                </div>
+                                                <div className="primary-color">
+                                                  Add/Modify
+                                                </div>
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
+                                <div className="line-separator" />
+                              </div>
+                              <div className="checkout-price-detail-container">
+                                <div>
+                                  <div className="checkout-price-detail-cell">
+                                    <p>Total Price</p>
+                                    <p className="jkjk">{prize * e.qnty}</p>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div className="checkout-price-detail-cell">
+                                    <p>(-) Discount</p>
+                                    <p className="jkjkl">
+                                      ₹{Math.floor((prize * 8) / 100)}
+                                    </p>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div className="checkout-price-detail-last-cell">
+                                    <p>Total Payable</p>
+                                    <p className="jkjkl1">
+                                      ₹ {Math.floor(prize - (prize * 8) / 100)}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="checkout-button-container">
+                                <button className="btn checkout-proceed-button">
+                                  Select Address
+                                </button>
+                              </div>
+                              <div className="style-prefix-y8xxr9">
+                                <div className="coupons-container">
+                                  <div className="coupons-redemption-container full-width">
+                                    <form className="coupon-redemption-form topZero">
+                                      <div>
+                                        <div>
+                                          <div
+                                            className="grecaptcha-badge"
+                                            data-style="bottomright"
+                                            style={{
+                                              width: 256,
+                                              height: 60,
+                                              display: "block",
+                                              transition: "right 0.3s ease 0s",
+                                              position: "fixed",
+                                              bottom: 14,
+                                              right: "-186px",
+                                              boxShadow: "gray 0px 0px 5px",
+                                              borderRadius: 2,
+                                              overflow: "hidden",
+                                            }}
+                                          >
+                                            <div className="grecaptcha-logo">
+                                              <iframe
+                                                title="reCAPTCHA"
+                                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcxaykhAAAAAJOA1e5XPAACY_KrXZmTiDR_0CL5&co=aHR0cHM6Ly9jdWx0c3BvcnQuY29tOjQ0Mw..&hl=en&type=image&v=g8G8cw32bNQPGUVoDvt680GA&theme=light&size=invisible&badge=bottomright&cb=do5sv2qbgrly"
+                                                width={256}
+                                                height={60}
+                                                role="presentation"
+                                                name="a-7e14xqdvgy8z"
+                                                frameBorder={0}
+                                                scrolling="no"
+                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                                              />
+                                            </div>
+                                            <div className="grecaptcha-error" />
+                                            <textarea
+                                              id="g-recaptcha-response"
+                                              name="g-recaptcha-response"
+                                              className="g-recaptcha-response"
+                                              style={{
+                                                width: 250,
+                                                height: 40,
+                                                border:
+                                                  "1px solid rgb(193, 193, 193)",
+                                                margin: "10px 25px",
+                                                padding: 0,
+                                                resize: "none",
+                                                display: "none",
+                                              }}
+                                              defaultValue={""}
+                                            />
+                                          </div>
+                                          <iframe style={{ display: "none" }} />
+                                        </div>
+                                      </div>
+                                      <div
+                                        id="opopop"
+                                        className="coupon-code-row full-width "
+                                      >
+                                        <input
+                                          type="text"
+                                          className="coupon-code-input"
+                                          placeholder="Enter voucher code here"
+                                          required=""
+                                          defaultValue=""
+                                        />
+                                        <button
+                                          color="primary"
+                                          type="submit"
+                                          disabled=""
+                                          className="style-prefix-15hpq19"
+                                        >
+                                          CHECK VALIDITY
+                                        </button>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div className="line-separator" />
-                        </div>
-                        <div className="checkout-price-detail-container">
-                          <div>
-                            <div className="checkout-price-detail-cell">
-                              <p>Total Price</p>
-                              <p className="jkjk">₹ {prize}</p>
-                            </div>
-                          </div>
-                          <div>
-                            <div className="checkout-price-detail-cell">
-                              <p>(-) Discount</p>
-                              <p className="jkjkl">₹ {(prize * 8) / 100} </p>
-                            </div>
-                          </div>
-                          <div>
-                            <div className="checkout-price-detail-last-cell">
-                              <p>Total Payable</p>
-                              <p className="jkjkl1">
-                                ₹ {prize - (prize * 8) / 100}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="checkout-button-container">
-                          <button className="btn checkout-proceed-button">
-                            Select Address
-                          </button>
-                        </div>
-                        <div className="style-prefix-y8xxr9">
-                          <div className="coupons-container">
-                            <div className="coupons-redemption-container full-width">
-                              <form className="coupon-redemption-form topZero">
-                                <div>
-                                  <div>
-                                    <div
-                                      className="grecaptcha-badge"
-                                      data-style="bottomright"
-                                      style={{
-                                        width: 256,
-                                        height: 60,
-                                        display: "block",
-                                        transition: "right 0.3s ease 0s",
-                                        position: "fixed",
-                                        bottom: 14,
-                                        right: "-186px",
-                                        boxShadow: "gray 0px 0px 5px",
-                                        borderRadius: 2,
-                                        overflow: "hidden",
-                                      }}
-                                    >
-                                      <div className="grecaptcha-logo">
-                                        <iframe
-                                          title="reCAPTCHA"
-                                          src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcxaykhAAAAAJOA1e5XPAACY_KrXZmTiDR_0CL5&co=aHR0cHM6Ly9jdWx0c3BvcnQuY29tOjQ0Mw..&hl=en&type=image&v=g8G8cw32bNQPGUVoDvt680GA&theme=light&size=invisible&badge=bottomright&cb=do5sv2qbgrly"
-                                          width={256}
-                                          height={60}
-                                          role="presentation"
-                                          name="a-7e14xqdvgy8z"
-                                          frameBorder={0}
-                                          scrolling="no"
-                                          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                                        />
-                                      </div>
-                                      <div className="grecaptcha-error" />
-                                      <textarea
-                                        id="g-recaptcha-response"
-                                        name="g-recaptcha-response"
-                                        className="g-recaptcha-response"
-                                        style={{
-                                          width: 250,
-                                          height: 40,
-                                          border:
-                                            "1px solid rgb(193, 193, 193)",
-                                          margin: "10px 25px",
-                                          padding: 0,
-                                          resize: "none",
-                                          display: "none",
-                                        }}
-                                        defaultValue={""}
-                                      />
-                                    </div>
-                                    <iframe style={{ display: "none" }} />
-                                  </div>
-                                </div>
-                                <div
-                                  id="opopop"
-                                  className="coupon-code-row full-width "
-                                >
-                                  <input
-                                    type="text"
-                                    className="coupon-code-input"
-                                    placeholder="Enter voucher code here"
-                                    required=""
-                                    defaultValue=""
-                                  />
-                                  <button
-                                    color="primary"
-                                    type="submit"
-                                    disabled=""
-                                    className="style-prefix-15hpq19"
-                                  >
-                                    CHECK VALIDITY
-                                  </button>
-                                </div>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                          {/* jhjghjhgjhgjhgjhgjhgjhg */}
+                        </>
+                      );
+                    })}
+
+                    {/* next */}
                   </div>
                 </div>
                 <div id="bottom-container" />
