@@ -17,9 +17,9 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: "₹ 1499",
-    preprize: "₹ 2499",
-    off: "40% off",
+    prize: 1499,
+    preprize: 2499,
+    off: 40,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
@@ -41,9 +41,9 @@ const Cardapi = [
     ],
     desc: "Run your own race, defy the norms and cook up a storm in this workout T-shirt.Meant to move with you, this combines design and technology to deliver a performance as impressive as yours.",
     title: "Vitals Running T-Shirt",
-    prize: "₹ 824",
-    preprize: "₹ 1499",
-    off: "45% off",
+    prize: 824,
+    preprize: 1499,
+    off: 45,
     size: ["XS", "S", "M", "L", "XL"],
   },
   {
@@ -52,7 +52,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/anBREptvxVED3KMUSXcPpTen",
     about: "FormFit High Impact Ivy Sports Bra",
     color: "Pink",
-    prize: "₹ 1499",
+    prize: 1499,
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/anBREptvxVED3KMUSXcPpTen",
@@ -62,10 +62,10 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Bm5aSpTs4SPjiCEfUosR3qv9",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/sSKzbF9iU1FTtko1YKkRjiJK",
     ],
-    preprize: "₹ 2499",
+    preprize: 2499,
     qnty: 0,
 
-    off: "40% off",
+    off: 40,
 
     size: ["XS", "S", "M", "L", "XL"],
   },
@@ -75,7 +75,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/y9Ly6y2KSidVkL51S1ZeYv9Z",
     about: "LAYR Solid Sweatshirt",
     color: "Black",
-    prize: "₹ 1649",
+    prize: 1649,
     desc: "Beat the chills and say hello to the toasty winters with the Cultsport Lifestyle Sweatshirt. Designed to be the perfect 2nd layer 365 days a year. Its time to get all snuggled up",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/y9Ly6y2KSidVkL51S1ZeYv9Z",
@@ -85,10 +85,10 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/XFc2emQPojJDDyXMtLWLNANA",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/T47zEXn5ougdD5UwQ7HC4K2B",
     ],
-    preprize: "₹ 3299",
+    preprize: 3299,
     qnty: 0,
 
-    off: "50% off",
+    off: 50,
   },
 
   // second row
@@ -101,7 +101,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/2dioFsRcvQ8uu43WTe8zRqzc",
     about: "Ombre Yoga Tights",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    prize: "₹ 2299",
+    prize: 2299,
     qnty: 0,
 
     img: [
@@ -112,15 +112,15 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/LvqhvJf6qYz4S6cfshHueJ87",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/6Gsb6d5D1CkcPwoLY7ZXL7Qo",
     ],
-    preprize: "₹ 3699",
-    off: "40% off",
+    preprize: 3699,
+    off: 40,
   },
   {
     id: 6,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/12Uc17w8J6Mx6xPrySbZjkXh",
     about: "2 in 1 Lightweight Yoga Mat",
-    prize: "₹ 623",
+    prize: 623,
     color: "Brown",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/12Uc17w8J6Mx6xPrySbZjkXh",
@@ -130,18 +130,18 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Eh9UJw6ceMa6J8g5PcKNZWoK",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Eh9UJw6ceMa6J8g5PcKNZWoK",
     ],
-    preprize: "₹ 1199",
+    preprize: 1199,
     qnty: 0,
 
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
-    off: "48% off",
+    off: 48,
   },
   {
     id: 7,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/8LKu6LCyX4LqdK3Rpc1Hkjw7",
     about: "2 in 1 Lightweight Yoga Mat",
-    prize: "₹ 623",
+    prize: 623,
     color: "Cream",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8LKu6LCyX4LqdK3Rpc1Hkjw7",
@@ -152,10 +152,10 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/izKUG2hwBDDnBXSHNjVWjByr",
     ],
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    preprize: "₹ 1199",
+    preprize: 1199,
     qnty: 0,
 
-    off: "48% off",
+    off: 48,
   },
   {
     id: 8,
@@ -165,7 +165,7 @@ const Cardapi = [
     color: "Royal Green",
     qnty: 0,
 
-    prize: "₹ 623",
+    prize: 623,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/UFEqV6v4mHfdL8ndaTwu5AQE",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dwZgP1rWPVmksUZdkFd6HtjW",
@@ -175,8 +175,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/u48p1giD4ydC4jdvtsAnNYD6",
     ],
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
-    preprize: "₹ 1199",
-    off: "48% off",
+    preprize: 1199,
+    off: 48,
   },
 
   // THIRD ROW
@@ -190,7 +190,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GpeKVjiXj2nnH9eafrutHxfm",
     about: "Smartrun c1: Bluetooth enabled treadmill with 6-level incline",
-    prize: "₹ 35499",
+    prize: 35499,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/u48p1giD4ydC4jdvtsAnNYD6",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nVFUDvZWqZMrCF35WSjwjhba",
@@ -200,8 +200,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Nd322DpFBPhCu6NcgLGnkcrB",
     ],
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
-    preprize: "₹ 68999",
-    off: "49% off",
+    preprize: 68999,
+    off: 49,
   },
   {
     id: 10,
@@ -210,7 +210,7 @@ const Cardapi = [
     about:
       "Smartrun c2: Bluetooth enabled treadmill with 15-level auto incline",
     color: "Motor HoursePower:6PH",
-    prize: "₹ 39999",
+    prize: 39999,
     qnty: 0,
 
     img: [
@@ -222,15 +222,15 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/zcAaqmwXt3vWYv9p8xQnpRdC",
     ],
     desc: "Fitness just got smarter with the all new cultsport smartrun c2. Designed for the everyday athlete, enjoy India's 1st range of fully smart treadmills with the most interactive workout experience on the market. With a 4 hp motor, 15-level auto incline and a compact design, this machine is a full cardio training experience",
-    preprize: "₹ 81599",
-    off: "50% off",
+    preprize: 81599,
+    off: 50,
   },
   {
     id: 11,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
     about: "FT200M 4.5HP DC Motorized Treadmill",
-    prize: "₹ 34699",
+    prize: 34699,
     qnty: 0,
 
     color: "Motor HoursePower:4PH",
@@ -243,8 +243,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7YTwpsFThCwnUVBoyiWDgcth",
     ],
     desc: "Get 1 Year Free Subscription of cultsport play - An Immersive Fitness Game, Free Diet & Fitness Plan for 1 month along with 1 Doctor Consultation & Personal Video Training Session, Warranty: 1 Year warranty on Motor and Manufacturing Defect, 3 Year Warranty on Frame.",
-    preprize: "₹ 80000",
-    off: "56% off",
+    preprize: 80000,
+    off: 56,
   },
   {
     id: 12,
@@ -263,10 +263,10 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7YTwpsFThCwnUVBoyiWDgcth",
     ],
     desc: "Get 1 Year Free Subscription of cultsport play - An Immersive Fitness Game, Free Diet & Fitness Plan for 1 month along with 1 Doctor Consultation & Personal Video Training Session, Warranty: 1 Year warranty on Motor and Manufacturing Defect, 3 Year Warranty on Frame.",
-    prize: "₹ 32699",
+    prize: 32699,
 
-    preprize: "₹ 75000",
-    off: "56% off",
+    preprize: 75000,
+    off: 56,
   },
 
   // FOURTH ROW
@@ -280,7 +280,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
     about:
       "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
-    prize: "₹ 22999",
+    prize: 22999,
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 110Kgs",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
@@ -291,8 +291,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Z9ytEipN36UbF6ruWBVmyhTP",
     ],
     desc: " Fitness just got smarter with the all new cultsport smartbike c1. Designed for the everyday athlete, with the most interactive workout experience on the market, this Bluetooth enabled indoor spin bike with 8 step magnetic resistance and a 13.3 lbs flywheel offers serious value. Bring home the full smart training experience.",
-    preprize: "₹ 40999",
-    off: "43% off",
+    preprize: 40999,
+    off: 43,
   },
   {
     id: 14,
@@ -301,7 +301,7 @@ const Cardapi = [
     about:
       "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 150Kgs",
-    prize: "₹ 24999",
+    prize: 24999,
     qnty: 0,
 
     img: [
@@ -313,8 +313,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/MSPQAZi9tZZfVvadY4i3Sbxj",
     ],
     desc: " Fitness just got smarter with the all new cultsport smartbike c2. Designed for the everyday athlete, with the most interactive workout experience on the market, this Bluetooth enabled indoor spin bike with infinite magnetic resistance and a 13.3 lbs flywheel offers serious value. Bring home the full smart training",
-    preprize: "₹ 44899",
-    off: "44% off",
+    preprize: 44899,
+    off: 44,
   },
   {
     id: 15,
@@ -322,7 +322,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 120Kgs",
-    prize: "₹ 16699",
+    prize: 16699,
     qnty: 0,
 
     img: [
@@ -334,8 +334,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Exerjn1EQSrNbtjy6RXH8eBS",
     ],
     desc: "Get 1 Year Free Subscription of cultsport play - An Immersive Fitness Game, Free Diet & Fitness Plan for 1 month along with 1 Doctor Consultation & Personal Video Training Session, Warranty: 6 Months Warranty on Manufacturing defects.",
-    preprize: "₹ 39999",
-    off: "58% off",
+    preprize: 39999,
+    off: 58,
   },
   {
     id: 16,
@@ -343,7 +343,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
     about: "Smartbike x1 with 22' HD touchscreen",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support:100Kgs",
-    prize: "₹ 47000",
+    prize: 47000,
     qnty: 0,
 
     img: [
@@ -356,8 +356,8 @@ const Cardapi = [
     ],
     desc: "• RIDE INTO FUTURE OF FITNESS",
 
-    preprize: "₹ 119900",
-    off: "60% off",
+    preprize: 119900,
+    off: 60,
   },
 
   // FIFTH ROW
@@ -371,7 +371,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
     about: "Rimo 27.5' 21-speed steel MTB (Shimano gears)",
-    prize: "₹ 15599",
+    prize: 15599,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dUr5Q9zrKBvbPvufvZ8G7fGA",
@@ -381,15 +381,15 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/uig294tLEvZfo3R3XoZP3MTv",
     ],
     desc: "Fitness just got smarter with the all new range of cultsport cycles. Designed for the everyday athlete, this fully fledged 21-speed Shimano geared cycle with its rigid steel frame and the most interactive workout experience on the market will be your all-weather riding companion . Connect your smartphone/tablet with the cultsport app and unlock:",
-    preprize: "₹ 39999",
-    off: "61% off",
+    preprize: 39999,
+    off: 61,
   },
   {
     id: 18,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/nwziy12UVSHqbS8LGR5cnzqc",
     about: "Bolan 27.5' 21-speed steel MTB (Shimano gears)",
-    prize: "₹ 15999",
+    prize: 15999,
     color: "Model: Rimo, Color: Blue",
     qnty: 0,
 
@@ -402,8 +402,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/BuuQtYJ1Dd9XTggFUgen5EcG",
     ],
     desc: "Fitness just got smarter with the all new range of cultsport cycles. Designed for the everyday athlete, this fully fledged 21-speed Shimano geared cycle with its rigid steel frame and the most interactive workout experience on the market will be your all-weather riding companion . Connect your smartphone/tablet with the cultsport app and unlock:",
-    preprize: "₹ 39999",
-    off: "61% off",
+    preprize: 39999,
+    off: 61,
   },
 
   {
@@ -412,7 +412,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Model: Rivine, Color: Yellow",
-    prize: "₹ 16699",
+    prize: 16699,
     qnty: 0,
 
     img: [
@@ -424,8 +424,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
     ],
     desc: "Fitness just got smarter with the all new range of cultsport cycles. Designed for the everyday athlete, this fully fledged 21-speed Shimano geared cycle with its light & sturdy alloy frame and the most interactive workout experience on the market, will be your all-weather riding companion . Connect your smartphone/tablet with the cultsport app and unlock",
-    preprize: "₹ 43999",
-    off: "62% off",
+    preprize: 43999,
+    off: 62,
   },
   {
     id: 20,
@@ -435,7 +435,7 @@ const Cardapi = [
     color: "Model: Rimo, Color: Red",
     qnty: 0,
 
-    prize: "₹ 17099",
+    prize: 17099,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/wSxuBA8WbaT8KvUpibw6nFK9",
@@ -445,8 +445,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/jrYcRbU8UoKKVHLEVkKYFh3N",
     ],
     desc: "Fitness just got smarter with the all new range of cultsport cycles. Designed for the everyday athlete, this fully fledged 21-speed Shimano geared cycle with its light & sturdy alloy frame and the most interactive workout experience on the market, will be your all-weather riding companion . Connect your smartphone/tablet with the cultsport app and unlock",
-    preprize: "₹ 45999",
-    off: "62% off",
+    preprize: 45999,
+    off: 62,
   },
 
   // SIXTH ROW
@@ -460,7 +460,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
     about: "Signature Boxing Hand Wraps",
-    prize: "₹ 227",
+    prize: 227,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/WV9XUeA1ZVFFJ6zATrLVqrN1",
@@ -470,8 +470,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/5gC3YP9ZTxpuKxGncMNDxDso",
     ],
     des: "Bring out the boxer in you with these ergonomically designed hand wraps. Built to last and to help you last during your boxing and combat sessions, these hand wraps help you avoid wrist and knuckle injuries by providing superior support and comfort. Ready to take a jab at a cross?",
-    preprize: "₹ 599",
-    off: "62% off",
+    preprize: 599,
+    off: 62,
   },
   {
     id: 22,
@@ -482,7 +482,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
     about: "Yoga Strap",
-    prize: "₹ 305",
+    prize: 305,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
@@ -492,8 +492,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8TCzaQey6eAmjMfKfUG8Vpc9",
     ],
     desc: "Perfect your Yoga practice with the aid of this Yoga strap. A useful accessory that helps improve your stability, flexibility, strength and overall practice, a Yoga strap can be used by Yogis of all levels to take their practice to the next level.",
-    preprize: "₹ 599",
-    off: "49% off",
+    preprize: 599,
+    off: 49,
   },
   {
     id: 23,
@@ -503,7 +503,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TCnGF1WquCn1iV4VyMbRK6q7",
     about: "EVA Foam Yoga Block",
-    prize: "₹ 332",
+    prize: 332,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
@@ -513,8 +513,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/iUEv5qjVpVJxNyd3GgVx9iGE",
     ],
     desc: "Power up the Yogi in you with this stylish and functional yoga mat from cultsport. Made with recyclable TPE, this mat is super absorbent, ultralight, easy to clean and comes with a convenient carry-on strap. The stance markings help you perfect your posture and stance. Specially designed to prevent your hands & feet from slipping while you move or hold your asanas, this mat has been created to help you #bebettereveryday in your practice.",
-    preprize: "₹ 899",
-    off: "63% off",
+    preprize: 899,
+    off: 63,
   },
   {
     id: 24,
@@ -524,7 +524,7 @@ const Cardapi = [
     color: "Color: Orchid Purple",
     qnty: 0,
 
-    prize: "₹ 539",
+    prize: 539,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PzUNBYybqLKxFncf8g4a74cM",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PuqZQJGwgNAZQtmUKsPvERGm",
@@ -534,8 +534,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/W8wJtEj4QDLDq3WqTbj4rGAC",
     ],
     desc: "These trainers are designed for the ones looking for durability & support. An upper mesh panel crafted and moulded to provide a great fit but letting your feet breathe at the same time. The outsole is engineered with flex grooves to help with multidirectional foot movements during your sessions. So all you have to worry about is your workout.",
-    preprize: "₹ 1199",
-    off: "55% off",
+    preprize: 1199,
+    off: 55,
   },
 ];
 

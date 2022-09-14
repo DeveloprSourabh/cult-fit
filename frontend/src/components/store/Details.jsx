@@ -48,9 +48,9 @@ const Details = () => {
                 <div className="delg">CUTSPORT</div>
                 <div className="detitle">{product.about}</div>
                 <div>
-                  <span className="deprize">{product.prize}</span>
-                  <span className="depreprize">{product.preprize}</span>
-                  <span className="deoff">{product.off}</span>
+                  <span className="deprize">₹{product.prize}</span>
+                  <span className="depreprize">₹{product.preprize}</span>
+                  <span className="deoff">{product.off}% off</span>
                 </div>
                 <div className="desath">
                   <p className="dep1">{product.desc}</p>

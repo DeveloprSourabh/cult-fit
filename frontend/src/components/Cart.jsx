@@ -1,11 +1,35 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "../components/store/cart.css";
 import Storenav from "./store/Storenav";
+import { DLT } from "../redux/actions/action";
+import { useNavigate } from "react-router";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function Cart() {
+  const [prize, setPrize] = useState("0");
+  console.log(prize);
+
+  const history = useNavigate();
   const getdata = useSelector((state) => state.cartreducer.carts);
-  console.log(getdata);
+  // console.log(getdata);
+  const dispatch = useDispatch();
+
+  const dlt = (id) => {
+    dispatch(DLT(id));
+  };
+
+  const total = () => {
+    let prize = 0;
+    getdata.map((e) => {
+      prize = e.prize + prize;
+    });
+    setPrize(prize);
+  };
+  useEffect(() => {
+    total();
+  }, [total]);
 
   return (
     <>
@@ -63,7 +87,7 @@ function Cart() {
                                           Size: UK4
                                         </div>
                                         <div className="style-prefix-49ww5q">
-                                          {e.prize}
+                                          ₹ {e.prize}
                                         </div>
                                       </div>
                                       <div
@@ -91,6 +115,7 @@ function Cart() {
                                       <div className="error" />
                                     </div>
                                     <img
+                                      onClick={() => dlt(e.id)}
                                       alt=""
                                       id="ppppp"
                                       src="https://static.cure.fit/assets/images/modal-close.svg"
@@ -170,7 +195,7 @@ function Cart() {
                           <div>
                             <div className="checkout-price-detail-last-cell">
                               <p>Total Payable</p>
-                              <p className="jkjkl1">₹ 2999</p>
+                              <p className="jkjkl1">₹ {prize}</p>
                             </div>
                           </div>
                         </div>

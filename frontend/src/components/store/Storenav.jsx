@@ -1,7 +1,7 @@
 import React from "react";
 import "./store.css";
 import { NavLink } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Storenav = () => {
   const getdata = useSelector((state) => state.cartreducer.carts);
@@ -36,7 +36,7 @@ const Storenav = () => {
                 alt=""
                 className="  navlogo1"
               />
-              <NavLink to="../cart">
+              <NavLink to="../cultsport.com/cart">
                 <img
                   src="https://static.cure.fit/assets/images/cart-icon-new.svg"
                   alt=""

@@ -14,9 +14,9 @@ import Store from "./components/store/Store";
 import Item1 from "./components/store/Item1";
 import Cart from "./components/Cart";
 import { useState } from "react";
+import Details from "./components/store/Details";
 
 function App() {
- 
   return (
     <>
       <Routes>
@@ -36,7 +36,8 @@ function App() {
         <Route exact path="cultsport.com" element={<Store />} />
 
         <Route exact path="cultsport/:id" element={<Item1 />} />
-        <Route exact path="/cart" element={<Cart />} />
+        <Route exact path="/cultsport.com/cart" element={<Cart />} />
+        <Route exact path={`/cultsport/:id/cart`} element={<Details />} />
       </Routes>
     </>
   );
