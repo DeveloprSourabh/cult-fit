@@ -11,6 +11,7 @@ const Store = () => {
       </div>
       <div
         id="demo"
+        
         className="carousel sz-slider slide caras"
         data-ride="carousel"
       >

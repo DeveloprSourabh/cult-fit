@@ -6,7 +6,7 @@ const Demo = () => {
     <>
       <div style={{ position: "relative", bottom: "34rem" }}>
         <div className="ahref">
-          <div className="row row1">
+          <div id="titi" className="row row1">
             <div className="col-4 d1">
               <div>
                 <img

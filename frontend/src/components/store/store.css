@@ -99,8 +99,8 @@ ul {
 }
 
 .navbar-img {
-  width: 140px;
-  height: 40px;
+  width: 203px;
+  height: 66px;
 }
 .card {
   width: 27rem;
@@ -374,6 +374,10 @@ ul {
   opacity: 0.24;
   height: 2px;
   background: #1d1a1a;
+}
+.nav-link {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .despi {

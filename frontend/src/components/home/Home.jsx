@@ -371,7 +371,7 @@ const Home = () => {
       <Demo />
       <Type />
       <div style={{ width: "80rem  " }}>
-        <div className="row tip">
+        <div id="klkl" className="row tip">
           <div className="col-6 tipc1">
             <div className="eq">
               <h1>Wellness Hub</h1>
@@ -460,7 +460,11 @@ const Home = () => {
         <h1 className="n1">Join the cult family</h1>
       </div>
       <div>
-        <div className="row nr">
+        <div style={{width: "80%",
+    marginLeft: "-1rem",
+    marginTop: "-4rem",
+    position: "relative",
+    left: "12rem"}} className="row nr">
           <a className="na1" href="">
             <div className="col-6">
               <h1 className="nh11">Careers at Cult</h1>

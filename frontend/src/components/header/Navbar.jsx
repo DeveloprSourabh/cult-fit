@@ -51,7 +51,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div
-          style={{ marginLeft: "10rem" }}
+          style={{ marginLeft: "17rem" }}
           class="collapse navbarNav1 navbar-collapse   "
           id="navbarNav1"
         >

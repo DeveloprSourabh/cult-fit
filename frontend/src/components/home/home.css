@@ -17,20 +17,20 @@
   width: auto;
   position: relative;
   bottom: -45rem;
-  right: 14rem;
+  right: 8rem;
 }
 
 .gredi {
   position: absolute;
   z-index: -5;
-  height: 1029%;
+  height: 857%;
   width: 100%;
 }
 
 .svg2 {
   width: auto;
   position: relative;
-  right: 17rem;
+  right: 8rem;
   top: 48rem;
 }
 
@@ -38,23 +38,23 @@
   width: 39rem;
   transform: rotatey(6deg);
   position: relative;
-  left: 79.5rem;
+  left: 95rem;
 }
 
 .svg4 {
-  width: 40rem;
+  width: 46rem;
   position: relative;
   transform: rotate(356deg);
   bottom: 6rem;
-  left: 79rem;
+  left: 95rem;
 }
 
 .homeh1 {
   text-align: center;
   position: relative;
-  width: 48rem;
-  bottom: 12rem;
-  left: 40rem;
+  width: 47rem;
+  bottom: 8rem;
+  left: 51rem;
 }
 
 .hbtn2 {
@@ -66,7 +66,7 @@
   opacity: 100%;
   position: relative;
   bottom: 4rem;
-  left: 58rem;
+  left: 68rem;
 }
 
 .hbtn2:hover {
@@ -105,7 +105,7 @@
 .ianimate1 {
   position: absolute;
   width: 40%;
-  left: 53rem;
+  left: 74rem;
   top: 30rem;
 }
 
@@ -116,9 +116,9 @@
 
 .h1 {
   position: absolute;
-  top: 32rem;
-  left: 34rem;
-  width: 26rem;
+  top: 24rem;
+  left: 50rem;
+  width: 43rem;
   font-weight: revert;
 }
 
@@ -164,7 +164,7 @@
   border-radius: 9px;
   width: 16rem;
   height: 20rem;
-  bottom: -8.3rem;
+  bottom: -12.3rem;
   left: 48.7rem;
 }
 
@@ -172,7 +172,7 @@
   border-radius: 9px;
   position: relative;
   width: 16rem;
-  bottom: 11.7rem;
+  bottom: 3.7rem;
   height: 20rem;
   left: 32.4rem;
 }
@@ -192,13 +192,13 @@
   border-radius: 9px;
   position: relative;
   left: 32.5rem;
-  bottom: 11rem;
+  bottom: -5rem;
 }
 
 .p8 {
   position: relative;
   left: 49rem;
-  bottom: 31rem;
+  bottom: 11rem;
   width: 16rem;
   height: 20rem;
   border-radius: 9px;
@@ -206,15 +206,12 @@
 
 .p2 {
   width: 16rem;
-  height: 20rem;
+  height: 28rem;
   position: relative;
-  top: 88.3rem;
+  top: 92.3rem;
   border-radius: 9px;
   left: 65.4rem;
-}
-
-.row {
-  width: 76rem;
+  padding-bottom: 8rem;
 }
 
 .demo1 {
@@ -223,7 +220,7 @@
 
 .ahref {
   margin-top: -13rem;
-  margin-left: 10rem;
+  margin-left: -2rem;
 }
 
 .demo2 {
@@ -236,6 +233,14 @@
 
 .col-4 {
   padding: 0 2rem;
+}
+.d1 {
+  position: relative;
+  right: 3rem;
+}
+.d3 {
+  position: relative;
+  right: -3rem;
 }
 
 .dd1 {
@@ -367,7 +372,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 0rem;
+  bottom: 2.5rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -382,7 +387,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 0rem;
+  bottom: 2.5rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -397,7 +402,7 @@ li {
   margin-left: 159px;
   width: max-content;
   position: relative;
-  bottom: 5rem;
+  bottom: 7.5rem;
   font-weight: 700;
   color: #f06055;
 }
@@ -409,13 +414,13 @@ li {
 .raw2 {
   text-align: left;
   position: relative;
-  right: -18rem;
+  right: -29rem;
   bottom: 23rem;
 }
 .raw1 {
   text-align: left;
   position: relative;
-  right: -18rem;
+  right: -29rem;
   bottom: 27rem;
 }
 
@@ -480,6 +485,10 @@ li {
   box-shadow: 0px 0px 20px 12px #070707;
 }
 
+#titi {
+  position: relative;
+  left: 25rem;
+}
 .tpcol4:hover {
   box-shadow: 0px 0px 20px 12px #070707;
 }
@@ -487,12 +496,11 @@ li {
 .tip {
   padding: 3rem;
   position: relative;
-  left: 21rem;
+  left: 33rem;
   background-color: #85a4bf;
   border-radius: 20px;
-  top: -8rem;
-  height: 34rem;
-  width: max-content;
+  top: -14rem;
+  height: 33rem;
 }
 
 .tip1 {
@@ -506,24 +514,28 @@ li {
 .imgr1 {
   width: 21rem;
   border-radius: 25px;
-  margin-left: -25rem;
+  margin-left: -23rem;
+  margin-top: 3rem;
 }
 
 .imgr2 {
   width: 21rem;
   border-radius: 25px;
-  margin-left: -10rem;
+  margin-left: -6rem;
+  margin-top: 3rem;
 }
 
 .imgr3 {
   width: 21rem;
   border-radius: 25px;
   margin-left: -7rem;
+  margin-top: 7rem;
 }
 .imgr4 {
   width: 21rem;
   border-radius: 25px;
-  margin-left: 8rem;
+  margin-left: 10rem;
+  margin-top: 7rem;
 }
 
 .end {
@@ -569,12 +581,12 @@ li {
 
 .fash {
   position: relative;
-  top: 12rem;
-  left: 19rem;
+  top: -6rem;
+  left: 25rem;
   border-radius: 32px;
   padding: 4rem;
-  height: 25rem;
-  width: 81.6rem;
+  height: 35rem;
+  width: 93.6rem;
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,ar_2.66,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
 }
 
@@ -608,7 +620,9 @@ li {
 .n1 {
   font-weight: 700;
   font-size: 70px;
-  padding: 2rem;
+  font-weight: 700;
+  font-size: 70px;
+  padding: 11rem;
 }
 
 .na1 {
@@ -647,6 +661,7 @@ li {
 
 .nr {
   width: 92rem;
+  margin-left: 11rem;
 }
 
 .nh12 {
@@ -662,7 +677,7 @@ li {
   letter-spacing: 0.01px;
   line-height: 60px;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+
   background-image: linear-gradient(115deg, #f8ba00 12%, #ef5fa7 80%);
 }
 
@@ -682,8 +697,8 @@ li {
   position: relative;
   opacity: 70%;
   font-size: 22px;
-  bottom: 38rem;
-  left: 77rem;
+  bottom: 47rem;
+  left: 94rem;
 }
 
 /* .mmimg {
@@ -693,7 +708,7 @@ li {
 } */
 
 .iiimg {
-  width: 105rem;
+  width: 138rem;
   position: relative;
   top: 6rem;
 }
@@ -705,7 +720,9 @@ li {
   padding: 4px;
   color: #f06055;
 }
-
+#klkl {
+  width: 100%;
+}
 #er {
   position: relative;
   bottom: 10rem;
@@ -713,7 +730,9 @@ li {
 }
 
 .row {
-  width: 100%;
+  width: 62%;
+  margin-left: -1rem;
+  margin-top: -4rem;
 }
 .box1 {
   width: 26rem;
@@ -732,7 +751,7 @@ li {
   float: left;
   position: relative;
   bottom: 49rem;
-  left: 6rem;
+  left: 18rem;
 }
 
 .aos-init {
@@ -741,13 +760,13 @@ li {
 }
 #hul {
   position: relative;
-  right: 13rem;
+  right: 26rem;
   top: 12rem;
 }
 
 .oho {
   position: relative;
-  left: 11rem;
-  width: 93rem;
-  top: 12rem;
+  left: 21rem;
+  width: 99rem;
+  top: 4rem;
 }

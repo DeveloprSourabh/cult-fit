@@ -52,6 +52,7 @@ a > h6:hover {
 
 .fitmimg {
   z-index: -2;
+  width: 100%;
 }
 
 .fithead {
@@ -62,7 +63,7 @@ a > h6:hover {
 .btnm {
   width: 9rem;
   position: relative;
-  left: 58rem;
+  left: 65rem;
   bottom: 31rem;
 }
 
@@ -83,7 +84,7 @@ a > h6:hover {
   text-align: center;
   bottom: 22rem;
   width: 64rem;
-  left: 34rem;
+  left: 42rem;
   display: flex;
 }
 
@@ -155,7 +156,7 @@ a > h6:hover {
 }
 
 .js1 {
-  padding-left: 7rem;
+  padding-left: 20rem;
 }
 
 .sbtn1 {
@@ -226,7 +227,8 @@ a > h6:hover {
 .cename {
   position: relative;
   display: flex;
-  left: 16rem;
+
+  left: 29rem;
 }
 
 .cenamep {
@@ -260,7 +262,7 @@ i {
 .simg1 {
   height: 27rem;
   width: 25rem;
-  margin-left: 47rem;
+  margin-left: 59rem;
   border-radius: 9px;
   opacity: 60%;
 }
@@ -365,7 +367,9 @@ i {
 }
 
 .hr1 {
-  margin-left: 5rem;
+  width: 92rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
 }
 
 .h1img {
@@ -515,7 +519,7 @@ th {
 
 .nic {
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/vm/25fb312f-19c2-4495-8d92-8e807b68b67d.jpeg);
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 
 .nic1 {
@@ -615,22 +619,24 @@ th {
   margin-left: 17rem;
   border-radius: 45px;
   width: 66rem;
+
+  margin-top: 10rem;
 }
 
 .vid2 {
-  width: 75rem;
+  width: 85rem;
   opacity: 47%;
   position: relative;
   top: 25rem;
   border-radius: 10px;
-  right: 17rem;
+  right: 40rem;
 }
 
 .vid {
   position: absolute;
   width: 2rem;
   right: 83rem;
-  bottom: -361.5rem;
+  bottom: -370.5rem;
   height: 41rem;
 }
 
@@ -755,6 +761,12 @@ th {
 
 .hlink {
   z-index: +5;
+  font-size: 32px;
+  margin-top: -7px;
+}
+.head h6 {
+  font-size: 32px;
+  margin-top: -7px;
 }
 
 .ffterfit {
