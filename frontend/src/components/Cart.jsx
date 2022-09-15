@@ -164,6 +164,7 @@ function Cart() {
                                         alt=""
                                         className="checkout-icon"
                                       />
+                                      
                                     </div>
                                     <div className="col-xs-11 col-md-11">
                                       <div className="row col-xs-12 col-md-12">
