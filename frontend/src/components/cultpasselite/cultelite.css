@@ -34,15 +34,6 @@ body {
   padding-top: 50rem;
 }
 
-.lastdivqq {
-  position: absolute;
-  top: 463rem;
-  left: 0;
-  width: 100%;
-  background: #2c2c2b;
-  padding: 6rem 7rem;
-}
-
 .cename2 {
   display: flex;
   margin-left: 9rem;
@@ -104,7 +95,7 @@ body {
   display: flex;
   text-align: center;
   margin-top: 3rem;
-  margin-left: 39rem;
+  margin-left: 55rem;
   padding-right: 28rem;
 }
 

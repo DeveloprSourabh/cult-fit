@@ -32,7 +32,7 @@ const Details = () => {
     <>
       <div style={{ background: "white", color: "black" }}>
         <div className="containerde">
-          <div style={{ padding: " 3px 1rem" }} className="row">
+          <div style={{ padding: " 3px 1rem", width: "100%" }} className="row">
             <div className="col-lg-4 ">
               <img src={product.img[0]} alt="" className="deimg1" />
               <img src={product.img[1]} alt="" className="deimg1" />

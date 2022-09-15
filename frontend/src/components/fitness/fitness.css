@@ -276,7 +276,7 @@ i {
 .simg2 {
   height: 27rem;
   width: 25rem;
-  margin-left: 47rem;
+  margin-left: 59rem;
   border-radius: 9px;
   opacity: 60%;
 }
@@ -290,7 +290,7 @@ i {
 .simg3 {
   height: 27rem;
   width: 25rem;
-  margin-left: 46rem;
+  margin-left: 59rem;
   border-radius: 9px;
   opacity: 60%;
 }
@@ -304,7 +304,7 @@ i {
 .simg4 {
   height: 27rem;
   width: 25rem;
-  margin-left: 35rem;
+  margin-left: 59rem;
   border-radius: 9px;
   opacity: 60%;
 }
@@ -624,10 +624,10 @@ th {
 }
 
 .vid2 {
-  width: 85rem;
+  width: 90rem;
   opacity: 47%;
   position: relative;
-  top: 25rem;
+  top: 30rem;
   border-radius: 10px;
   right: 40rem;
 }

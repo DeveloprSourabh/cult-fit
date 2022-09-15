@@ -1,8 +1,8 @@
 .navul1 {
   display: flex;
-  margin-left: 8rem;
-
+  margin-left: 14rem;
   float: left;
+  margin-top: 1rem;
 }
 
 .navimg {
@@ -14,13 +14,13 @@
   position: relative;
   top: 10px;
   left: 50px;
-  width: 100%;
+  width: 161%;
 }
 
 .nav1s {
   background: white;
   color: black;
-  height: 3.5rem;
+  height: 6.5rem;
 }
 
 ul {
@@ -34,7 +34,7 @@ ul {
   color: #000000;
   line-height: 20px;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 23px;
   cursor: pointer;
   text-align: center;
   opacity: 100%;
@@ -45,13 +45,13 @@ ul {
 }
 
 .navlogo1 {
-  width: 2rem;
+  width: 3rem;
   padding-top: 11px;
   margin-left: 4rem;
 }
 
 .navlogo2 {
-  width: 2rem;
+  width: 3rem;
   padding-top: 11px;
   margin-left: 2rem;
 }
@@ -62,7 +62,7 @@ ul {
 }
 
 .makecardimg {
-  width: 300px;
+  width: 430px;
 }
 
 .makecarddiv2 {
@@ -103,16 +103,17 @@ ul {
   height: 66px;
 }
 .card {
-  width: 27rem;
+  width: 31rem;
   float: left;
   border-radius: 0px;
   border: none;
-
   background-color: white;
+  position: relative;
+  left: 16rem;
 }
 
 .flex {
-  margin-left: 3rem;
+  margin-left: -13rem;
 }
 
 .stylishname {
@@ -312,16 +313,16 @@ ul {
 }
 
 .noti {
-  background: #a7a7a7;
+  background: #fc2779;
   position: absolute;
-  right: 11rem;
+  right: 5rem;
   border-radius: 50%;
   font-weight: 700;
-  top: 3px;
-  width: 16px;
+  top: 5px;
+  width: 20px;
   text-align: center;
   height: 17px;
-  color: #000000;
+  color: #ffffff;
   padding: 3px 21px 29px 12px;
 }
 

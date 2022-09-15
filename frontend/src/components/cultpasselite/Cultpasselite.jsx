@@ -692,8 +692,10 @@ const Cultpasselite = () => {
           </div>
         </div>
         <div className="lastdivqq">
-          <a href="">Related Searches</a>
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Gym Near Me</a>
             </div>
@@ -714,7 +716,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">WorkoutYoga Postures for Beginners</a>
             </div>
@@ -735,7 +740,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Bedtime Stories for Kids</a>
             </div>
@@ -756,7 +764,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Gyms in Pune</a>
             </div>
@@ -777,7 +788,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Gyms in Chandigarh</a>
             </div>
@@ -798,7 +812,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Strength Training</a>
             </div>
@@ -819,7 +836,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Core Exercises</a>
             </div>
@@ -840,7 +860,10 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div
+            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
+            className="row"
+          >
             <div className="col-2">
               <a href="">Fitness Glossary</a>
             </div>
