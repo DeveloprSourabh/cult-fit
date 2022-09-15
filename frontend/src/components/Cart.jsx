@@ -32,7 +32,7 @@ function Cart() {
   const total = () => {
     let prize = 0;
     getdata.map((e) => {
-      prize = e.prize + prize;
+      prize = e.prize * e.qnty + prize;
     });
     setPrize(prize);
   };
@@ -168,7 +168,14 @@ function Cart() {
                                     <div className="col-xs-11 col-md-11">
                                       <div className="row col-xs-12 col-md-12">
                                         <div className="checkout-address-container">
-                                          <div className="row">
+                                          <div
+                                            style={{
+                                              width: "62%",
+                                              marginLeft: "2rem",
+                                              marginTop: "4rem",
+                                            }}
+                                            className="row"
+                                          >
                                             <div className="col-xs-12">
                                               <div className="checkout-delivery-address-title" />
                                             </div>
@@ -194,14 +201,14 @@ function Cart() {
                                 <div>
                                   <div className="checkout-price-detail-cell">
                                     <p>Total Price</p>
-                                    <p className="jkjk">{prize * e.qnty}</p>
+                                    <p className="jkjk">{prize}</p>
                                   </div>
                                 </div>
                                 <div>
                                   <div className="checkout-price-detail-cell">
                                     <p>(-) Discount</p>
                                     <p className="jkjkl">
-                                      ₹{Math.floor((prize * e.qnty * 8) / 100)}
+                                      ₹{Math.floor((prize * 8) / 100)}
                                     </p>
                                   </div>
                                 </div>
@@ -209,10 +216,7 @@ function Cart() {
                                   <div className="checkout-price-detail-last-cell">
                                     <p>Total Payable</p>
                                     <p className="jkjkl1">
-                                      ₹{" "}
-                                      {Math.floor(
-                                        prize * e.qnty - (prize * 8) / 100
-                                      )}
+                                      ₹ {Math.floor(prize - (prize * 8) / 100)}
                                     </p>
                                   </div>
                                 </div>
