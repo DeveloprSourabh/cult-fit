@@ -17,7 +17,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    price: 1499,
+    prize: 1499,
     preprize: 2499,
     off: 40,
     size: ["XS", "S", "M", "L", "XL"],
@@ -41,9 +41,9 @@ const Cardapi = [
     ],
     desc: "Run your own race, defy the norms and cook up a storm in this workout T-shirt.Meant to move with you, this combines design and technology to deliver a performance as impressive as yours.",
     title: "Vitals Running T-Shirt",
-    price: 824,
+    prize: 824,
     preprize: 1499,
-    off:  45,
+    off: 45,
     size: ["XS", "S", "M", "L", "XL"],
   },
   {
@@ -52,7 +52,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/anBREptvxVED3KMUSXcPpTen",
     about: "FormFit High Impact Ivy Sports Bra",
     color: "Pink",
-    price: 1499,
+    prize: 1499,
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/anBREptvxVED3KMUSXcPpTen",
@@ -75,7 +75,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/y9Ly6y2KSidVkL51S1ZeYv9Z",
     about: "LAYR Solid Sweatshirt",
     color: "Black",
-    price: 1649,
+    prize: 1649,
     desc: "Beat the chills and say hello to the toasty winters with the Cultsport Lifestyle Sweatshirt. Designed to be the perfect 2nd layer 365 days a year. Its time to get all snuggled up",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/y9Ly6y2KSidVkL51S1ZeYv9Z",
@@ -101,7 +101,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/2dioFsRcvQ8uu43WTe8zRqzc",
     about: "Ombre Yoga Tights",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    price: 2299,
+    prize: 2299,
     qnty: 0,
 
     img: [
@@ -120,7 +120,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/12Uc17w8J6Mx6xPrySbZjkXh",
     about: "2 in 1 Lightweight Yoga Mat",
-    price: 623,
+    prize: 623,
     color: "Brown",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/12Uc17w8J6Mx6xPrySbZjkXh",
@@ -141,7 +141,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/8LKu6LCyX4LqdK3Rpc1Hkjw7",
     about: "2 in 1 Lightweight Yoga Mat",
-    price: 623,
+    prize: 623,
     color: "Cream",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8LKu6LCyX4LqdK3Rpc1Hkjw7",
@@ -165,7 +165,7 @@ const Cardapi = [
     color: "Royal Green",
     qnty: 0,
 
-    price: 623,
+    prize: 623,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/UFEqV6v4mHfdL8ndaTwu5AQE",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dwZgP1rWPVmksUZdkFd6HtjW",
@@ -190,7 +190,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GpeKVjiXj2nnH9eafrutHxfm",
     about: "Smartrun c1: Bluetooth enabled treadmill with 6-level incline",
-    price: 35499,
+    prize: 35499,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/u48p1giD4ydC4jdvtsAnNYD6",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nVFUDvZWqZMrCF35WSjwjhba",
@@ -210,7 +210,7 @@ const Cardapi = [
     about:
       "Smartrun c2: Bluetooth enabled treadmill with 15-level auto incline",
     color: "Motor HoursePower:6PH",
-    price: 39999,
+    prize: 39999,
     qnty: 0,
 
     img: [
@@ -230,7 +230,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
     about: "FT200M 4.5HP DC Motorized Treadmill",
-    price: 34699,
+    prize: 34699,
     qnty: 0,
 
     color: "Motor HoursePower:4PH",
@@ -263,7 +263,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/7YTwpsFThCwnUVBoyiWDgcth",
     ],
     desc: "Get 1 Year Free Subscription of cultsport play - An Immersive Fitness Game, Free Diet & Fitness Plan for 1 month along with 1 Doctor Consultation & Personal Video Training Session, Warranty: 1 Year warranty on Motor and Manufacturing Defect, 3 Year Warranty on Frame.",
-    price: 32699,
+    prize: 32699,
 
     preprize: 75000,
     off: 56,
@@ -280,7 +280,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
     about:
       "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
-    price: 22999,
+    prize: 22999,
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 110Kgs",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
@@ -301,7 +301,7 @@ const Cardapi = [
     about:
       "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 150Kgs",
-    price: 24999,
+    prize: 24999,
     qnty: 0,
 
     img: [
@@ -322,7 +322,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/J4NyobsjLcF5DuYvTdeWXkTr",
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support: 120Kgs",
-    price: 16699,
+    prize: 16699,
     qnty: 0,
 
     img: [
@@ -343,7 +343,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/kTssBkQouVdBHn446kZPn5bG",
     about: "Smartbike x1 with 22' HD touchscreen",
     color: "Flywheel Weight: 13.3lbs, Max Weight Support:100Kgs",
-    price: 47000,
+    prize: 47000,
     qnty: 0,
 
     img: [
@@ -371,7 +371,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
     about: "Rimo 27.5' 21-speed steel MTB (Shimano gears)",
-    price: 15599,
+    prize: 15599,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZJBYsrvTZKUc9QzYK6fh4f8n",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/dUr5Q9zrKBvbPvufvZ8G7fGA",
@@ -389,7 +389,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/nwziy12UVSHqbS8LGR5cnzqc",
     about: "Bolan 27.5' 21-speed steel MTB (Shimano gears)",
-    price: 15999,
+    prize: 15999,
     color: "Model: Rimo, Color: Blue",
     qnty: 0,
 
@@ -412,7 +412,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Model: Rivine, Color: Yellow",
-    price: 16699,
+    prize: 16699,
     qnty: 0,
 
     img: [
@@ -435,7 +435,7 @@ const Cardapi = [
     color: "Model: Rimo, Color: Red",
     qnty: 0,
 
-    price: 17099,
+    prize: 17099,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/KC1R8YNaPzpWgcTTeNk3Mxvo",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/wSxuBA8WbaT8KvUpibw6nFK9",
@@ -460,7 +460,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
     about: "Signature Boxing Hand Wraps",
-    price: 227,
+    prize: 227,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/rqFrmhQat5ajC62f7rKCPU6m",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/WV9XUeA1ZVFFJ6zATrLVqrN1",
@@ -482,7 +482,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
     about: "Yoga Strap",
-    price: 305,
+    prize: 305,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
@@ -503,7 +503,7 @@ const Cardapi = [
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TCnGF1WquCn1iV4VyMbRK6q7",
     about: "EVA Foam Yoga Block",
-    price: 332,
+    prize: 332,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/cuGk5uw1aqrCmyAwrjES2Mmr",
@@ -524,7 +524,7 @@ const Cardapi = [
     color: "Color: Orchid Purple",
     qnty: 0,
 
-    price: 539,
+    prize: 539,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PzUNBYybqLKxFncf8g4a74cM",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PuqZQJGwgNAZQtmUKsPvERGm",

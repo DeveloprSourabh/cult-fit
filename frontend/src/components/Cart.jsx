@@ -6,6 +6,7 @@ import { DLT } from "../redux/actions/action";
 import { useState } from "react";
 import { useEffect } from "react";
 import { ADD, REMOVE } from "../redux/actions/action";
+import Footer from "./footer/Footer";
 
 function Cart() {
   const [prize, setPrize] = useState("0");
@@ -32,7 +33,7 @@ function Cart() {
   const total = () => {
     let prize = 0;
     getdata.map((e) => {
-      prize = e.prize + prize;
+      prize = e.prize * e.qnty + prize;
     });
     setPrize(prize);
   };
@@ -194,14 +195,14 @@ function Cart() {
                                 <div>
                                   <div className="checkout-price-detail-cell">
                                     <p>Total Price</p>
-                                    <p className="jkjk">{prize * e.qnty}</p>
+                                    <p className="jkjk">{prize}</p>
                                   </div>
                                 </div>
                                 <div>
                                   <div className="checkout-price-detail-cell">
                                     <p>(-) Discount</p>
                                     <p className="jkjkl">
-                                      ₹{Math.floor((prize * e.qnty * 8) / 100)}
+                                      ₹{Math.floor((prize * 8) / 100)}
                                     </p>
                                   </div>
                                 </div>
@@ -209,10 +210,7 @@ function Cart() {
                                   <div className="checkout-price-detail-last-cell">
                                     <p>Total Payable</p>
                                     <p className="jkjkl1">
-                                      ₹{" "}
-                                      {Math.floor(
-                                        prize * e.qnty - (prize * 8) / 100
-                                      )}
+                                      ₹ {Math.floor(prize - (prize * 8) / 100)}
                                     </p>
                                   </div>
                                 </div>
@@ -320,6 +318,7 @@ function Cart() {
       ) : (
         <div className="kkll">CART IS EMPTY</div>
       )}
+      <Footer />
     </>
   );
 }
