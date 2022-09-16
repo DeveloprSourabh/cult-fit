@@ -11,6 +11,6 @@ app.use(express.json());
 
 app.use(require("./router/auth"));
 
-app.listen(3005, () => {
+app.listen(3001, () => {
   console.log("Good Evening");
 });
