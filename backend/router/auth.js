@@ -3,6 +3,7 @@ const router = express.Router();
 
 require("../db/conn");
 const User = require("../models/userSchema");
+//////////////////////////Using Promises/////////////////////////////////////////////////////
 
 router.post("/register", (req, res) => {
   const { name, email, phone, password, cpassword } = req.body;
@@ -27,5 +28,31 @@ router.post("/register", (req, res) => {
       console.log(err);
     });
 });
+
+// //////////////////////  Await Async//////////////////////////////////////////////////////
+// router.post("/register", async (req, res) => {
+//   const { name, email, phone, password, cpassword } = req.body;
+
+//   if (!name || !email || !phone || !password || !cpassword) {
+//     return res.status(422).json({ error: "Please filled the field properly" });
+//   }
+
+//   try {
+//     const userExist = await User.findOne({ email: email });
+//     if (userExist) {
+//       return res.status(422).json({ error: "Email already exist" });
+//     }
+//     const user = new User({ name, email, phone, password, cpassword });
+
+//     const userRegister = await user.save();
+//     if (userRegister) {
+//       res.status(201).json({ message: "User registered Successfuly" });
+//     } else {
+//       res.status(500).json({ error: "Failed to registe" });
+//     }
+//   } catch (error) {
+//     console.log(error);
+//   }
+// });
 
 module.exports = router;
