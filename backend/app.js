@@ -1,10 +1,14 @@
+const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const express = require("express");
 
 const app = express();
 
-const DB =
-  "mongodb+srv://cultfit:cultfit1234@cluster0.ywrjqzs.mongodb.net/cultfit?retryWrites=true&w=majority";
+dotenv.config({ path: "./config.env" });
+
+const DB = process.env.DATABASE;
+const PORT = process.env.PORT;
+
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
@@ -18,6 +22,6 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-app.listen(3001, () => {
-  console.log("Port Is Running");
+app.listen(PORT, () => {
+  console.log(`Port Is Running On Port ${PORT}`);
 });
