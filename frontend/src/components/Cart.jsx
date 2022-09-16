@@ -6,6 +6,7 @@ import { DLT } from "../redux/actions/action";
 import { useState } from "react";
 import { useEffect } from "react";
 import { ADD, REMOVE } from "../redux/actions/action";
+import Footer from "../components/footer/Footer";
 
 function Cart() {
   const [prize, setPrize] = useState("0");
@@ -164,7 +165,6 @@ function Cart() {
                                         alt=""
                                         className="checkout-icon"
                                       />
-                                      
                                     </div>
                                     <div className="col-xs-11 col-md-11">
                                       <div className="row col-xs-12 col-md-12">
@@ -283,7 +283,7 @@ function Cart() {
                                           <iframe style={{ display: "none" }} />
                                         </div>
                                       </div>
-                                      <div
+                                      {/* <div
                                         id="opopop"
                                         className="coupon-code-row full-width "
                                       >
@@ -302,7 +302,7 @@ function Cart() {
                                         >
                                           CHECK VALIDITY
                                         </button>
-                                      </div>
+                                      </div> */}
                                     </form>
                                   </div>
                                 </div>
@@ -325,6 +325,7 @@ function Cart() {
       ) : (
         <div className="kkll">CART IS EMPTY</div>
       )}
+      <Footer />
     </>
   );
 }
