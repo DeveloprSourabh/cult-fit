@@ -1,8 +1,12 @@
+const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
-const DB =
-  "mongodb+srv://cultfit:cultfit1234@cluster0.ywrjqzs.mongodb.net/cultfit?retryWrites=true&w=majority";
+
+dotenv.config({ path: "./config.env" });
+
+const DB = process.env.DATABASE;
+
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
@@ -12,6 +16,10 @@ mongoose
   })
   .catch((err) => console.log(err));
 
-app.listen(3001, () => {
+app.get("./", (req, res) => {
+  res.send("Hello World");
+});
+
+app.listen(3005, () => {
   console.log("Good Evening");
 });
