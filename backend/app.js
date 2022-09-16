@@ -7,9 +7,9 @@ dotenv.config({ path: "./config.env" });
 
 require("./db/conn");
 
-app.get("./", (req, res) => {
-  res.send("Hello World");
-});
+app.use(express.json());
+
+app.use(require("./router/auth"));
 
 app.listen(3005, () => {
   console.log("Good Evening");
