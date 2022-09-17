@@ -9,7 +9,15 @@ import Navbar from "../header/Navbar";
 const Cultpasselite = () => {
   return (
     <>
+<<<<<<< HEAD
     <Navbar />
+=======
+<<<<<<< HEAD:frontend/src/components/cultpasselite/Cultpasselite.jsx
+      <Navbar />
+=======
+    <Navbar />
+>>>>>>> review:cult-fit/src/components/cultpasselite/Cultpasselite.jsx
+>>>>>>> 6a47ac9c60c3e4e148b679e419f88e8d8c0df42c
       <Subh />
       <div>
         <div className="ppp">

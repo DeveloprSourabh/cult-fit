@@ -9,7 +9,8 @@ import Navbar from "../header/Navbar";
 const Fitness = () => {
   return (
     <>
-      <Navbar />
+
+    <Navbar />
 
       <Subh />
 

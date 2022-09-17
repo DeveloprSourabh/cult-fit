@@ -13,7 +13,9 @@ const Home = () => {
     <>
       <Navbar />
 
+
       <div className="top">
+
         <video
           className="video"
           width="750"

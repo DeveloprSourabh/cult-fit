@@ -43,7 +43,6 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-
 // Generating AuthToken
 userSchema.methods.generateAuthToken = async function () {
   try {
