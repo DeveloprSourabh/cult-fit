@@ -5,7 +5,7 @@ import Cardapi from "./Cardapi";
 
 const Store = () => {
   return (
-    <div style={{ background: "white", height: " 327rem" }}>
+    <div style={{ background: "white", height: " 251rem" }}>
       <div className="storenavbar">
         <Storenav />
       </div>

@@ -1,8 +1,8 @@
 .navul1 {
   display: flex;
-  margin-left: 14rem;
+  margin-left: 11rem;
   float: left;
-  margin-top: 1rem;
+  margin-top: -2rem;
 }
 
 .navimg {
@@ -13,14 +13,14 @@
 .navimg1 {
   position: relative;
   top: 10px;
-  left: 50px;
-  width: 161%;
+  left: 33px;
+  width: 113%;
 }
 
 .nav1s {
   background: white;
   color: black;
-  height: 6.5rem;
+  height: 4.5rem;
 }
 
 ul {
@@ -28,13 +28,12 @@ ul {
 }
 
 .navul1 li {
-  padding: 1.3rem 3.1rem;
-  padding-top: 13px;
+  padding: 1.4rem 33px 2px 1rem;
   font-weight: bold;
   color: #000000;
-  line-height: 20px;
+  line-height: 81px;
   font-family: sans-serif;
-  font-size: 23px;
+  font-size: 15px;
   cursor: pointer;
   text-align: center;
   opacity: 100%;
@@ -45,15 +44,15 @@ ul {
 }
 
 .navlogo1 {
-  width: 3rem;
-  padding-top: 11px;
-  margin-left: 4rem;
+  width: 2rem;
+  padding-top: 16px;
+  margin-left: 3rem;
 }
 
 .navlogo2 {
-  width: 3rem;
-  padding-top: 11px;
-  margin-left: 2rem;
+  width: 2rem;
+  padding-top: 16px;
+  margin-left: 1rem;
 }
 
 .caras {
@@ -62,7 +61,7 @@ ul {
 }
 
 .makecardimg {
-  width: 430px;
+  width: 300px;
 }
 
 .makecarddiv2 {
@@ -71,7 +70,7 @@ ul {
   color: black;
 }
 .makecarddiv3 {
-  font-size: 20px;
+  font-size: 14px;
   color: black;
   font-weight: 700;
 }
@@ -103,13 +102,14 @@ ul {
   height: 66px;
 }
 .card {
-  width: 31rem;
+  width: 21rem;
   float: left;
   border-radius: 0px;
   border: none;
+  padding: 1rem 3rem;
   background-color: white;
   position: relative;
-  left: 16rem;
+  left: 10rem;
 }
 
 .flex {
@@ -119,18 +119,18 @@ ul {
 .stylishname {
   color: #000000;
   width: fit-content;
-  margin-left: 7.8rem;
+  margin-left: 4.8rem;
 }
 .ghnt {
   font-family: Poppins-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
     sans-serif;
   font-style: italic;
-  font-size: 46px;
+  font-size: 28px;
   font-weight: bold;
 }
 
 .thik {
-  font-size: 31px;
+  font-size: 21px;
   line-height: 35px;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.6);
@@ -315,7 +315,7 @@ ul {
 .noti {
   background: #fc2779;
   position: absolute;
-  right: 5rem;
+  right: 2rem;
   border-radius: 50%;
   font-weight: 700;
   top: 5px;

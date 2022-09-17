@@ -325,7 +325,6 @@ function Cart() {
       ) : (
         <div className="kkll">CART IS EMPTY</div>
       )}
-      <Footer />
     </>
   );
 }

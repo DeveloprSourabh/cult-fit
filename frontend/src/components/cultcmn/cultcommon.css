@@ -1,4 +1,4 @@
-/* .tp {
+.tp {
   position: relative;
   top: 65rem;
 
@@ -94,7 +94,6 @@
   margin-top: -36rem;
 }
 
-
 .cmnh53 {
   margin-top: -14rem;
   margin-left: 14rem;
@@ -122,4 +121,4 @@
   background: rgb(50, 50, 52);
   border-radius: 10px;
   border: 1px solid rgba(181, 134, 32, 0.3);
-} */
+}

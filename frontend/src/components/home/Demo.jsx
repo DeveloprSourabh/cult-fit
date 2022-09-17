@@ -1,12 +1,13 @@
 import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
     <>
-      <div style={{ position: "relative", bottom: "34rem" }}>
+      <div>
         <div className="ahref">
-          <div id="titi" className="row row1">
+          <div className="row row1">
             <div className="col-4 d1">
               <div>
                 <img
@@ -36,9 +37,9 @@ const Demo = () => {
                   </div>
                   <div className="ul">
                     <ul>
-                      <li className="mi">At-center group classes</li>
-                      <li className="mi">All ELITE & PRO gyms</li>
-                      <li className="mi">At-home live workouts</li>
+                      <li>At-center group classes</li>
+                      <li>All ELITE & PRO gyms</li>
+                      <li>At-home live workouts</li>
                     </ul>
                   </div>
                 </div>
@@ -60,13 +61,13 @@ const Demo = () => {
                   alt=""
                 />
               </div>
-              <a href="../fitness/cultpass-live">
+              <Link to="../fitness/cultpass-live">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png"
                   alt=""
                   className="demo2"
                 />
-              </a>
+              </Link>
               <div className="demodiv1">
                 <h6>cultpass</h6>
                 <img
@@ -97,13 +98,13 @@ const Demo = () => {
               </div>
             </div>
             <div className="col-4 d3">
-              <a href="../fitness/cult-transform">
+              <Link to="../fitness/cult-transform">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,ar_1.31,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cl.png"
                   alt=""
                   className="demo3"
                 />
-              </a>
+              </Link>
               <div className="demodiv1">
                 <h6>cultpass</h6>
                 <img

@@ -1,6 +1,5 @@
 import React from "react";
 import Subh from "../fitness/Subh";
-
 import Footer from "../footer/Footer";
 // import "./cultelite.css";
 import Cultcommon from "../cultcmn/Cultcommon";
@@ -11,7 +10,8 @@ import Navbar from "../header/Navbar";
 const Cultpasslive = () => {
   return (
     <>
-      <Navbar />
+    <Navbar />
+    <div>
       <Subh />
       <div>
         <div className="ppp">
@@ -19,15 +19,13 @@ const Cultpasslive = () => {
             <div className="col-6">
               <div className="nicimgd1">
                 <img
-                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,ar_6.55,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png"
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_242,ar_4.852,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live.png"
                   alt=""
                   className="nicimg1"
                 />
               </div>
               <div className="nic1h">
-                <h1 className="nich1">
-                  Unlimited access to everything in your city
-                </h1>
+                <h1 className="nich1">Best of at-home group workouts</h1>
               </div>
               <div className="nicds1">
                 <h4 className="nich4">Unlimited access to</h4>
@@ -40,7 +38,9 @@ const Cultpasslive = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">At-centre group classes</h6>
+                    <h6 className="nich6">
+                      1200+ at-home workouts across formats inc...
+                    </h6>
                   </div>
                 </div>
                 <div className="nicimgd1">
@@ -50,7 +50,7 @@ const Cultpasslive = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">All ELITE & PRO gyms</h6>
+                    <h6 className="nich6">30+ goal based fitness programs</h6>
                   </div>
                 </div>
                 <div className="nicimgd1">
@@ -60,35 +60,28 @@ const Cultpasslive = () => {
                     className="nicimg2"
                   />
                   <div className="1nich6">
-                    <h6 className="nich6">At-home live workouts</h6>
+                    <h6 className="nich6">
+                      Meditation sessions, health podcasts and mor...
+                    </h6>
                   </div>
                 </div>
               </div>
               <div className="nicc">
-                <h5 className="nicch5">Starting at ₹1271 / month</h5>
+                <h5 className="nicch5">Starting at ₹117 / month</h5>
               </div>
               <div className="nicbtn1">
-                <button className="niccbtn1">TRY FOR FREE</button>
-                <button className="niccbtn2">TRY FOR FREE</button>
-              </div>
-              <div className="lst">
-                <img
-                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,ar_0.96,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/sku-card-widget/offer.png"
-                  alt=""
-                  className="lsimg"
-                />
-                <p className="lp">SALE ON NOW</p>
+                <button className="niccbtn12">TAKE 7 DAYS FREE TRIAL</button>
               </div>
             </div>
 
             <div className="col-6">
               <div className="-crsl">
-                <div id="demo" class="carousel  zoom" data-ride="carousel">
+                <div id="demo" class="carousel zoom" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
                         className="alimg1"
-                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_968,ar_1.17,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/vm/ec6969b6-c9ef-4349-aae5-f076c66ab443.png"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_968,ar_1.17,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/vm/18aa3ae4-3505-4adc-b1f1-27d086d99d76.png"
                         alt="Los Angeles"
                         width="1100"
                         height="500"
@@ -126,7 +119,109 @@ const Cultpasslive = () => {
           <h2 className="cult1h2">For an active lifestyle</h2>
         </div>
 
-        <Cultcommon />
+        <div className="tp">
+          <div style={{ background: "rgb(39, 38, 67)" }} className="cmn1">
+            <div className="cmn2">
+              <h3 style={{ color: "white" }} className="cmn1h3">
+                Unlimited Access to
+              </h3>
+            </div>
+            <div className="cmn1img">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_170,ar_2.14,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/glass-card-feature-widget/cult-pass-black/first-feature-logo-v3.png"
+                alt=""
+                className="cmnimg1"
+              />
+            </div>
+            <div className="cmn1h5">
+              <h5 className="cmnh51">Track calorie burn with energy meter</h5>
+            </div>
+          </div>
+
+          <div className="cmn3">
+            <h3
+              style={{ color: "black", background: "#ccffff" }}
+              className="cmn2h3"
+            >
+              Meditation Content For You
+            </h3>
+          </div>
+
+          <div className="cmn4">
+            <div
+              style={{
+                paddingBottom: "27rem",
+                color: "#ffcc66",
+                background: "rgb(39, 38, 67)",
+              }}
+              className="h32"
+            >
+              <b>Access to</b>
+              <h1> 5k+</h1>
+              ONLINE WORKOUT
+            </div>
+          </div>
+
+          <div className="cmn5">
+            <div className="ay">
+              <div className="cmnvd1">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5BK9pvIKRuWiKS_oZM7kYuk7POFTL_CO8Yw&usqp=CAU"
+                  className="cmn1vd"
+                />
+              </div>
+
+              <div className="cmn2h2">
+                <h2 className="cmnh22">7400 Cal </h2>
+              </div>
+
+              <div className="cmn2h5">
+                <h5
+                  style={{
+                    fontWeight: "800",
+                    paddingLeft: "5rem",
+                    marginTop: "-27rem",
+                  }}
+                  className="cmnh52"
+                >
+                  YOUR PROGRESS
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="cmn6">
+            <div className="cmn2img">
+              <img
+                style={{ background: "rgb(204, 255, 255)" }}
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,ar_2.67,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/glass-card-feature-widget/cult-pass-black/fifth-feature-logo.png"
+                alt=""
+                className="cmnimg2"
+              />
+            </div>
+
+            <div className="cmn3h3">
+              <h5
+                style={{
+                  color: "black",
+                  marginTop: "-45rem",
+                  marginLeft: "66rem",
+                }}
+                className="cmnh33"
+              >
+                Workout plans
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="vod">
+          <video
+            autoPlay="true"
+            loop
+            src="https://curefit-content.s3.ap-south-1.amazonaws.com/image/test/cult-pass-live-animation/video/Cultpass+Live+session.mp4"
+            className="vod1"
+          ></video>
+        </div>
 
         <div className="cename2">
           <h2 className="ceh2">Centers near </h2>
@@ -187,8 +282,8 @@ const Cultpasslive = () => {
           </div>
         </div>
       </div>
-
-      <div className="ncelite">
+      <div style={{ background: "rgb(39, 38, 67)" }} className="extra"></div>
+      <div className="nc">
         <div className="nc1h">
           <h4 className="nch4">AT-CENTER</h4>
         </div>
@@ -341,19 +436,28 @@ const Cultpasslive = () => {
             <div className="mt">MONTHS</div>
           </div>
           <div className="sop2">
-            <div className="ct">116300</div>
-            <div className="cnum">₹ 30490</div>
-            <div className="tem">1271 per month</div>
+            <div className="ct">6399</div>
+            <div
+              style={{
+                backgroundImage:
+                  "linear-gradient(115deg, rgb(246, 116, 109) 0%, rgb(215, 105, 182) 47.51%, rgb(119, 163, 255) 100%)",
+              }}
+              className="cnum"
+            >
+              ₹ 2799
+            </div>
+            <div className="tem">117 per month</div>
           </div>
           <hr />
           <div className="sopnic">
             <p className="sopnic1">
-              + Only Today I Free Amazon voucher worth...
+              <a href="">+</a> Get FREE 4 Month extension
             </p>
-            <p className="sopnic2">+ No Cost EMI Available</p>
           </div>
-          <div className="sopbt1">
-            <button className="sopbtn1">BUY NOW</button>
+          <div style={{ marginTop: "-3rem" }} className="sopbt1">
+            <button style={{ color: "#f06055" }} className="sopbtn1">
+              BUY NOW
+            </button>
           </div>
         </div>
         <div className="sou">
@@ -362,21 +466,31 @@ const Cultpasslive = () => {
             <div className="mt">MONTHS</div>
           </div>
           <div className="sop2">
-            <div className="ct">43380</div>
-            <div className="cnum">₹ 19490</div>
-            <div className="tem">1300 per month</div>
+            <div className="ct">3999</div>
+            <div
+              style={{
+                backgroundImage:
+                  "linear-gradient(115deg, rgb(246, 116, 109) 0%, rgb(215, 105, 182) 47.51%, rgb(119, 163, 255) 100%)",
+              }}
+              className="cnum"
+            >
+              ₹ 1899
+            </div>
+            <div className="tem">158 per month</div>
           </div>
           <hr />
           <div className="sopnic">
             <p className="sopnic1">
               <a href="">+</a> Get FREE 3 months extension
             </p>
-            <p className="sopnic2">
-              <a href="">+</a> Only Today I Free Amazon voucher worth ₹1500
-            </p>
           </div>
           <div className="sopbt1">
-            <button className="sopbtn1">BUY NOW</button>
+            <button
+              style={{ marginTop: "1rem", color: "#f06055" }}
+              className="sopbtn1"
+            >
+              BUY NOW
+            </button>
           </div>
         </div>
 
@@ -386,21 +500,31 @@ const Cultpasslive = () => {
             <div className="mt">MONTHS</div>
           </div>
           <div className="sop2">
-            <div className="ct">30450</div>
-            <div className="cnum">₹ 15490</div>
-            <div className="tem">1937 per month</div>
+            <div className="ct">2499</div>
+            <div
+              style={{
+                backgroundImage:
+                  "linear-gradient(115deg, rgb(246, 116, 109) 0%, rgb(215, 105, 182) 47.51%, rgb(119, 163, 255) 100%)",
+              }}
+              className="cnum"
+            >
+              ₹ 1399
+            </div>
+            <div className="tem">233 per month</div>
           </div>
           <hr />
           <div className="sopnic">
             <p className="sopnic1">
-              <a href=""> +</a> Get FREE 2.5 months extension
-            </p>
-            <p className="sopnic2">
-              <a href=""> +</a> Only Today I Free Amazon voucher worth ₹1000
+              <a href=""> +</a> Get FREE 2 months extension
             </p>
           </div>
           <div className="sopbt1">
-            <button className="sopbtn1">BUY NOW</button>
+            <button
+              style={{ marginTop: "1rem", color: "#f06055" }}
+              className="sopbtn1"
+            >
+              BUY NOW
+            </button>
           </div>
         </div>
       </div>
@@ -600,293 +724,8 @@ const Cultpasslive = () => {
         </thead>
       </table>
 
-      <div className="ffter">
-        <div className="row startr">
-          <div className="col-4">
-            <img
-              className="fimg1"
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
-              alt=""
-            />
-          </div>
-          <div className="col-2">
-            <a href="">cult.fit for business</a>
-          </div>
-          <div className="col-2">
-            <a href="">partner.fit</a>
-          </div>
-          <div className="col-2">
-            <a href="">contact us</a>
-          </div>
-          <div className="col-2">
-            <a href="">
-              <img
-                className="colapp"
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_178,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/download-app/app-store-dark-card-2.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-        <div className="row startr">
-          <div className="col-4">
-            <p>
-              At cult.fit, we make group workouts fun, daily food healthy &
-              tasty, mental fitness easy with yoga & meditation, Medical &
-              lifestyle care hassle-free.#BeBetterEveryDay
-            </p>
-          </div>
-          <div className="col-2">
-            <a href="">cult.fit franchise</a>
-          </div>
-          <div className="col-2">
-            <a href="">blogs</a>
-          </div>
-          <div className="col-2">
-            <a href="">privacy policy</a>
-          </div>
-          <div className="col-2">
-            <a href="">
-              <img
-                className="colapp"
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_178,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/download-app/play-store-dark-card-2.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-        <div className="row startr">
-          <div className="col-4"></div>
-          <div className="col-2">
-            <a href="">corporate partnerships</a>
-          </div>
-          <div className="col-2">
-            <a href="">security</a>
-          </div>
-          <div className="col-2">
-            <a href="">cult bmi calculator</a>
-          </div>
-          <div className="col-2">
-            <a href="">
-              {/* <img
-              className="colapp"
-              src=""
-              alt=""
-            /> */}
-            </a>
-          </div>
-        </div>
-        <div className="row startr">
-          <div className="col-4"></div>
-          <div className="col-2">
-            <a href="">cult pass network</a>
-          </div>
-          <div className="col-2">
-            <a href="">careers</a>
-          </div>
-          <div className="col-2">
-            <a href="">terms & conditions</a>
-          </div>
-          <div className="col-2">
-            <a href="">
-              <img className="colapp" src="" alt="" />
-            </a>
-          </div>
-        </div>
-        <div className="lastdivqq">
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Gym Near Me</a>
-            </div>
-            <div className="col-2">
-              <a href="">Face Yoga</a>
-            </div>
-            <div className="col-2">
-              <a href="">Healthy Recipes</a>
-            </div>
-            <div className="col-2">
-              <a href="">Chest Exercises</a>
-            </div>
-            <div className="col-2">
-              <a href="">Exercise To Reduce Belly Fat</a>
-            </div>
-            <div className="col-2">
-              <a href="">Six Pack Workout</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">WorkoutYoga Postures for Beginners</a>
-            </div>
-            <div className="col-2">
-              <a href="">Surya Namaskar for Beginners</a>
-            </div>
-            <div className="col-2">
-              <a href="">Yoga For Stress Relief</a>
-            </div>
-            <div className="col-2">
-              <a href="">Yoga Asanas</a>
-            </div>
-            <div className="col-2">
-              <a href="">Meditation Music</a>
-            </div>
-            <div className="col-2">
-              <a href=""></a>Pranayama
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Bedtime Stories for Kids</a>
-            </div>
-            <div className="col-2">
-              <a href="">Meditation in Hindi</a>
-            </div>
-            <div className="col-2">
-              <a href="">Mindfulness Meditation</a>
-            </div>
-            <div className="col-2">
-              <a href="">Yoga Nidra</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Mumbai</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Delhi</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Gyms in Pune</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Hyderabad</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Chennai</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Jaipur</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Kolkata</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Ahmedabad</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Gyms in Chandigarh</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Indore</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Coimbatore</a>
-            </div>
-            <div className="col-2">
-              <a href="">Gyms in Bangalore</a>
-            </div>
-            <div className="col-2">
-              <a href="">Belly Fat Loss Exercise</a>
-            </div>
-            <div className="col-2">
-              <a href="">Weight Loss Exercise</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Strength Training</a>
-            </div>
-            <div className="col-2">
-              <a href="">Mobility Exercises</a>
-            </div>
-            <div className="col-2">
-              <a href="">Kids Exercise</a>
-            </div>
-            <div className="col-2">
-              <a href="">How to Lose Weight</a>
-            </div>
-            <div className="col-2">
-              <a href="">HIIT Workout</a>
-            </div>
-            <div className="col-2">
-              <a href="">Exercises for Toned Body</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Core Exercises</a>
-            </div>
-            <div className="col-2">
-              <a href="">Butt Exercises</a>
-            </div>
-            <div className="col-2">
-              <a href="">Arm Workout at Home</a>
-            </div>
-            <div className="col-2">
-              <a href="">Back Exercises at Home</a>
-            </div>
-            <div className="col-2">
-              <a href="">Abs Workout at Home</a>
-            </div>
-            <div className="col-2">
-              <a href="">Thigh Exercises</a>
-            </div>
-          </div>
-
-          <div
-            style={{ width: " 92%", marginLeft: "1rem", marginTop: "1rem" }}
-            className="row"
-          >
-            <div className="col-2">
-              <a href="">Fitness Glossary</a>
-            </div>
-            <div className="col-2">
-              <a href="">Morning Exercise</a>
-            </div>
-            <div className="col-2">
-              <a href="">Home Workouts</a>
-            </div>
-            <div className="col-2">
-              <a href=""></a>
-            </div>
-            <div className="col-2">
-              <a href=""></a>
-            </div>
-            <div className="col-2">
-              <a href=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer />
+    </div>
     </>
   );
 };

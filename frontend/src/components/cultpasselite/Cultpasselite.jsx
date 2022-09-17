@@ -9,7 +9,7 @@ import Navbar from "../header/Navbar";
 const Cultpasselite = () => {
   return (
     <>
-      <Navbar />
+    <Navbar />
       <Subh />
       <div>
         <div className="ppp">
@@ -81,7 +81,7 @@ const Cultpasselite = () => {
 
             <div className="col-6">
               <div className="-crsl">
-                <div id="demo" class="carousel  zoom" data-ride="carousel">
+                <div id="demo" class="carousel zoom" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
@@ -185,8 +185,8 @@ const Cultpasselite = () => {
           </div>
         </div>
       </div>
-
-      <div className="ncelite">
+      <div className="extra"></div>
+      <div className="nc">
         <div className="nc1h">
           <h4 className="nch4">AT-CENTER</h4>
         </div>
@@ -597,6 +597,7 @@ const Cultpasselite = () => {
           </tr>
         </thead>
       </table>
+      {/*  */}
 
       <div className="ffter">
         <div className="row startr">
@@ -692,10 +693,8 @@ const Cultpasselite = () => {
           </div>
         </div>
         <div className="lastdivqq">
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <a href="">Related Searches</a>
+          <div className="row">
             <div className="col-2">
               <a href="">Gym Near Me</a>
             </div>
@@ -716,10 +715,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">WorkoutYoga Postures for Beginners</a>
             </div>
@@ -740,10 +736,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Bedtime Stories for Kids</a>
             </div>
@@ -764,10 +757,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Gyms in Pune</a>
             </div>
@@ -788,10 +778,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Gyms in Chandigarh</a>
             </div>
@@ -812,10 +799,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Strength Training</a>
             </div>
@@ -836,10 +820,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Core Exercises</a>
             </div>
@@ -860,10 +841,7 @@ const Cultpasselite = () => {
             </div>
           </div>
 
-          <div
-            style={{ width: " 101%", marginLeft: "-1rem", marginTop: "1rem" }}
-            className="row"
-          >
+          <div className="row">
             <div className="col-2">
               <a href="">Fitness Glossary</a>
             </div>

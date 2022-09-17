@@ -1,7 +1,7 @@
 .startr {
   position: relative;
-  top: -5rem;
-  left: 7rem rem;
+  top: 47rem;
+  left: 7rem;
 }
 
 .fimg1 {
@@ -23,17 +23,16 @@
 }
 
 .lastdiv {
-  position: relative;
-  top: 53rem;
-  width: 120rem;
-  left: -9rem;
-  padding: 4rem 5rem;
-  margin-top: -54rem;
+  position: absolute;
+  top: 421rem;  
+  left: 0;
+  width: 94.6rem;
+  background: #2c2c2b;
+  padding-left: 10rem;
 }
 
 .ffter {
   margin-top: 14rem;
   height: 31rem;
   padding-left: 8rem;
-  background-color: black;
 }
