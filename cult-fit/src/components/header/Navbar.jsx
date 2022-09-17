@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="div1">
           <div>
             <h5>
-              <Link to="/">STORE </Link>
+              <a href="../cultsport.com">STORE </a>
             </h5>
           </div>
         </div>

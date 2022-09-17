@@ -5,9 +5,12 @@ import Footer from "../footer/Footer";
 import Cultcommon from "../cultcmn/Cultcommon";
 import Scrollm from "../fitness/Scrollm";
 import "./cultlive.css";
+import Navbar from "../header/Navbar";
 
 const Cultpasslive = () => {
   return (
+    <>
+    <Navbar />
     <div>
       <Subh />
       <div>
@@ -723,6 +726,7 @@ const Cultpasslive = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

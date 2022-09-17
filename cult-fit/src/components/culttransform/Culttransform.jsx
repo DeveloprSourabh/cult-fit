@@ -4,9 +4,12 @@ import Footer from "../footer/Footer";
 import "./culttransform.css";
 import Cultcommon from "../cultcmn/Cultcommon";
 import Scrollm from "../fitness/Scrollm";
+import Navbar from "../header/Navbar";
 
 const Culttransform = () => {
   return (
+    <>
+    <Navbar />
     <div style={{ background: "rgb(31, 75, 87)" }}>
       <Subh />
       <div style={{ background: "rgb(31, 75, 87)" }}>
@@ -573,6 +576,7 @@ const Culttransform = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

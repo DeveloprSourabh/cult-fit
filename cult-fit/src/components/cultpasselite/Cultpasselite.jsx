@@ -4,10 +4,12 @@ import "./cultelite.css";
 import Cultcommon from "../cultcmn/Cultcommon";
 import Scrollm from "../fitness/Scrollm";
 import Footer from "../footer/Footer";
+import Navbar from "../header/Navbar";
 
 const Cultpasselite = () => {
   return (
     <>
+    <Navbar />
       <Subh />
       <div>
         <div className="ppp">

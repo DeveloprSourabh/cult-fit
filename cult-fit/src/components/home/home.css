@@ -248,7 +248,11 @@
 .row {
   width: 76rem;
 }
-
+.checkout-icon {
+  position: relative;
+  top: 5rem;
+  left: 1rem;
+}
 .demo1 {
   width: 22rem;
 }
