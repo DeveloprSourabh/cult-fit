@@ -11,6 +11,11 @@ app.use(express.json());
 
 app.use(require("./router/auth"));
 
+
+app.get("/home", (req, res) => {
+  res.cookie("Test", 'sain')
+  res.send("What Are You Doing Today");
+});
 app.listen(3001, () => {
   console.log("Good Evening");
 });

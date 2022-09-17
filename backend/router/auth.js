@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+const jwt = require("jsonwebtoken");
+>>>>>>> review
 const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcryptjs");
@@ -71,6 +75,15 @@ router.post("/signin", async (req, res) => {
     if (userLogin) {
       const ismatch = await bcrypt.compare(password, userLogin.password);
 
+<<<<<<< HEAD
+=======
+      const token = await userLogin.generateAuthToken();
+      console.log(token);
+      res.cookie("jwtoken", token, {
+        expires: new Date(Date.now() + 25892000000),
+        httpOnly: true,
+      });
+>>>>>>> review
       if (!ismatch) {
         res.status(400).json({ message: "Invalid Credientials" });
       } else {
