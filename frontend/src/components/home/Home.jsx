@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
+
       <div className="top">
         <video
           className="video"
