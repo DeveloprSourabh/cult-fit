@@ -11,7 +11,12 @@ import Navbar from "../header/Navbar";
 const Cultpasslive = () => {
   return (
     <>
+<<<<<<< HEAD:frontend/src/components/cultpasslive/Cultpasslive.jsx
       <Navbar />
+=======
+    <Navbar />
+    <div>
+>>>>>>> review:cult-fit/src/components/cultpasslive/Cultpasslive.jsx
       <Subh />
       <div>
         <div className="ppp">
@@ -600,6 +605,7 @@ const Cultpasslive = () => {
         </thead>
       </table>
 
+<<<<<<< HEAD:frontend/src/components/cultpasslive/Cultpasslive.jsx
       <div className="ffter">
         <div className="row startr">
           <div className="col-4">
@@ -887,6 +893,10 @@ const Cultpasslive = () => {
           </div>
         </div>
       </div>
+=======
+      <Footer />
+    </div>
+>>>>>>> review:cult-fit/src/components/cultpasslive/Cultpasslive.jsx
     </>
   );
 };

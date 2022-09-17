@@ -9,7 +9,11 @@ import Navbar from "../header/Navbar";
 const Fitness = () => {
   return (
     <>
+<<<<<<< HEAD:frontend/src/components/fitness/Fitness.jsx
       <Navbar />
+=======
+    <Navbar />
+>>>>>>> review:cult-fit/src/components/fitness/Fitness.jsx
       <Subh />
 
       <div className="fithead">

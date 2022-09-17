@@ -3,7 +3,6 @@ import React from "react";
 
 import { Route, Routes } from "react-router-dom";
 
-import "./App.css";
 import Home from "./components/home/Home";
 import Fitness from "./components/fitness/Fitness";
 
@@ -33,7 +32,11 @@ function App() {
           path="/fitness/cult-transform"
           element={<Culttransform />}
         />
+<<<<<<< HEAD:frontend/src/App.jsx
         <Route exact path="cultsport.com" element={<Store />} />
+=======
+        <Route exact path="/cultsport.com" element={<Store />} />
+>>>>>>> review:cult-fit/src/App.jsx
 
         <Route exact path="cultsport/:id" element={<Item1 />} />
         <Route exact path="/cultsport.com/cart" element={<Cart />} />

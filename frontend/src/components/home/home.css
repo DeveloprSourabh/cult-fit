@@ -213,7 +213,11 @@
   left: 65.4rem;
   padding-bottom: 8rem;
 }
-
+.checkout-icon {
+  position: relative;
+  top: 5rem;
+  left: 1rem;
+}
 .demo1 {
   width: 30rem;
 }

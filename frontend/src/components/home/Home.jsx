@@ -13,7 +13,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
+<<<<<<< HEAD:frontend/src/components/home/Home.jsx
       <div className="topv">
+=======
+      <div className="top">
+>>>>>>> review:cult-fit/src/components/home/Home.jsx
         <video
           className="video"
           width="750"
