@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Profile from "../Userdetail/Profile";
 // import { ReactDOM } from "react";
 import "./style.css";
 // import { a } from "react-router-dom";
@@ -73,13 +74,7 @@ const Navbar = () => {
         </div>
         <div className="height">
           <div>
-            <Link to="/fitness">
-              <img
-                className="zi location"
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png"
-                alt=""
-              />
-            </Link>
+          <Profile />
           </div>
         </div>
         <div>
