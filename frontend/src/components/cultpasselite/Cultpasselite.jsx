@@ -12,7 +12,6 @@ const Cultpasselite = () => {
 
 
     <Navbar />
-
       <Subh />
       <div>
         <div className="ppp">
@@ -27,7 +26,7 @@ const Cultpasselite = () => {
               </div>
               <div className="nic1h">
                 <h1 className="nich1">
-                  Unlimited access to everything in your city
+                  Unlimited to access to everything in your city
                 </h1>
               </div>
               <div className="nicds1">
